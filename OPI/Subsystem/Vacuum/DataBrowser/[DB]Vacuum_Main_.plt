@@ -292,7 +292,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://192.168.2.251:17668/retrieval</url>
+                <url>pbraw://210.125.43.155:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -316,7 +316,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://192.168.2.251:17668/retrieval</url>
+                <url>pbraw://210.125.43.155:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -340,7 +340,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://192.168.2.251:17668/retrieval</url>
+                <url>pbraw://210.125.43.155:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -364,7 +364,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://192.168.2.251:17668/retrieval</url>
+                <url>pbraw://210.125.43.155:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -388,7 +388,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://192.168.2.251:17668/retrieval</url>
+                <url>pbraw://210.125.43.155:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -412,7 +412,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://192.168.2.251:17668/retrieval</url>
+                <url>pbraw://210.125.43.155:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -436,7 +436,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://192.168.2.251:17668/retrieval</url>
+                <url>pbraw://210.125.43.155:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -460,7 +460,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://192.168.2.251:17668/retrieval</url>
+                <url>pbraw://210.125.43.155:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -484,7 +484,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://192.168.2.251:17668/retrieval</url>
+                <url>pbraw://210.125.43.155:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -508,7 +508,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://192.168.2.251:17668/retrieval</url>
+                <url>pbraw://210.125.43.155:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -532,7 +532,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://192.168.2.251:17668/retrieval</url>
+                <url>pbraw://210.125.43.155:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
