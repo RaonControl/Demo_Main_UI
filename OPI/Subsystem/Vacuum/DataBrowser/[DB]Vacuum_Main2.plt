@@ -8,8 +8,8 @@
     <scroll>false</scroll>
     <update_period>1.0</update_period>
     <scroll_step>1</scroll_step>
-    <start>2016/12/06 00:00:00.000</start>
-    <end>2016/12/07 14:00:00.000</end>
+    <start>2016/12/07 00:00:00.000</start>
+    <end>2016/12/10 00:00:00.000</end>
     <archive_rescale>NONE</archive_rescale>
     <background>
         <red>255</red>
@@ -129,8 +129,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>3.2E-8</min>
-            <max>1.41E-7</max>
+            <min>0.0</min>
+            <max>0.0228</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>

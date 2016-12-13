@@ -522,7 +522,25 @@ $(pv_value)</tooltip>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <scripts />
+      <scripts>
+        <path pathString="EmbeddedJs" checkConnect="true" sfe="false" seoe="false">
+          <scriptName>EmbeddedScript</scriptName>
+          <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
+var pv0 = PVUtil.getDouble(pvs[0]);
+var pv1 = PVUtil.getDouble(pvs[1]);
+var pv2 = PVUtil.getDouble(pvs[2]);
+
+if(pv0 > 1.0E-6 && pv1 < 1.0E-6) {
+	widget.setPropertyValue("pv_name","sim://ramp(0,255,1,0.1)");
+	pvs[2].setValue(3);
+} else
+	widget.setPropertyValue("pv_name","");
+]]></scriptText>
+          <pv trig="true">ECRIS-DAQ:FC01:CurrentRB</pv>
+          <pv trig="true">LEBT2-DAQ:FC03:CurrentRB</pv>
+          <pv trig="true">loc://fc4bool</pv>
+        </path>
+      </scripts>
       <show_boolean_label>true</show_boolean_label>
       <square_led>true</square_led>
       <tooltip></tooltip>
@@ -636,7 +654,25 @@ $(pv_value)</tooltip>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <scripts />
+      <scripts>
+        <path pathString="EmbeddedJs" checkConnect="true" sfe="false" seoe="false">
+          <scriptName>EmbeddedScript</scriptName>
+          <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
+var pv0 = PVUtil.getDouble(pvs[0]);
+var pv1 = PVUtil.getDouble(pvs[1]);
+var pv2 = PVUtil.getDouble(pvs[2]);
+
+if(pv0 > 1.0E-6 && pv1 < 1.0E-6) {
+	widget.setPropertyValue("pv_name","sim://ramp(0,255,1,0.1)");
+	pvs[2].setValue(3);
+} else
+	widget.setPropertyValue("pv_name","");
+]]></scriptText>
+          <pv trig="true">ECRIS-DAQ:FC01:CurrentRB</pv>
+          <pv trig="true">LEBT2-DAQ:FC03:CurrentRB</pv>
+          <pv trig="true">loc://fc4bool</pv>
+        </path>
+      </scripts>
       <show_boolean_label>true</show_boolean_label>
       <square_led>true</square_led>
       <tooltip></tooltip>
@@ -873,7 +909,7 @@ $(pv_value)</tooltip>
       <width>47</width>
       <wuid>33171ccd:1588abaf757:-38a8</wuid>
       <x>444</x>
-      <y>500</y>
+      <y>509</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
@@ -1280,7 +1316,26 @@ $(pv_value)</tooltip>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <scripts />
+      <scripts>
+        <path pathString="EmbeddedJs" checkConnect="true" sfe="false" seoe="false">
+          <scriptName>EmbeddedScript</scriptName>
+          <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil);
+
+var pv0 = PVUtil.getDouble(pvs[0]);
+
+if(pv0==1) {
+widget.setPropertyValue("pv_name","sim://ramp(0,255,1,0.1)");
+widget.setPropertyValue("on_color",ColorFontUtil.getColorFromRGB(0,255,0));
+widget.setPropertyValue("off_color",ColorFontUtil.getColorFromRGB(191,191,191));
+} else {
+widget.setPropertyValue("pv_name","");
+widget.setPropertyValue("on_color",ColorFontUtil.getColorFromRGB(0,255,0));
+}
+
+]]></scriptText>
+          <pv trig="true">loc://fc4bool</pv>
+        </path>
+      </scripts>
       <show_boolean_label>true</show_boolean_label>
       <square_led>true</square_led>
       <tooltip></tooltip>
@@ -2976,7 +3031,20 @@ $(pv_value)</tooltip>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <scripts />
+      <scripts>
+        <path pathString="EmbeddedJs" checkConnect="true" sfe="false" seoe="false">
+          <scriptName>EmbeddedScript</scriptName>
+          <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
+var pv0 = PVUtil.getDouble(pvs[0]);
+
+if(pv0 > 1.0E-6)
+	widget.setPropertyValue("pv_name","sim://ramp(0,255,1,0.1)");
+else
+	widget.setPropertyValue("pv_name","");
+]]></scriptText>
+          <pv trig="true">LEBT2-DAQ:FC03:CurrentRB</pv>
+        </path>
+      </scripts>
       <show_boolean_label>true</show_boolean_label>
       <square_led>true</square_led>
       <tooltip></tooltip>
@@ -3111,7 +3179,27 @@ else
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <scripts />
+      <scripts>
+        <path pathString="EmbeddedJs" checkConnect="true" sfe="false" seoe="false">
+          <scriptName>EmbeddedScript</scriptName>
+          <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil);
+
+var pv0 = PVUtil.getDouble(pvs[0]);
+
+if(pv0==0) {
+widget.setPropertyValue("pv_name","sim://ramp(0,255,1,0.1)");
+widget.setPropertyValue("on_color",ColorFontUtil.getColorFromRGB(191,191,191));
+widget.setPropertyValue("off_color",ColorFontUtil.getColorFromRGB(0,255,0));
+} else {
+widget.setPropertyValue("pv_name","");
+widget.setPropertyValue("on_color",ColorFontUtil.getColorFromRGB(191,191,191));
+widget.setPropertyValue("off_color",ColorFontUtil.getColorFromRGB(191,191,191));
+}
+
+]]></scriptText>
+          <pv trig="true">loc://fc4bool</pv>
+        </path>
+      </scripts>
       <show_boolean_label>true</show_boolean_label>
       <square_led>true</square_led>
       <tooltip></tooltip>

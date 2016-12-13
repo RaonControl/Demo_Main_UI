@@ -1121,7 +1121,7 @@ $(pv_value)</tooltip>
           <include_parent_macros>true</include_parent_macros>
         </macros>
         <name>LC_Beam status</name>
-        <opi_file>[LC]Main_Status.opi</opi_file>
+        <opi_file>[LC]Main_Status2.opi</opi_file>
         <resize_behaviour>2</resize_behaviour>
         <rules />
         <scale_options>

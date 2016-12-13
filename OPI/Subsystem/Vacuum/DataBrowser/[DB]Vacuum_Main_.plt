@@ -5,11 +5,11 @@
     <show_legend>true</show_legend>
     <show_toolbar>true</show_toolbar>
     <grid>true</grid>
-    <scroll>false</scroll>
+    <scroll>true</scroll>
     <update_period>1.0</update_period>
     <scroll_step>1</scroll_step>
-    <start>2016/11/27 00:00:00.000</start>
-    <end>2016/12/02 14:00:00.000</end>
+    <start>-30 days 0.0 seconds</start>
+    <end>now</end>
     <archive_rescale>NONE</archive_rescale>
     <background>
         <red>255</red>
@@ -35,7 +35,7 @@
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
             <min>0.0</min>
-            <max>0.037200000000000004</max>
+            <max>1.001E-4</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -53,8 +53,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>0.0</min>
-            <max>870.0</max>
+            <min>0.323</min>
+            <max>0.324</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -91,8 +91,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>5.004492527696366E-5</min>
-            <max>1.5104492527696364E-4</max>
+            <min>9.730530263545423E-5</min>
+            <max>1.983053026354542E-4</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -110,8 +110,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>0.0</min>
-            <max>0.501</max>
+            <min>5.0E-7</min>
+            <max>1.001E-4</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -129,8 +129,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>4.991707717569787E-5</min>
-            <max>1.5091707717569786E-4</max>
+            <min>9.717745453418843E-5</min>
+            <max>1.981774545341884E-4</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -148,8 +148,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>1.0E-8</min>
-            <max>1.34E-6</max>
+            <min>1.26399E-8</min>
+            <max>1.27E-8</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -186,8 +186,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>3.0000000000000004E-8</min>
-            <max>1.1600000000000001E-6</max>
+            <min>5.6089E-8</min>
+            <max>5.63E-8</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -205,8 +205,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>2.4000000000000003E-8</min>
-            <max>1.015E-6</max>
+            <min>4.372E-8</min>
+            <max>4.3961E-8</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -224,8 +224,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>0.004448047224128393</min>
-            <max>10.004448047224129</max>
+            <min>4.683693330242996</min>
+            <max>14.683693330242996</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -243,8 +243,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>0.004448047224128393</min>
-            <max>10.004448047224129</max>
+            <min>4.683693330242996</min>
+            <max>14.683693330242996</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -262,8 +262,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>0.004448047224128393</min>
-            <max>10.004448047224129</max>
+            <min>4.683693330242996</min>
+            <max>14.683693330242996</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -292,7 +292,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -316,7 +316,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -340,7 +340,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -364,7 +364,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -388,7 +388,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -412,7 +412,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -436,7 +436,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -460,7 +460,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -484,7 +484,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -508,7 +508,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -532,7 +532,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
