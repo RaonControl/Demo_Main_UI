@@ -3033,28 +3033,7 @@ $(pv_value)</tooltip>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <scripts>
-        <path pathString="EmbeddedJs" checkConnect="true" sfe="false" seoe="false">
-          <scriptName>EmbeddedScript</scriptName>
-          <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
-var pv0 = PVUtil.getDouble(pvs[0]);
-var pv1 = PVUtil.getDouble(pvs[1]);
-var pv2 = PVUtil.getString(pvs[2]);
-
-if(pv0 < 1.0E-6 && pv1 > 1.0E-6 && pv2=="On")
-	widget.setPropertyValue("pv_name","sim://ramp(0,255,1,0.1)");
-
-else if(pv0 < 1.0E-6 && pv1 < 1.0E-6 && pv2=="Off")
-	widget.setPropertyValue("pv_name","");
-
-else
-	widget.setPropertyValue("pv_name","");
-]]></scriptText>
-          <pv trig="true">ECRIS-Cryo:FC01:INOUT</pv>
-          <pv trig="true">LEBT2-DAQ:FC03:CurrentRB</pv>
-          <pv trig="true">RFQ1-Vac:GV6:Open</pv>
-        </path>
-      </scripts>
+      <scripts />
       <show_boolean_label>false</show_boolean_label>
       <square_led>true</square_led>
       <tooltip></tooltip>
@@ -4543,7 +4522,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>Vacuum</text>
+      <text>Vacuum Data</text>
       <tooltip></tooltip>
       <transparent>true</transparent>
       <vertical_alignment>1</vertical_alignment>

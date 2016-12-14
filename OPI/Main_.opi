@@ -56,7 +56,7 @@
     </fg_gradient_color>
     <fill_level>0.0</fill_level>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -103,7 +103,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -154,7 +154,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -200,7 +200,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -249,7 +249,7 @@ $(pv_value)</tooltip>
       <fill_arrow>true</fill_arrow>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -674,7 +674,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>Vacuum</text>
+      <text>Vacuum Data</text>
       <tooltip></tooltip>
       <transparent>true</transparent>
       <vertical_alignment>1</vertical_alignment>
@@ -710,7 +710,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -758,7 +758,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -1270,7 +1270,7 @@ $(pv_value)</tooltip>
     </fg_gradient_color>
     <fill_level>0.0</fill_level>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -1328,7 +1328,7 @@ $(pv_value)</tooltip>
     </fg_gradient_color>
     <fill_level>0.0</fill_level>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -1386,7 +1386,7 @@ $(pv_value)</tooltip>
     </fg_gradient_color>
     <fill_level>0.0</fill_level>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -1480,7 +1480,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -1533,7 +1533,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -1586,7 +1586,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -1639,7 +1639,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -1692,7 +1692,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -1745,7 +1745,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -1798,7 +1798,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -1851,7 +1851,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -1904,7 +1904,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -1957,7 +1957,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2011,7 +2011,7 @@ $(pv_value)</tooltip>
     <flip_horizontal>false</flip_horizontal>
     <flip_vertical>false</flip_vertical>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -2068,7 +2068,7 @@ $(pv_value)</tooltip>
     <flip_horizontal>false</flip_horizontal>
     <flip_vertical>false</flip_vertical>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -2125,7 +2125,7 @@ $(pv_value)</tooltip>
     <flip_horizontal>false</flip_horizontal>
     <flip_vertical>false</flip_vertical>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -2181,7 +2181,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2234,7 +2234,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2288,7 +2288,7 @@ $(pv_value)</tooltip>
     <flip_horizontal>false</flip_horizontal>
     <flip_vertical>false</flip_vertical>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -2345,7 +2345,7 @@ $(pv_value)</tooltip>
     <flip_horizontal>false</flip_horizontal>
     <flip_vertical>false</flip_vertical>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -2401,7 +2401,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2455,7 +2455,7 @@ $(pv_value)</tooltip>
     <flip_horizontal>false</flip_horizontal>
     <flip_vertical>false</flip_vertical>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -2511,7 +2511,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2565,7 +2565,7 @@ $(pv_value)</tooltip>
     <flip_horizontal>false</flip_horizontal>
     <flip_vertical>false</flip_vertical>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -2621,7 +2621,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2674,7 +2674,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2728,7 +2728,7 @@ $(pv_value)</tooltip>
     <flip_horizontal>false</flip_horizontal>
     <flip_vertical>false</flip_vertical>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -2784,7 +2784,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2837,7 +2837,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2890,7 +2890,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2943,7 +2943,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -2996,7 +2996,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -3107,7 +3107,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -3160,7 +3160,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -3213,7 +3213,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -3267,7 +3267,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -3376,7 +3376,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>27</height>
+    <height>42</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_16</name>
     <rules />
@@ -3394,7 +3394,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>29</width>
+    <width>47</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-7cf6</wuid>
     <x>465</x>
@@ -3418,7 +3418,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>18</height>
+    <height>28</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_27</name>
     <rules />
@@ -3435,7 +3435,7 @@ Solenoide</text>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>38</width>
+    <width>53</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-7cf5</wuid>
     <x>513</x>
@@ -3459,7 +3459,7 @@ Solenoide</text>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>27</height>
+    <height>42</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_36</name>
     <rules />
@@ -3477,7 +3477,7 @@ Conducting &#xD;
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>45</width>
+    <width>66</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-7cf4</wuid>
     <x>570</x>
@@ -3501,7 +3501,7 @@ Conducting &#xD;
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>27</height>
+    <height>42</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_17</name>
     <rules />
@@ -3519,7 +3519,7 @@ Conducting &#xD;
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>29</width>
+    <width>47</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-7cf3</wuid>
     <x>644</x>
@@ -3963,7 +3963,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>9</height>
+    <height>14</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_23</name>
     <rules />
@@ -3979,7 +3979,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>21</width>
+    <width>35</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-79e3</wuid>
     <x>1206</x>
@@ -4003,7 +4003,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>9</height>
+    <height>14</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_24</name>
     <rules />
@@ -4019,7 +4019,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>21</width>
+    <width>35</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-79e2</wuid>
     <x>1255</x>
@@ -4144,7 +4144,7 @@ $(pv_value)</tooltip>
     <effect_3d>true</effect_3d>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -4202,7 +4202,7 @@ $(pv_value)</tooltip>
     <effect_3d>true</effect_3d>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -4610,7 +4610,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>9</height>
+    <height>14</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_65</name>
     <rules />
@@ -4626,7 +4626,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>17</width>
+    <width>29</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-799b</wuid>
     <x>1384</x>
@@ -4650,7 +4650,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>9</height>
+    <height>14</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_66</name>
     <rules />
@@ -4666,7 +4666,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>19</width>
+    <width>30</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-7993</wuid>
     <x>1133</x>
@@ -4690,7 +4690,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>9</height>
+    <height>14</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_67</name>
     <rules />
@@ -4706,7 +4706,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>17</width>
+    <width>29</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-798d</wuid>
     <x>642</x>
@@ -4730,7 +4730,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>9</height>
+    <height>14</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_68</name>
     <rules />
@@ -4746,7 +4746,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>22</width>
+    <width>37</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-7987</wuid>
     <x>571</x>
@@ -4770,7 +4770,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>9</height>
+    <height>14</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_69</name>
     <rules />
@@ -4786,7 +4786,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>22</width>
+    <width>37</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-7981</wuid>
     <x>288</x>
@@ -4810,7 +4810,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>9</height>
+    <height>14</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_70</name>
     <rules />
@@ -4826,7 +4826,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>22</width>
+    <width>37</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-797b</wuid>
     <x>338</x>
@@ -4850,7 +4850,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>9</height>
+    <height>14</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_71</name>
     <rules />
@@ -4866,7 +4866,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>17</width>
+    <width>29</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-7975</wuid>
     <x>270</x>
@@ -4890,7 +4890,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>9</height>
+    <height>14</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_72</name>
     <rules />
@@ -4906,7 +4906,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>21</width>
+    <width>34</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-796f</wuid>
     <x>198</x>
@@ -4930,7 +4930,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>9</height>
+    <height>14</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_73</name>
     <rules />
@@ -4946,7 +4946,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>21</width>
+    <width>34</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-7969</wuid>
     <x>194</x>
@@ -4970,7 +4970,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>9</height>
+    <height>14</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_74</name>
     <rules />
@@ -4986,7 +4986,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>24</width>
+    <width>40</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-7963</wuid>
     <x>130</x>
@@ -5010,7 +5010,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>9</height>
+    <height>14</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_75</name>
     <rules />
@@ -5026,7 +5026,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>24</width>
+    <width>40</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-795d</wuid>
     <x>140</x>
@@ -5050,7 +5050,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>9</height>
+    <height>14</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_76</name>
     <rules />
@@ -5066,7 +5066,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>17</width>
+    <width>29</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-7957</wuid>
     <x>145</x>
@@ -5090,7 +5090,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>9</height>
+    <height>14</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_77</name>
     <rules />
@@ -5106,7 +5106,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>19</width>
+    <width>30</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-7951</wuid>
     <x>169</x>
@@ -5130,7 +5130,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>9</height>
+    <height>14</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_78</name>
     <rules />
@@ -5146,7 +5146,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>33</width>
+    <width>47</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-794b</wuid>
     <x>363</x>
@@ -5170,7 +5170,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>9</height>
+    <height>14</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_79</name>
     <rules />
@@ -5186,7 +5186,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>17</width>
+    <width>29</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-7945</wuid>
     <x>439</x>
@@ -5210,7 +5210,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>9</height>
+    <height>14</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_80</name>
     <rules />
@@ -5226,7 +5226,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>19</width>
+    <width>30</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-793f</wuid>
     <x>498</x>
@@ -5250,7 +5250,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>9</height>
+    <height>14</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_81</name>
     <rules />
@@ -5266,7 +5266,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>18</width>
+    <width>29</width>
     <wrap_words>false</wrap_words>
     <wuid>6a2433af:158e253b88b:-7939</wuid>
     <x>1518</x>
