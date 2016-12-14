@@ -60,7 +60,7 @@
             <log_scale>false</log_scale>
         </axis>
         <axis>
-            <visible>false</visible>
+            <visible>true</visible>
             <name>RFQ1</name>
             <use_axis_name>false</use_axis_name>
             <use_trace_names>true</use_trace_names>
@@ -139,14 +139,14 @@
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
             <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <name>Control Archiver Appliance</name>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
         <pv>
             <display_name>RFQ1-Vac:VGP1:Vacuum</display_name>
-            <visible>false</visible>
+            <visible>true</visible>
             <name>RFQ1-Vac:VGP1:Vacuum</name>
             <axis>2</axis>
             <color>
@@ -163,8 +163,8 @@
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
             <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <name>Control Archiver Appliance</name>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -187,8 +187,8 @@
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
             <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <name>Control Archiver Appliance</name>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -211,8 +211,8 @@
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
             <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <name>Control Archiver Appliance</name>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -235,8 +235,8 @@
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
             <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <name>Control Archiver Appliance</name>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
