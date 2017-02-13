@@ -59,7 +59,7 @@
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>59</height>
-    <image_file>images/top_bg1.svg</image_file>
+    <image_file>images/top_bg11.svg</image_file>
     <name>Image</name>
     <no_animation>false</no_animation>
     <permutation_matrix>
@@ -84,7 +84,7 @@
     <transparency>true</transparency>
     <visible>true</visible>
     <widget_type>Image</widget_type>
-    <width>1766</width>
+    <width>1770</width>
     <wuid>370f6419:15a3611e396:-7eca</wuid>
     <x>0</x>
     <y>0</y>

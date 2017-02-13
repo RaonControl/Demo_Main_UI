@@ -1065,7 +1065,7 @@ $(pv_value)</tooltip>
     <tooltip></tooltip>
     <visible>true</visible>
     <widget_type>Linking Container</widget_type>
-    <width>1767</width>
+    <width>1770</width>
     <wuid>33f58a63:1586fe437fe:cc2</wuid>
     <x>147</x>
     <y>7</y>
