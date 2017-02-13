@@ -56,7 +56,7 @@
     </fg_gradient_color>
     <fill_level>0.0</fill_level>
     <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -148,163 +148,6 @@ $(pv_value)</tooltip>
     <x>14</x>
     <y>9</y>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <background_color>
-      <color red="240" green="240" blue="240" />
-    </background_color>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <fc>false</fc>
-    <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-    </font>
-    <foreground_color>
-      <color red="192" green="192" blue="192" />
-    </foreground_color>
-    <height>3</height>
-    <lock_children>true</lock_children>
-    <macros>
-      <include_parent_macros>true</include_parent_macros>
-    </macros>
-    <name>up line</name>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <show_scrollbar>false</show_scrollbar>
-    <tooltip></tooltip>
-    <transparent>true</transparent>
-    <visible>true</visible>
-    <widget_type>Grouping Container</widget_type>
-    <width>1918</width>
-    <wuid>-af93843:155b9aebeae:-32b4</wuid>
-    <x>0</x>
-    <y>0</y>
-    <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <alarm_pulsing>false</alarm_pulsing>
-      <alpha>255</alpha>
-      <anti_alias>true</anti_alias>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="14" green="14" blue="89" />
-      </background_color>
-      <bg_gradient_color>
-        <color red="255" green="255" blue="255" />
-      </bg_gradient_color>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <fg_gradient_color>
-        <color red="255" green="255" blue="255" />
-      </fg_gradient_color>
-      <fill_level>0.0</fill_level>
-      <font>
-        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-      </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <foreground_color>
-        <color red="255" green="0" blue="0" />
-      </foreground_color>
-      <gradient>false</gradient>
-      <height>3</height>
-      <horizontal_fill>true</horizontal_fill>
-      <line_color>
-        <color red="128" green="0" blue="255" />
-      </line_color>
-      <line_style>0</line_style>
-      <line_width>0</line_width>
-      <name>up_blue_rectangle</name>
-      <pv_name></pv_name>
-      <pv_value />
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <transparent>false</transparent>
-      <visible>true</visible>
-      <widget_type>Rectangle</widget_type>
-      <width>384</width>
-      <wuid>-af93843:155b9aebeae:-32b3</wuid>
-      <x>0</x>
-      <y>0</y>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <alarm_pulsing>false</alarm_pulsing>
-      <alpha>255</alpha>
-      <anti_alias>true</anti_alias>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="177" green="245" blue="37" />
-      </background_color>
-      <bg_gradient_color>
-        <color red="255" green="255" blue="255" />
-      </bg_gradient_color>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <fg_gradient_color>
-        <color red="255" green="255" blue="255" />
-      </fg_gradient_color>
-      <fill_level>0.0</fill_level>
-      <font>
-        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-      </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <foreground_color>
-        <color red="255" green="0" blue="0" />
-      </foreground_color>
-      <gradient>false</gradient>
-      <height>3</height>
-      <horizontal_fill>true</horizontal_fill>
-      <line_color>
-        <color red="128" green="0" blue="255" />
-      </line_color>
-      <line_style>0</line_style>
-      <line_width>0</line_width>
-      <name>up_green_rectangle</name>
-      <pv_name></pv_name>
-      <pv_value />
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <transparent>false</transparent>
-      <visible>true</visible>
-      <widget_type>Rectangle</widget_type>
-      <width>1535</width>
-      <wuid>-af93843:155b9aebeae:-32b2</wuid>
-      <x>383</x>
-      <y>0</y>
-    </widget>
-  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.sashContainer" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <background_color>
@@ -317,7 +160,7 @@ $(pv_value)</tooltip>
     <border_width>1</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -361,7 +204,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <fc>false</fc>
       <font>
-        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -966,7 +809,7 @@ $(pv_value)</tooltip>
           <flip_horizontal>false</flip_horizontal>
           <flip_vertical>false</flip_vertical>
           <font>
-            <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+            <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
           </font>
           <foreground_color>
             <color red="192" green="192" blue="192" />
@@ -1071,7 +914,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <fc>false</fc>
       <font>
-        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -1110,7 +953,7 @@ $(pv_value)</tooltip>
         <border_width>0</border_width>
         <enabled>true</enabled>
         <font>
-          <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+          <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
         </font>
         <foreground_color>
           <color red="192" green="192" blue="192" />
@@ -1150,7 +993,7 @@ $(pv_value)</tooltip>
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+          <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
         </font>
         <foreground_color>
           <color red="192" green="192" blue="192" />
@@ -1199,7 +1042,7 @@ $(pv_value)</tooltip>
     <border_width>0</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -1247,7 +1090,7 @@ $(pv_value)</tooltip>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
-      <color red="255" green="255" blue="255" />
+      <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
     <height>41</height>
@@ -1280,7 +1123,7 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <wuid>33f58a63:1586fe437fe:30dc</wuid>
     <x>147</x>
-    <y>22</y>
+    <y>9</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -1294,7 +1137,7 @@ $(pv_value)</tooltip>
     <border_width>0</border_width>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
