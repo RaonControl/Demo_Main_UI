@@ -7,7 +7,7 @@ importPackage(Packages.java.lang);
 var title= PVUtil.getString(pvs[0]);
 
 if(title == "Main.opi") {
-widget.setPropertyValue("text", "SCL-Demo");
+widget.setPropertyValue("text", "Demo Main");
 
 } else if(title == "Subsystem/ECR-IS/ECR-IS_Main.opi") {
 widget.setPropertyValue("text", "ECR-IS");
@@ -43,5 +43,5 @@ widget.setPropertyValue("text", "Beam Physics");
 widget.setPropertyValue("text", "Beam diagnosis");
 
 } else {
-widget.setPropertyValue("text", "SCL-Demo");
+widget.setPropertyValue("text", "Demo Main");
 }

@@ -46,7 +46,7 @@
     </bg_gradient_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_color>
-      <color red="177" green="245" blue="37" />
+      <color red="93" green="188" blue="222" />
     </border_color>
     <border_style>12</border_style>
     <border_width>1</border_width>
