@@ -214,13 +214,14 @@ $(pv_value)</tooltip>
         <x>3</x>
         <y>0</y>
         <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-          <actions hook="false" hook_all="true">
-            <action type="WRITE_PV">
-              <pv_name>$(pv_name)</pv_name>
-              <value>Subsystem/ECR-IS/ECR-IS_Main.opi</value>
-              <timeout>10</timeout>
-              <confirm_message></confirm_message>
-              <description>Subsystem/ECR-IS/ECR-IS_Main.opi</description>
+          <actions hook="false" hook_all="false">
+            <action type="OPEN_DISPLAY">
+              <path>[Pop-up]DataBrower.opi</path>
+              <macros>
+                <include_parent_macros>true</include_parent_macros>
+              </macros>
+              <mode>8</mode>
+              <description></description>
             </action>
           </actions>
           <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -239,9 +240,9 @@ $(pv_value)</tooltip>
           </foreground_color>
           <height>49</height>
           <image></image>
-          <name>ECR-IS</name>
+          <name>Data Browser</name>
           <push_action_index>0</push_action_index>
-          <pv_name>loc://$(DID)_OPIFile</pv_name>
+          <pv_name></pv_name>
           <pv_value />
           <rules />
           <scale_options>
@@ -251,25 +252,25 @@ $(pv_value)</tooltip>
           </scale_options>
           <scripts />
           <style>1</style>
-          <text>ECRIS</text>
+          <text>Data Browser</text>
           <toggle_button>false</toggle_button>
           <tooltip>$(pv_name)
 $(pv_value)</tooltip>
           <visible>true</visible>
           <widget_type>Action Button</widget_type>
           <width>130</width>
-          <wuid>-af93843:155b9aebeae:-64be</wuid>
+          <wuid>-af93843:155b9aebeae:-5e75</wuid>
           <x>0</x>
-          <y>53</y>
+          <y>485</y>
         </widget>
         <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
           <actions hook="false" hook_all="true">
             <action type="WRITE_PV">
               <pv_name>$(pv_name)</pv_name>
-              <value>Subsystem/LEBT/LEBT_Main.opi</value>
+              <value>Subsystem/Vacuum/Vacuum_Main_.opi</value>
               <timeout>10</timeout>
               <confirm_message></confirm_message>
-              <description>Subsystem/LEBT/LEBT_Main.opi</description>
+              <description>Subsystem/Vacuum/Vacuum_Main_.opi</description>
             </action>
           </actions>
           <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -288,7 +289,7 @@ $(pv_value)</tooltip>
           </foreground_color>
           <height>49</height>
           <image></image>
-          <name>LEBT</name>
+          <name>Vacuum</name>
           <push_action_index>0</push_action_index>
           <pv_name>loc://$(DID)_OPIFile</pv_name>
           <pv_value />
@@ -300,25 +301,107 @@ $(pv_value)</tooltip>
           </scale_options>
           <scripts />
           <style>1</style>
-          <text>LEBT</text>
+          <text>Vacuum</text>
           <toggle_button>false</toggle_button>
           <tooltip>$(pv_name)
 $(pv_value)</tooltip>
           <visible>true</visible>
           <widget_type>Action Button</widget_type>
           <width>130</width>
-          <wuid>-af93843:155b9aebeae:-6408</wuid>
+          <wuid>-af93843:155b9aebeae:-3346</wuid>
           <x>0</x>
-          <y>107</y>
+          <y>431</y>
+        </widget>
+        <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+          <actions hook="false" hook_all="false" />
+          <border_alarm_sensitive>false</border_alarm_sensitive>
+          <border_color>
+            <color red="230" green="230" blue="230" />
+          </border_color>
+          <border_style>0</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <font>
+            <fontdata fontName="Droid Sans" height="8" style="1" />
+          </font>
+          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+          <foreground_color>
+            <color red="0" green="0" blue="0" />
+          </foreground_color>
+          <height>49</height>
+          <image></image>
+          <name>Cryogenics</name>
+          <push_action_index>0</push_action_index>
+          <pv_name></pv_name>
+          <pv_value />
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <style>1</style>
+          <text>Cryogenics</text>
+          <toggle_button>false</toggle_button>
+          <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+          <visible>true</visible>
+          <widget_type>Action Button</widget_type>
+          <width>130</width>
+          <wuid>-af93843:155b9aebeae:-63e0</wuid>
+          <x>0</x>
+          <y>377</y>
+        </widget>
+        <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+          <actions hook="false" hook_all="false" />
+          <border_alarm_sensitive>false</border_alarm_sensitive>
+          <border_color>
+            <color red="230" green="230" blue="230" />
+          </border_color>
+          <border_style>0</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <font>
+            <fontdata fontName="Droid Sans" height="8" style="1" />
+          </font>
+          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+          <foreground_color>
+            <color red="0" green="0" blue="0" />
+          </foreground_color>
+          <height>49</height>
+          <image></image>
+          <name>QWR</name>
+          <push_action_index>0</push_action_index>
+          <pv_name></pv_name>
+          <pv_value />
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <style>1</style>
+          <text>QWR</text>
+          <toggle_button>false</toggle_button>
+          <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+          <visible>true</visible>
+          <widget_type>Action Button</widget_type>
+          <width>130</width>
+          <wuid>-af93843:155b9aebeae:-63ec</wuid>
+          <x>0</x>
+          <y>323</y>
         </widget>
         <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
           <actions hook="false" hook_all="true">
             <action type="WRITE_PV">
               <pv_name>$(pv_name)</pv_name>
-              <value>Subsystem/LLRF/LLRF_Main.opi</value>
+              <value>Subsystem/MEBT/MEBT_Main.opi</value>
               <timeout>10</timeout>
               <confirm_message></confirm_message>
-              <description>Subsystem/LLRF/LLRF_Main.opi</description>
+              <description>Subsystem/MEBT/MEBT_Main.opi</description>
             </action>
           </actions>
           <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -337,7 +420,7 @@ $(pv_value)</tooltip>
           </foreground_color>
           <height>49</height>
           <image></image>
-          <name>LLRF</name>
+          <name>MEBT</name>
           <push_action_index>0</push_action_index>
           <pv_name>loc://$(DID)_OPIFile</pv_name>
           <pv_value />
@@ -349,16 +432,16 @@ $(pv_value)</tooltip>
           </scale_options>
           <scripts />
           <style>1</style>
-          <text>LLRF</text>
+          <text>MEBT</text>
           <toggle_button>false</toggle_button>
           <tooltip>$(pv_name)
 $(pv_value)</tooltip>
           <visible>true</visible>
           <widget_type>Action Button</widget_type>
           <width>130</width>
-          <wuid>1c69aaca:158429ec28b:7192</wuid>
+          <wuid>-af93843:155b9aebeae:-63f2</wuid>
           <x>0</x>
-          <y>161</y>
+          <y>269</y>
         </widget>
         <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
           <actions hook="false" hook_all="true">
@@ -413,10 +496,10 @@ $(pv_value)</tooltip>
           <actions hook="false" hook_all="true">
             <action type="WRITE_PV">
               <pv_name>$(pv_name)</pv_name>
-              <value>Subsystem/MEBT/MEBT_Main.opi</value>
+              <value>Subsystem/LLRF/LLRF_Main.opi</value>
               <timeout>10</timeout>
               <confirm_message></confirm_message>
-              <description>Subsystem/MEBT/MEBT_Main.opi</description>
+              <description>Subsystem/LLRF/LLRF_Main.opi</description>
             </action>
           </actions>
           <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -435,7 +518,7 @@ $(pv_value)</tooltip>
           </foreground_color>
           <height>49</height>
           <image></image>
-          <name>MEBT</name>
+          <name>LLRF</name>
           <push_action_index>0</push_action_index>
           <pv_name>loc://$(DID)_OPIFile</pv_name>
           <pv_value />
@@ -447,107 +530,25 @@ $(pv_value)</tooltip>
           </scale_options>
           <scripts />
           <style>1</style>
-          <text>MEBT</text>
+          <text>LLRF</text>
           <toggle_button>false</toggle_button>
           <tooltip>$(pv_name)
 $(pv_value)</tooltip>
           <visible>true</visible>
           <widget_type>Action Button</widget_type>
           <width>130</width>
-          <wuid>-af93843:155b9aebeae:-63f2</wuid>
+          <wuid>1c69aaca:158429ec28b:7192</wuid>
           <x>0</x>
-          <y>269</y>
-        </widget>
-        <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-          <actions hook="false" hook_all="false" />
-          <border_alarm_sensitive>false</border_alarm_sensitive>
-          <border_color>
-            <color red="230" green="230" blue="230" />
-          </border_color>
-          <border_style>0</border_style>
-          <border_width>1</border_width>
-          <enabled>true</enabled>
-          <font>
-            <fontdata fontName="Droid Sans" height="8" style="1" />
-          </font>
-          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-          <foreground_color>
-            <color red="0" green="0" blue="0" />
-          </foreground_color>
-          <height>49</height>
-          <image></image>
-          <name>QWR</name>
-          <push_action_index>0</push_action_index>
-          <pv_name></pv_name>
-          <pv_value />
-          <rules />
-          <scale_options>
-            <width_scalable>true</width_scalable>
-            <height_scalable>true</height_scalable>
-            <keep_wh_ratio>false</keep_wh_ratio>
-          </scale_options>
-          <scripts />
-          <style>1</style>
-          <text>QWR</text>
-          <toggle_button>false</toggle_button>
-          <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-          <visible>true</visible>
-          <widget_type>Action Button</widget_type>
-          <width>130</width>
-          <wuid>-af93843:155b9aebeae:-63ec</wuid>
-          <x>0</x>
-          <y>323</y>
-        </widget>
-        <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-          <actions hook="false" hook_all="false" />
-          <border_alarm_sensitive>false</border_alarm_sensitive>
-          <border_color>
-            <color red="230" green="230" blue="230" />
-          </border_color>
-          <border_style>0</border_style>
-          <border_width>1</border_width>
-          <enabled>true</enabled>
-          <font>
-            <fontdata fontName="Droid Sans" height="8" style="1" />
-          </font>
-          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-          <foreground_color>
-            <color red="0" green="0" blue="0" />
-          </foreground_color>
-          <height>49</height>
-          <image></image>
-          <name>Cryogenics</name>
-          <push_action_index>0</push_action_index>
-          <pv_name></pv_name>
-          <pv_value />
-          <rules />
-          <scale_options>
-            <width_scalable>true</width_scalable>
-            <height_scalable>true</height_scalable>
-            <keep_wh_ratio>false</keep_wh_ratio>
-          </scale_options>
-          <scripts />
-          <style>1</style>
-          <text>Cryogenics</text>
-          <toggle_button>false</toggle_button>
-          <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-          <visible>true</visible>
-          <widget_type>Action Button</widget_type>
-          <width>130</width>
-          <wuid>-af93843:155b9aebeae:-63e0</wuid>
-          <x>0</x>
-          <y>377</y>
+          <y>161</y>
         </widget>
         <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
           <actions hook="false" hook_all="true">
             <action type="WRITE_PV">
               <pv_name>$(pv_name)</pv_name>
-              <value>Subsystem/Vacuum/Vacuum_Main_.opi</value>
+              <value>Subsystem/LEBT/LEBT_Main.opi</value>
               <timeout>10</timeout>
               <confirm_message></confirm_message>
-              <description>Subsystem/Vacuum/Vacuum_Main_.opi</description>
+              <description>Subsystem/LEBT/LEBT_Main.opi</description>
             </action>
           </actions>
           <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -566,7 +567,7 @@ $(pv_value)</tooltip>
           </foreground_color>
           <height>49</height>
           <image></image>
-          <name>Vacuum</name>
+          <name>LEBT</name>
           <push_action_index>0</push_action_index>
           <pv_name>loc://$(DID)_OPIFile</pv_name>
           <pv_value />
@@ -578,26 +579,25 @@ $(pv_value)</tooltip>
           </scale_options>
           <scripts />
           <style>1</style>
-          <text>Vacuum</text>
+          <text>LEBT</text>
           <toggle_button>false</toggle_button>
           <tooltip>$(pv_name)
 $(pv_value)</tooltip>
           <visible>true</visible>
           <widget_type>Action Button</widget_type>
           <width>130</width>
-          <wuid>-af93843:155b9aebeae:-3346</wuid>
+          <wuid>-af93843:155b9aebeae:-6408</wuid>
           <x>0</x>
-          <y>431</y>
+          <y>107</y>
         </widget>
         <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-          <actions hook="false" hook_all="false">
-            <action type="OPEN_DISPLAY">
-              <path>[Pop-up]DataBrower.opi</path>
-              <macros>
-                <include_parent_macros>true</include_parent_macros>
-              </macros>
-              <mode>8</mode>
-              <description></description>
+          <actions hook="false" hook_all="true">
+            <action type="WRITE_PV">
+              <pv_name>$(pv_name)</pv_name>
+              <value>Subsystem/ECR-IS/ECR-IS_Main.opi</value>
+              <timeout>10</timeout>
+              <confirm_message></confirm_message>
+              <description>Subsystem/ECR-IS/ECR-IS_Main.opi</description>
             </action>
           </actions>
           <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -616,9 +616,9 @@ $(pv_value)</tooltip>
           </foreground_color>
           <height>49</height>
           <image></image>
-          <name>Data Browser</name>
+          <name>ECR-IS</name>
           <push_action_index>0</push_action_index>
-          <pv_name></pv_name>
+          <pv_name>loc://$(DID)_OPIFile</pv_name>
           <pv_value />
           <rules />
           <scale_options>
@@ -628,16 +628,16 @@ $(pv_value)</tooltip>
           </scale_options>
           <scripts />
           <style>1</style>
-          <text>Data Browser</text>
+          <text>ECRIS</text>
           <toggle_button>false</toggle_button>
           <tooltip>$(pv_name)
 $(pv_value)</tooltip>
           <visible>true</visible>
           <widget_type>Action Button</widget_type>
           <width>130</width>
-          <wuid>-af93843:155b9aebeae:-5e75</wuid>
+          <wuid>-af93843:155b9aebeae:-64be</wuid>
           <x>0</x>
-          <y>485</y>
+          <y>53</y>
         </widget>
         <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
           <actions hook="false" hook_all="true">
@@ -806,7 +806,7 @@ $(pv_value)</tooltip>
           <color red="192" green="192" blue="192" />
         </foreground_color>
         <group_name></group_name>
-        <height>30</height>
+        <height>35</height>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
@@ -874,64 +874,6 @@ $(pv_value)</tooltip>
         <wuid>33f58a63:1586fe437fe:-7e9f</wuid>
         <x>1</x>
         <y>34</y>
-      </widget>
-      <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <alarm_pulsing>false</alarm_pulsing>
-        <alpha>255</alpha>
-        <anti_alias>true</anti_alias>
-        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-        <background_color>
-          <color red="30" green="144" blue="255" />
-        </background_color>
-        <bg_gradient_color>
-          <color red="255" green="255" blue="255" />
-        </bg_gradient_color>
-        <border_alarm_sensitive>false</border_alarm_sensitive>
-        <border_color>
-          <color red="0" green="128" blue="255" />
-        </border_color>
-        <border_style>0</border_style>
-        <border_width>1</border_width>
-        <enabled>true</enabled>
-        <fg_gradient_color>
-          <color red="255" green="255" blue="255" />
-        </fg_gradient_color>
-        <fill_level>0.0</fill_level>
-        <font>
-          <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
-        </font>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-        <foreground_color>
-          <color red="255" green="0" blue="0" />
-        </foreground_color>
-        <gradient>false</gradient>
-        <height>963</height>
-        <horizontal_fill>true</horizontal_fill>
-        <line_color>
-          <color red="191" green="191" blue="191" />
-        </line_color>
-        <line_style>0</line_style>
-        <line_width>1</line_width>
-        <name>Rounded Rectangle</name>
-        <pv_name></pv_name>
-        <pv_value />
-        <rules />
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-        <transparent>true</transparent>
-        <visible>true</visible>
-        <widget_type>Rectangle</widget_type>
-        <width>1770</width>
-        <wuid>370f6419:15a3611e396:-6085</wuid>
-        <x>1</x>
-        <y>0</y>
       </widget>
     </widget>
   </widget>
