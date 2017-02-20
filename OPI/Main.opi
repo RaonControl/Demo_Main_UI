@@ -610,7 +610,7 @@ $(pv_value)</tooltip>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>612</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -650,7 +650,7 @@ $(pv_value)</tooltip>
         <color red="192" green="192" blue="192" />
       </foreground_color>
       <height>466</height>
-      <lock_children>true</lock_children>
+      <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
@@ -674,7 +674,7 @@ $(pv_value)</tooltip>
       <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
         <actions hook="false" hook_all="false" />
         <align_to_nearest_second>false</align_to_nearest_second>
-        <auto_size>true</auto_size>
+        <auto_size>false</auto_size>
         <background_color>
           <color red="30" green="144" blue="255" />
         </background_color>
@@ -697,7 +697,7 @@ $(pv_value)</tooltip>
         <foreground_color>
           <color red="255" green="0" blue="0" />
         </foreground_color>
-        <height>429</height>
+        <height>445</height>
         <image_file>images/Device/pipe2.svg</image_file>
         <name>pipe2</name>
         <no_animation>false</no_animation>
@@ -718,7 +718,7 @@ $(pv_value)</tooltip>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
         <scripts />
-        <stretch_to_fit>false</stretch_to_fit>
+        <stretch_to_fit>true</stretch_to_fit>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
         <transparency>false</transparency>
@@ -840,9 +840,9 @@ $(pv_value)</tooltip>
         <transparency>false</transparency>
         <visible>true</visible>
         <widget_type>Image</widget_type>
-        <width>669</width>
+        <width>671</width>
         <wuid>370f6419:15a40571465:-ba9</wuid>
-        <x>20</x>
+        <x>15</x>
         <y>0</y>
       </widget>
     </widget>
@@ -884,7 +884,7 @@ $(pv_value)</tooltip>
       <widget_type>Grouping Container</widget_type>
       <width>53</width>
       <wuid>370f6419:15a40571465:-6f7</wuid>
-      <x>424</x>
+      <x>415</x>
       <y>78</y>
       <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
         <actions hook="false" hook_all="false" />
@@ -982,7 +982,7 @@ $(pv_value)</tooltip>
       <widget_type>Grouping Container</widget_type>
       <width>29</width>
       <wuid>370f6419:15a40571465:2e4</wuid>
-      <x>436</x>
+      <x>427</x>
       <y>0</y>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
         <actions hook="false" hook_all="false" />
@@ -1123,7 +1123,7 @@ $(pv_value)</tooltip>
       <widget_type>Grouping Container</widget_type>
       <width>40</width>
       <wuid>370f6419:15a40571465:-69c</wuid>
-      <x>480</x>
+      <x>478</x>
       <y>78</y>
       <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
         <actions hook="false" hook_all="false" />
@@ -1221,7 +1221,7 @@ $(pv_value)</tooltip>
       <widget_type>Grouping Container</widget_type>
       <width>38</width>
       <wuid>370f6419:15a40571465:2e0</wuid>
-      <x>483</x>
+      <x>479</x>
       <y>5</y>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
         <actions hook="false" hook_all="false" />
@@ -1361,7 +1361,7 @@ $(pv_value)</tooltip>
       <widget_type>Grouping Container</widget_type>
       <width>90</width>
       <wuid>370f6419:15a40571465:-69a</wuid>
-      <x>524</x>
+      <x>528</x>
       <y>69</y>
       <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
         <actions hook="false" hook_all="false" />
@@ -1501,7 +1501,7 @@ Conducting &#xD;
       <widget_type>Grouping Container</widget_type>
       <width>53</width>
       <wuid>370f6419:15a40571465:-698</wuid>
-      <x>617</x>
+      <x>630</x>
       <y>78</y>
       <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
         <actions hook="false" hook_all="false" />
@@ -1599,7 +1599,7 @@ Conducting &#xD;
       <widget_type>Grouping Container</widget_type>
       <width>29</width>
       <wuid>370f6419:15a40571465:2e9</wuid>
-      <x>629</x>
+      <x>642</x>
       <y>0</y>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
         <actions hook="false" hook_all="false" />
