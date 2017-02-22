@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <databrowser>
-    <title></title>
+    <title>MEBT</title>
     <save_changes>true</save_changes>
     <show_legend>true</show_legend>
-    <show_toolbar>true</show_toolbar>
+    <show_toolbar>false</show_toolbar>
     <grid>true</grid>
     <scroll>true</scroll>
     <update_period>1.0</update_period>
@@ -16,7 +16,7 @@
         <green>255</green>
         <blue>255</blue>
     </background>
-    <title_font>Droid Sans|13|1</title_font>
+    <title_font>Droid Sans|15|0</title_font>
     <label_font>Droid Sans|9|1</label_font>
     <scale_font>Droid Sans|8|0</scale_font>
     <legend_font>Droid Sans|8|0</legend_font>
@@ -62,11 +62,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://192.168.2.251:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
     </pvlist>
 </databrowser>

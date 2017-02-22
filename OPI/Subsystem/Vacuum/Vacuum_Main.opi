@@ -113,7 +113,7 @@ $(pv_value)</tooltip>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
-    <name>Grouping Container_1</name>
+    <name>DB</name>
     <rules />
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -128,7 +128,7 @@ $(pv_value)</tooltip>
     <widget_type>Grouping Container</widget_type>
     <width>859</width>
     <wuid>33171ccd:1588abaf757:-3833</wuid>
-    <x>900</x>
+    <x>905</x>
     <y>6</y>
     <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
       <actions hook="false" hook_all="false" />
@@ -219,7 +219,11 @@ $(pv_value)</tooltip>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <scripts />
+      <scripts>
+        <path pathString="Change_DB.js" checkConnect="true" sfe="false" seoe="false">
+          <pv trig="true">loc://vacuum_db</pv>
+        </path>
+      </scripts>
       <tooltip></tooltip>
       <visible>true</visible>
       <widget_type>Linking Container</widget_type>
@@ -228,63 +232,97 @@ $(pv_value)</tooltip>
       <x>6</x>
       <y>48</y>
     </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
+    <widget typeId="org.csstudio.opibuilder.widgets.combo" version="1.0.0">
       <actions hook="false" hook_all="false" />
       <alarm_pulsing>false</alarm_pulsing>
-      <alpha>255</alpha>
-      <anti_alias>true</anti_alias>
-      <arrow_length>20</arrow_length>
-      <arrows>0</arrows>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <background_color>
-        <color red="151" green="151" blue="151" />
+        <color red="255" green="255" blue="255" />
       </background_color>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_alarm_sensitive>true</border_alarm_sensitive>
       <border_color>
-        <color red="191" green="191" blue="191" />
+        <color red="0" green="128" blue="255" />
       </border_color>
       <border_style>0</border_style>
       <border_width>1</border_width>
       <enabled>true</enabled>
-      <fill_arrow>true</fill_arrow>
-      <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <fontdata fontName="Droid Sans" height="13" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
-        <color red="255" green="0" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>1</height>
-      <horizontal_fill>true</horizontal_fill>
-      <line_style>0</line_style>
-      <line_width>1</line_width>
-      <name>Polyline</name>
-      <points>
-        <point x="0" y="40" />
-        <point x="858" y="40" />
-        <point x="858" y="40" />
-        <point x="858" y="40" />
-      </points>
-      <pv_name></pv_name>
+      <height>32</height>
+      <items>
+        <s>All</s>
+        <s>50kV</s>
+        <s>70kV</s>
+        <s>Ground</s>
+        <s>LEBT</s>
+        <s>RFQ</s>
+        <s>MEBT</s>
+        <s>QWR</s>
+      </items>
+      <items_from_pv>false</items_from_pv>
+      <name>Choice Button</name>
+      <pv_name>loc://vacuum_db</pv_name>
       <pv_value />
-      <rotation_angle>0.0</rotation_angle>
       <rules />
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
-        <keep_wh_ratio>true</keep_wh_ratio>
+        <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-      <transparent>false</transparent>
       <visible>true</visible>
-      <widget_type>Polyline</widget_type>
-      <width>859</width>
-      <wuid>1c69aaca:15876564063:-594f</wuid>
-      <x>0</x>
-      <y>40</y>
+      <widget_type>Combo</widget_type>
+      <width>121</width>
+      <wuid>370f6419:15a40571465:3d51</wuid>
+      <x>168</x>
+      <y>8</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <auto_size>true</auto_size>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <font>
+        <fontdata fontName="Droid Sans" height="15" style="1" />
+      </font>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>24</height>
+      <horizontal_alignment>0</horizontal_alignment>
+      <name>Label</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <text>Data Browser :</text>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <vertical_alignment>1</vertical_alignment>
+      <visible>true</visible>
+      <widget_type>Label</widget_type>
+      <width>141</width>
+      <wrap_words>false</wrap_words>
+      <wuid>2defbc27:15a5ab91195:-5450</wuid>
+      <x>14</x>
+      <y>12</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -5554,7 +5592,7 @@ $(pv_value)</tooltip>
     </foreground_color>
     <height>20</height>
     <horizontal_alignment>1</horizontal_alignment>
-    <name>Ion</name>
+    <name>Chamber_CCG</name>
     <rules />
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -5562,7 +5600,7 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <text>Chamber_Ion</text>
+    <text>Chamber_CCG</text>
     <tooltip></tooltip>
     <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
@@ -5657,7 +5695,7 @@ $(pv_value)</tooltip>
     <name>Vacuum Gauge Controller Ion Gauge2</name>
     <precision>3</precision>
     <precision_from_pv>false</precision_from_pv>
-    <pv_name>ECRIS-Vac:Gaug01:CNV1</pv_name>
+    <pv_name>SCL01-CM:CM001:VS-R-LP01</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -5704,7 +5742,7 @@ $(pv_value)</tooltip>
     </foreground_color>
     <height>20</height>
     <horizontal_alignment>1</horizontal_alignment>
-    <name>CNV</name>
+    <name>Chamber_PG</name>
     <rules />
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -5712,7 +5750,7 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <text>Chamber_CNV</text>
+    <text>Chamber_PG</text>
     <tooltip></tooltip>
     <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
@@ -5744,7 +5782,7 @@ $(pv_value)</tooltip>
     </foreground_color>
     <height>20</height>
     <horizontal_alignment>1</horizontal_alignment>
-    <name>Ion_1</name>
+    <name>Cavity_CCG</name>
     <rules />
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -5752,7 +5790,7 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <text>Cavity_Ion</text>
+    <text>Cavity_CCG</text>
     <tooltip></tooltip>
     <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
@@ -5784,7 +5822,7 @@ $(pv_value)</tooltip>
     </foreground_color>
     <height>20</height>
     <horizontal_alignment>1</horizontal_alignment>
-    <name>CNV_1</name>
+    <name>Cavity_PG</name>
     <rules />
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -5792,7 +5830,7 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <text>Cavity_CNV</text>
+    <text>Cavity_PG</text>
     <tooltip></tooltip>
     <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
@@ -5843,481 +5881,5 @@ $(pv_value)</tooltip>
     <wuid>370f6419:15a40571465:3adb</wuid>
     <x>1119</x>
     <y>817</y>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <alarm_pulsing>false</alarm_pulsing>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <background_color>
-      <color red="0" green="0" blue="89" />
-    </background_color>
-    <border_alarm_sensitive>true</border_alarm_sensitive>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <font>
-      <fontdata fontName="Droid Sans" height="10" style="0" />
-    </font>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <foreground_color>
-      <color red="255" green="255" blue="255" />
-    </foreground_color>
-    <height>25</height>
-    <horizontal>true</horizontal>
-    <items>
-      <s>All</s>
-      <s>50kV</s>
-      <s>70kV</s>
-      <s>Ground</s>
-      <s>LEBT</s>
-      <s>RFQ</s>
-      <s>MEBT</s>
-      <s>QWR</s>
-    </items>
-    <items_from_pv>false</items_from_pv>
-    <name>Choice Button</name>
-    <pv_name></pv_name>
-    <pv_value />
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <selected_color>
-      <color red="240" green="240" blue="240" />
-    </selected_color>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <visible>true</visible>
-    <widget_type>Choice Button</widget_type>
-    <width>720</width>
-    <wuid>370f6419:15a40571465:3d51</wuid>
-    <x>427</x>
-    <y>997</y>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <actions hook="false" hook_all="false">
-      <action type="EXECUTE_JAVASCRIPT">
-        <path></path>
-        <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
-importPackage(Packages.org.eclipse.jface.dialogs);
-importPackage(Packages.org.csstudio.platform.data);
-importPackage(Packages.java.lang);
-
-display.getWidget("db").setPropertyValue("opi_file", "[LC]Vacuum_Main_DB.opi");
-
-]]></scriptText>
-        <embedded>true</embedded>
-        <description></description>
-      </action>
-    </actions>
-    <alarm_pulsing>false</alarm_pulsing>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <background_color>
-      <color red="0" green="0" blue="89" />
-    </background_color>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>2</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <font>
-      <fontdata fontName="Droid Sans" height="10" style="0" />
-    </font>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <foreground_color>
-      <color red="255" green="255" blue="255" />
-    </foreground_color>
-    <height>25</height>
-    <image></image>
-    <name>Data Browser_main</name>
-    <push_action_index>0</push_action_index>
-    <pv_name></pv_name>
-    <pv_value />
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <style>0</style>
-    <text>Main</text>
-    <toggle_button>false</toggle_button>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <visible>true</visible>
-    <widget_type>Action Button</widget_type>
-    <width>90</width>
-    <wuid>1c69aaca:15876564063:-594e</wuid>
-    <x>840</x>
-    <y>1104</y>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <actions hook="false" hook_all="false">
-      <action type="EXECUTE_JAVASCRIPT">
-        <path></path>
-        <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
-importPackage(Packages.org.eclipse.jface.dialogs);
-importPackage(Packages.org.csstudio.platform.data);
-importPackage(Packages.java.lang);
-
-display.getWidget("db").setPropertyValue("opi_file", "[LC]Vacuum_50Kv_DB.opi");
-
-]]></scriptText>
-        <embedded>true</embedded>
-        <description></description>
-      </action>
-    </actions>
-    <alarm_pulsing>false</alarm_pulsing>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <background_color>
-      <color red="0" green="0" blue="89" />
-    </background_color>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>2</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <font>
-      <fontdata fontName="Droid Sans" height="10" style="0" />
-    </font>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <foreground_color>
-      <color red="255" green="255" blue="255" />
-    </foreground_color>
-    <height>25</height>
-    <image></image>
-    <name>Data Browser_70kv</name>
-    <push_action_index>0</push_action_index>
-    <pv_name></pv_name>
-    <pv_value />
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <style>0</style>
-    <text>50Kv</text>
-    <toggle_button>false</toggle_button>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <visible>true</visible>
-    <widget_type>Action Button</widget_type>
-    <width>90</width>
-    <wuid>1c69aaca:15876564063:-5860</wuid>
-    <x>938</x>
-    <y>1104</y>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <actions hook="false" hook_all="false">
-      <action type="EXECUTE_JAVASCRIPT">
-        <path></path>
-        <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
-importPackage(Packages.org.eclipse.jface.dialogs);
-importPackage(Packages.org.csstudio.platform.data);
-importPackage(Packages.java.lang);
-
-display.getWidget("db").setPropertyValue("opi_file", "[LC]Vacuum_70Kv_DB.opi");
-
-]]></scriptText>
-        <embedded>true</embedded>
-        <description></description>
-      </action>
-    </actions>
-    <alarm_pulsing>false</alarm_pulsing>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <background_color>
-      <color red="0" green="0" blue="89" />
-    </background_color>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>2</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <font>
-      <fontdata fontName="Droid Sans" height="10" style="0" />
-    </font>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <foreground_color>
-      <color red="255" green="255" blue="255" />
-    </foreground_color>
-    <height>25</height>
-    <image></image>
-    <name>Data Browser_50kv</name>
-    <push_action_index>0</push_action_index>
-    <pv_name></pv_name>
-    <pv_value />
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <style>0</style>
-    <text>70Kv</text>
-    <toggle_button>false</toggle_button>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <visible>true</visible>
-    <widget_type>Action Button</widget_type>
-    <width>90</width>
-    <wuid>1c69aaca:15876564063:-594d</wuid>
-    <x>1036</x>
-    <y>1104</y>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <actions hook="false" hook_all="false">
-      <action type="EXECUTE_JAVASCRIPT">
-        <path></path>
-        <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
-importPackage(Packages.org.eclipse.jface.dialogs);
-importPackage(Packages.org.csstudio.platform.data);
-importPackage(Packages.java.lang);
-
-display.getWidget("db").setPropertyValue("opi_file", "[LC]Vacuum_Ground_DB.opi");
-
-]]></scriptText>
-        <embedded>true</embedded>
-        <description></description>
-      </action>
-    </actions>
-    <alarm_pulsing>false</alarm_pulsing>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <background_color>
-      <color red="0" green="0" blue="89" />
-    </background_color>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>2</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <font>
-      <fontdata fontName="Droid Sans" height="10" style="0" />
-    </font>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <foreground_color>
-      <color red="255" green="255" blue="255" />
-    </foreground_color>
-    <height>25</height>
-    <image></image>
-    <name>Data Browser_ground</name>
-    <push_action_index>0</push_action_index>
-    <pv_name></pv_name>
-    <pv_value />
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <style>0</style>
-    <text>Ground</text>
-    <toggle_button>false</toggle_button>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <visible>true</visible>
-    <widget_type>Action Button</widget_type>
-    <width>90</width>
-    <wuid>1c69aaca:15876564063:-594c</wuid>
-    <x>1134</x>
-    <y>1104</y>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <actions hook="false" hook_all="false">
-      <action type="EXECUTE_JAVASCRIPT">
-        <path></path>
-        <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
-importPackage(Packages.org.eclipse.jface.dialogs);
-importPackage(Packages.org.csstudio.platform.data);
-importPackage(Packages.java.lang);
-
-display.getWidget("db").setPropertyValue("opi_file", "[LC]Vacuum_LEBT2_DB.opi");
-
-]]></scriptText>
-        <embedded>true</embedded>
-        <description></description>
-      </action>
-    </actions>
-    <alarm_pulsing>false</alarm_pulsing>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <background_color>
-      <color red="0" green="0" blue="89" />
-    </background_color>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>2</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <font>
-      <fontdata fontName="Droid Sans" height="10" style="0" />
-    </font>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <foreground_color>
-      <color red="255" green="255" blue="255" />
-    </foreground_color>
-    <height>25</height>
-    <image></image>
-    <name>Data Browser_lebt2</name>
-    <push_action_index>0</push_action_index>
-    <pv_name></pv_name>
-    <pv_value />
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <style>0</style>
-    <text>LEBT2</text>
-    <toggle_button>false</toggle_button>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <visible>true</visible>
-    <widget_type>Action Button</widget_type>
-    <width>90</width>
-    <wuid>1c69aaca:15876564063:-594b</wuid>
-    <x>1232</x>
-    <y>1104</y>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <actions hook="false" hook_all="false">
-      <action type="EXECUTE_JAVASCRIPT">
-        <path></path>
-        <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
-importPackage(Packages.org.eclipse.jface.dialogs);
-importPackage(Packages.org.csstudio.platform.data);
-importPackage(Packages.java.lang);
-
-display.getWidget("db").setPropertyValue("opi_file", "[LC]Vacuum_RFQ_DB.opi");
-
-]]></scriptText>
-        <embedded>true</embedded>
-        <description></description>
-      </action>
-    </actions>
-    <alarm_pulsing>false</alarm_pulsing>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <background_color>
-      <color red="0" green="0" blue="89" />
-    </background_color>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>2</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <font>
-      <fontdata fontName="Droid Sans" height="10" style="0" />
-    </font>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <foreground_color>
-      <color red="255" green="255" blue="255" />
-    </foreground_color>
-    <height>25</height>
-    <image></image>
-    <name>Data Browser_rfq</name>
-    <push_action_index>0</push_action_index>
-    <pv_name></pv_name>
-    <pv_value />
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <style>0</style>
-    <text>RFQ</text>
-    <toggle_button>false</toggle_button>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <visible>true</visible>
-    <widget_type>Action Button</widget_type>
-    <width>90</width>
-    <wuid>1c69aaca:15876564063:-594a</wuid>
-    <x>1331</x>
-    <y>1104</y>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <actions hook="false" hook_all="false">
-      <action type="EXECUTE_JAVASCRIPT">
-        <path></path>
-        <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
-importPackage(Packages.org.eclipse.jface.dialogs);
-importPackage(Packages.org.csstudio.platform.data);
-importPackage(Packages.java.lang);
-
-display.getWidget("db").setPropertyValue("opi_file", "[LC]Vacuum_MEBT_DB.opi");
-
-]]></scriptText>
-        <embedded>true</embedded>
-        <description></description>
-      </action>
-    </actions>
-    <alarm_pulsing>false</alarm_pulsing>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <background_color>
-      <color red="0" green="0" blue="89" />
-    </background_color>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>2</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <font>
-      <fontdata fontName="Droid Sans" height="10" style="0" />
-    </font>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <foreground_color>
-      <color red="255" green="255" blue="255" />
-    </foreground_color>
-    <height>25</height>
-    <image></image>
-    <name>Data Browser_MEBT</name>
-    <push_action_index>0</push_action_index>
-    <pv_name></pv_name>
-    <pv_value />
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <style>0</style>
-    <text>MEBT</text>
-    <toggle_button>false</toggle_button>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <visible>true</visible>
-    <widget_type>Action Button</widget_type>
-    <width>90</width>
-    <wuid>-560e7ee4:158b289dab4:6a6</wuid>
-    <x>1433</x>
-    <y>1104</y>
   </widget>
 </display>

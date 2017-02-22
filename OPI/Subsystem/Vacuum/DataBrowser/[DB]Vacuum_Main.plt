@@ -8,7 +8,7 @@
     <scroll>true</scroll>
     <update_period>1.0</update_period>
     <scroll_step>1</scroll_step>
-    <start>-10.02 min</start>
+    <start>-10.03 min</start>
     <end>now</end>
     <archive_rescale>NONE</archive_rescale>
     <background>
@@ -24,7 +24,7 @@
         <axis>
             <visible>true</visible>
             <name>LEBT</name>
-            <use_axis_name>false</use_axis_name>
+            <use_axis_name>true</use_axis_name>
             <use_trace_names>true</use_trace_names>
             <right>false</right>
             <color>
@@ -43,7 +43,7 @@
         <axis>
             <visible>true</visible>
             <name>DIAG</name>
-            <use_axis_name>false</use_axis_name>
+            <use_axis_name>true</use_axis_name>
             <use_trace_names>true</use_trace_names>
             <right>false</right>
             <color>
@@ -61,8 +61,8 @@
         </axis>
         <axis>
             <visible>true</visible>
-            <name>RFQ1</name>
-            <use_axis_name>false</use_axis_name>
+            <name>RFQ</name>
+            <use_axis_name>true</use_axis_name>
             <use_trace_names>true</use_trace_names>
             <right>true</right>
             <color>
@@ -92,17 +92,17 @@
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
             <min>-3.51E-7</min>
-            <max>3.718E-7</max>
+            <max>8.718E-7</max>
             <grid>false</grid>
             <autoscale>false</autoscale>
             <log_scale>false</log_scale>
         </axis>
         <axis>
-            <visible>false</visible>
-            <name>RFQ3</name>
-            <use_axis_name>false</use_axis_name>
+            <visible>true</visible>
+            <name>QWR</name>
+            <use_axis_name>true</use_axis_name>
             <use_trace_names>true</use_trace_names>
-            <right>true</right>
+            <right>false</right>
             <color>
                 <red>0</red>
                 <green>0</green>
@@ -110,10 +110,10 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>-3.51E-7</min>
-            <max>3.718E-7</max>
+            <min>0.0</min>
+            <max>4.95</max>
             <grid>false</grid>
-            <autoscale>false</autoscale>
+            <autoscale>true</autoscale>
             <log_scale>false</log_scale>
         </axis>
     </axes>
@@ -139,8 +139,8 @@
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
             <archive>
-                <name>Control Archiver Appliance</name>
-                <url>pbraw://192.168.2.251:17668/retrieval</url>
+                <name>EPICS Archiver Appliance</name>
+                <url>pbraw://210.125.43.155:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -163,8 +163,8 @@
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
             <archive>
-                <name>Control Archiver Appliance</name>
-                <url>pbraw://192.168.2.251:17668/retrieval</url>
+                <name>EPICS Archiver Appliance</name>
+                <url>pbraw://210.125.43.155:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -187,8 +187,8 @@
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
             <archive>
-                <name>Control Archiver Appliance</name>
-                <url>pbraw://192.168.2.251:17668/retrieval</url>
+                <name>EPICS Archiver Appliance</name>
+                <url>pbraw://210.125.43.155:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -211,8 +211,8 @@
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
             <archive>
-                <name>Control Archiver Appliance</name>
-                <url>pbraw://192.168.2.251:17668/retrieval</url>
+                <name>EPICS Archiver Appliance</name>
+                <url>pbraw://210.125.43.155:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -235,8 +235,104 @@
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
             <archive>
-                <name>Control Archiver Appliance</name>
-                <url>pbraw://192.168.2.251:17668/retrieval</url>
+                <name>EPICS Archiver Appliance</name>
+                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <key>1</key>
+            </archive>
+        </pv>
+        <pv>
+            <display_name>SCL01-CM:CM001:VS-R-HP01</display_name>
+            <visible>true</visible>
+            <name>SCL01-CM:CM001:VS-R-HP01</name>
+            <axis>4</axis>
+            <color>
+                <red>0</red>
+                <green>255</green>
+                <blue>128</blue>
+            </color>
+            <trace_type>SINGLE_LINE</trace_type>
+            <linewidth>2</linewidth>
+            <point_type>NONE</point_type>
+            <point_size>2</point_size>
+            <waveform_index>0</waveform_index>
+            <period>0.0</period>
+            <ring_size>5000</ring_size>
+            <request>OPTIMIZED</request>
+            <archive>
+                <name>EPICS Archiver Appliance</name>
+                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <key>1</key>
+            </archive>
+        </pv>
+        <pv>
+            <display_name>SCL01-CM:CM001:VS-R-LP01</display_name>
+            <visible>true</visible>
+            <name>SCL01-CM:CM001:VS-R-LP01</name>
+            <axis>4</axis>
+            <color>
+                <red>128</red>
+                <green>0</green>
+                <blue>255</blue>
+            </color>
+            <trace_type>SINGLE_LINE</trace_type>
+            <linewidth>2</linewidth>
+            <point_type>NONE</point_type>
+            <point_size>2</point_size>
+            <waveform_index>0</waveform_index>
+            <period>0.0</period>
+            <ring_size>5000</ring_size>
+            <request>OPTIMIZED</request>
+            <archive>
+                <name>EPICS Archiver Appliance</name>
+                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <key>1</key>
+            </archive>
+        </pv>
+        <pv>
+            <display_name>SCL01-CM:CM001:CA-R-HP01</display_name>
+            <visible>true</visible>
+            <name>SCL01-CM:CM001:CA-R-HP01</name>
+            <axis>4</axis>
+            <color>
+                <red>255</red>
+                <green>217</green>
+                <blue>0</blue>
+            </color>
+            <trace_type>SINGLE_LINE</trace_type>
+            <linewidth>2</linewidth>
+            <point_type>NONE</point_type>
+            <point_size>2</point_size>
+            <waveform_index>0</waveform_index>
+            <period>0.0</period>
+            <ring_size>5000</ring_size>
+            <request>OPTIMIZED</request>
+            <archive>
+                <name>EPICS Archiver Appliance</name>
+                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <key>1</key>
+            </archive>
+        </pv>
+        <pv>
+            <display_name>SCL01-CM:CM001:CA-R-LP01</display_name>
+            <visible>true</visible>
+            <name>SCL01-CM:CM001:CA-R-LP01</name>
+            <axis>4</axis>
+            <color>
+                <red>0</red>
+                <green>255</green>
+                <blue>255</blue>
+            </color>
+            <trace_type>SINGLE_LINE</trace_type>
+            <linewidth>2</linewidth>
+            <point_type>NONE</point_type>
+            <point_size>2</point_size>
+            <waveform_index>0</waveform_index>
+            <period>0.0</period>
+            <ring_size>5000</ring_size>
+            <request>OPTIMIZED</request>
+            <archive>
+                <name>EPICS Archiver Appliance</name>
+                <url>pbraw://210.125.43.155:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>

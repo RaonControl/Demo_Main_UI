@@ -30,10 +30,10 @@ widget.setPropertyValue("text", "QWR");
 } else if(title == "Subsystem/Cryogenics/Cryo_Main.opi")  {
 widget.setPropertyValue("text", "Cryo");
 
-//} else if(title == "Subsystem/Vacuum/Vacuum_Main.opi")  {
+} else if(title == "Subsystem/Vacuum/Vacuum_Main.opi")  {
 //widget.setPropertyValue("text", "Vacuum");
 
-} else if(title == "Subsystem/Vacuum/Vacuum_Main_.opi")  {
+//} else if(title == "Subsystem/Vacuum/Vacuum_Main_.opi")  {
 widget.setPropertyValue("text", "Vacuum");
 
 } else if(title == "Subsystem/BeamPhysics/BeamPhysics_Main.opi")  {
