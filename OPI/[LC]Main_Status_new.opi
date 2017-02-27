@@ -103,7 +103,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -154,7 +154,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -212,7 +212,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -270,7 +270,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -328,7 +328,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -386,7 +386,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -444,7 +444,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -528,7 +528,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -601,7 +601,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -729,7 +729,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>9</height>
+      <height>14</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>Label</name>
       <rules />
@@ -745,7 +745,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>37</width>
+      <width>55</width>
       <wrap_words>false</wrap_words>
       <wuid>-7dcc6ae6:15a646ac980:c1f</wuid>
       <x>67</x>
@@ -769,7 +769,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>9</height>
+      <height>14</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>Label_1</name>
       <rules />
@@ -785,7 +785,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>19</width>
+      <width>29</width>
       <wrap_words>false</wrap_words>
       <wuid>-7dcc6ae6:15a646ac980:c23</wuid>
       <x>131</x>
@@ -809,7 +809,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>9</height>
+      <height>14</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>Label</name>
       <rules />
@@ -825,7 +825,7 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>41</width>
+      <width>64</width>
       <wrap_words>false</wrap_words>
       <wuid>-7dcc6ae6:15a646ac980:c3f</wuid>
       <x>8</x>
@@ -860,7 +860,7 @@ $(pv_value)</tooltip>
       <data_type>0</data_type>
       <enabled>true</enabled>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -923,7 +923,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -974,7 +974,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1029,13 +1029,13 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
       <height>25</height>
-      <image_file>../symbols/Control/Icon_SVG/alarm-clock-1.svg</image_file>
+      <image_file>../symbols/Control/Icon_SVG/alarm-clock.svg</image_file>
       <name>clock</name>
       <no_animation>false</no_animation>
       <permutation_matrix>
@@ -1062,13 +1062,13 @@ $(pv_value)</tooltip>
       <widget_type>Image</widget_type>
       <width>24</width>
       <wuid>370f6419:15a40571465:12ff</wuid>
-      <x>5</x>
+      <x>90</x>
       <y>4</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
       <actions hook="false" hook_all="false" />
       <alarm_pulsing>false</alarm_pulsing>
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <background_color>
         <color red="255" green="255" blue="255" />
@@ -1081,14 +1081,14 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="16" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
       <format_type>0</format_type>
-      <height>34</height>
+      <height>32</height>
       <horizontal_alignment>2</horizontal_alignment>
       <name>timestamp</name>
       <precision>0</precision>
@@ -1111,10 +1111,68 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Text Update</widget_type>
-      <width>305</width>
+      <width>121</width>
       <wrap_words>false</wrap_words>
       <wuid>33f58a63:1586fe437fe:-7db2</wuid>
-      <x>40</x>
+      <x>128</x>
+      <y>1</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <alarm_pulsing>false</alarm_pulsing>
+      <alpha>255</alpha>
+      <anti_alias>true</anti_alias>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <background_color>
+        <color red="191" green="191" blue="191" />
+      </background_color>
+      <bg_gradient_color>
+        <color red="255" green="255" blue="255" />
+      </bg_gradient_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fg_gradient_color>
+        <color red="255" green="255" blue="255" />
+      </fg_gradient_color>
+      <fill_level>0.0</fill_level>
+      <font>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color red="255" green="0" blue="0" />
+      </foreground_color>
+      <gradient>false</gradient>
+      <height>34</height>
+      <horizontal_fill>true</horizontal_fill>
+      <line_color>
+        <color red="128" green="0" blue="255" />
+      </line_color>
+      <line_style>0</line_style>
+      <line_width>0</line_width>
+      <name>separator_1</name>
+      <pv_name></pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <transparent>false</transparent>
+      <visible>true</visible>
+      <widget_type>Rectangle</widget_type>
+      <width>1</width>
+      <wuid>-7ce63a0a:158fbf68ffb:-5342</wuid>
+      <x>78</x>
       <y>0</y>
     </widget>
   </widget>
@@ -1131,7 +1189,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -1182,7 +1240,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1240,7 +1298,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1339,7 +1397,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1397,7 +1455,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1445,7 +1503,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -1496,7 +1554,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1554,7 +1612,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1653,7 +1711,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1711,7 +1769,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1759,7 +1817,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -1810,7 +1868,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1868,7 +1926,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1967,7 +2025,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -2025,7 +2083,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -2073,7 +2131,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -2124,7 +2182,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -2223,7 +2281,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -2281,7 +2339,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -2395,7 +2453,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>27</height>
+    <height>31</height>
     <items>
       <s>Operation Mode</s>
       <s>Local Mode</s>
@@ -2463,7 +2521,7 @@ $(pv_value)</tooltip>
     <flip_horizontal>false</flip_horizontal>
     <flip_vertical>false</flip_vertical>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -2536,7 +2594,7 @@ $(pv_value)</tooltip>
     <data_type>0</data_type>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
