@@ -501,6 +501,13 @@ $(pv_value)</tooltip>
           <confirm_message></confirm_message>
           <description></description>
         </action>
+        <action type="WRITE_PV">
+          <pv_name>loc://sub_status</pv_name>
+          <value>submain</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description></description>
+        </action>
       </actions>
       <align_to_nearest_second>false</align_to_nearest_second>
       <auto_size>false</auto_size>
@@ -704,84 +711,6 @@ $(pv_value)</tooltip>
       <x>170</x>
       <y>0</y>
     </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0.0">
-      <actions hook="false" hook_all="true">
-        <action type="WRITE_PV">
-          <pv_name>loc://main_mode</pv_name>
-          <value>Local Mode</value>
-          <timeout>10</timeout>
-          <confirm_message></confirm_message>
-          <description></description>
-        </action>
-      </actions>
-      <alarm_pulsing>false</alarm_pulsing>
-      <align_to_nearest_second>false</align_to_nearest_second>
-      <auto_size>false</auto_size>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <bit>-1</bit>
-      <boolean_label_position>0</boolean_label_position>
-      <border_alarm_sensitive>true</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <confirm_message>Are your sure you want to do this?</confirm_message>
-      <data_type>0</data_type>
-      <enabled>true</enabled>
-      <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
-      </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>23</height>
-      <name>Local Control Mode</name>
-      <no_animation>false</no_animation>
-      <off_image>../symbols/Control/Icon_SVG/more_gray.svg</off_image>
-      <off_label>OFF</off_label>
-      <on_image>../symbols/Control/Icon_SVG/more_gray.svg</on_image>
-      <on_label>ON</on_label>
-      <password>1234</password>
-      <push_action_index>0</push_action_index>
-      <pv_name>loc://main_mode</pv_name>
-      <pv_value />
-      <released_action_index>1</released_action_index>
-      <rules>
-        <rule name="Change Image" prop_id="off_image" out_exp="false">
-          <exp bool_exp="pvStr0==&quot;Local Mode&quot;">
-            <value>../symbols/Control/Icon_SVG/more5.svg</value>
-          </exp>
-          <exp bool_exp="pvStr0==&quot;Operation Mode&quot;">
-            <value>../symbols/Control/Icon_SVG/more_gray.svg</value>
-          </exp>
-          <pv trig="true">loc://main_mode</pv>
-        </rule>
-      </rules>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <show_boolean_label>false</show_boolean_label>
-      <show_confirm_dialog>2</show_confirm_dialog>
-      <stretch_to_fit>true</stretch_to_fit>
-      <toggle_button>true</toggle_button>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <transparency>true</transparency>
-      <visible>true</visible>
-      <widget_type>Image Boolean Button</widget_type>
-      <width>23</width>
-      <wuid>-7dcc6ae6:15a646ac980:-451b</wuid>
-      <x>129</x>
-      <y>2</y>
-    </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
       <auto_size>true</auto_size>
@@ -901,6 +830,84 @@ $(pv_value)</tooltip>
       <wuid>-7dcc6ae6:15a646ac980:c3f</wuid>
       <x>8</x>
       <y>24</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0.0">
+      <actions hook="false" hook_all="true">
+        <action type="WRITE_PV">
+          <pv_name>loc://main_mode</pv_name>
+          <value>Local Mode</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description></description>
+        </action>
+      </actions>
+      <alarm_pulsing>false</alarm_pulsing>
+      <align_to_nearest_second>false</align_to_nearest_second>
+      <auto_size>false</auto_size>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <bit>-1</bit>
+      <boolean_label_position>0</boolean_label_position>
+      <border_alarm_sensitive>true</border_alarm_sensitive>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <confirm_message>Are your sure you want to do this?</confirm_message>
+      <data_type>0</data_type>
+      <enabled>true</enabled>
+      <font>
+        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>23</height>
+      <name>Local Control Mode_1</name>
+      <no_animation>false</no_animation>
+      <off_image>../symbols/Control/Icon_SVG/menu-4_gray.svg</off_image>
+      <off_label>OFF</off_label>
+      <on_image>../symbols/Control/Icon_SVG/menu-4_gray.svg</on_image>
+      <on_label>ON</on_label>
+      <password>1234</password>
+      <push_action_index>0</push_action_index>
+      <pv_name>loc://main_mode</pv_name>
+      <pv_value />
+      <released_action_index>1</released_action_index>
+      <rules>
+        <rule name="Change Image" prop_id="off_image" out_exp="false">
+          <exp bool_exp="pvStr0==&quot;Local Mode&quot;">
+            <value>../symbols/Control/Icon_SVG/menu-4.svg</value>
+          </exp>
+          <exp bool_exp="pvStr0==&quot;Operation Mode&quot;">
+            <value>../symbols/Control/Icon_SVG/menu-4_gray.svg</value>
+          </exp>
+          <pv trig="true">loc://main_mode</pv>
+        </rule>
+      </rules>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_boolean_label>false</show_boolean_label>
+      <show_confirm_dialog>2</show_confirm_dialog>
+      <stretch_to_fit>true</stretch_to_fit>
+      <toggle_button>true</toggle_button>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <transparency>true</transparency>
+      <visible>true</visible>
+      <widget_type>Image Boolean Button</widget_type>
+      <width>23</width>
+      <wuid>-7dcc6ae6:15a646ac980:e60</wuid>
+      <x>129</x>
+      <y>2</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -2499,5 +2506,83 @@ $(pv_value)</tooltip>
     <wuid>-7dcc6ae6:15a646ac980:-7d16</wuid>
     <x>149</x>
     <y>72</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0.0">
+    <actions hook="false" hook_all="true">
+      <action type="WRITE_PV">
+        <pv_name>loc://main_mode</pv_name>
+        <value>Local Mode</value>
+        <timeout>10</timeout>
+        <confirm_message></confirm_message>
+        <description></description>
+      </action>
+    </actions>
+    <alarm_pulsing>false</alarm_pulsing>
+    <align_to_nearest_second>false</align_to_nearest_second>
+    <auto_size>false</auto_size>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <bit>-1</bit>
+    <boolean_label_position>0</boolean_label_position>
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <data_type>0</data_type>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <height>23</height>
+    <name>Local Control Mode</name>
+    <no_animation>false</no_animation>
+    <off_image>../symbols/Control/Icon_SVG/more_gray.svg</off_image>
+    <off_label>OFF</off_label>
+    <on_image>../symbols/Control/Icon_SVG/more_gray.svg</on_image>
+    <on_label>ON</on_label>
+    <password>1234</password>
+    <push_action_index>0</push_action_index>
+    <pv_name>loc://main_mode</pv_name>
+    <pv_value />
+    <released_action_index>1</released_action_index>
+    <rules>
+      <rule name="Change Image" prop_id="off_image" out_exp="false">
+        <exp bool_exp="pvStr0==&quot;Local Mode&quot;">
+          <value>../symbols/Control/Icon_SVG/more5.svg</value>
+        </exp>
+        <exp bool_exp="pvStr0==&quot;Operation Mode&quot;">
+          <value>../symbols/Control/Icon_SVG/more_gray.svg</value>
+        </exp>
+        <pv trig="true">loc://main_mode</pv>
+      </rule>
+    </rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <show_boolean_label>false</show_boolean_label>
+    <show_confirm_dialog>2</show_confirm_dialog>
+    <stretch_to_fit>true</stretch_to_fit>
+    <toggle_button>true</toggle_button>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <transparency>true</transparency>
+    <visible>false</visible>
+    <widget_type>Image Boolean Button</widget_type>
+    <width>23</width>
+    <wuid>-7dcc6ae6:15a646ac980:-451b</wuid>
+    <x>120</x>
+    <y>74</y>
   </widget>
 </display>
