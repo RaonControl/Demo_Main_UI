@@ -5138,11 +5138,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>10</width>
+      <width>31</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-210</wuid>
-      <x>190</x>
-      <y>44</y>
+      <x>168</x>
+      <y>48</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
