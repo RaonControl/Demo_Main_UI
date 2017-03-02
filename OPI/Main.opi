@@ -56,7 +56,7 @@
     </fg_gradient_color>
     <fill_level>0.0</fill_level>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -103,7 +103,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -645,7 +645,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -737,7 +737,7 @@ $(pv_value)</tooltip>
       </fg_gradient_color>
       <fill_level>0.0</fill_level>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -783,7 +783,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -863,7 +863,7 @@ display.getWidget("db").setPropertyValue("opi_file", "Subsystem/Vacuum/[LC]Vacuu
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>27</height>
+      <height>31</height>
       <items>
         <s>All</s>
         <s>50kV</s>
@@ -1030,7 +1030,7 @@ $(pv_value)</tooltip>
     <flip_horizontal>true</flip_horizontal>
     <flip_vertical>false</flip_vertical>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="255" green="0" blue="0" />
@@ -1088,7 +1088,7 @@ $(pv_value)</tooltip>
     <flip_horizontal>false</flip_horizontal>
     <flip_vertical>true</flip_vertical>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="255" green="0" blue="0" />
@@ -1146,7 +1146,7 @@ $(pv_value)</tooltip>
     <flip_horizontal>false</flip_horizontal>
     <flip_vertical>false</flip_vertical>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="255" green="0" blue="0" />
@@ -1196,13 +1196,13 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>53</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -1244,7 +1244,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -1280,50 +1280,9 @@ $(pv_value)</tooltip>
       <x>0</x>
       <y>0</y>
     </widget>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <background_color>
-      <color red="240" green="240" blue="240" />
-    </background_color>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <fc>false</fc>
-    <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
-    </font>
-    <foreground_color>
-      <color red="192" green="192" blue="192" />
-    </foreground_color>
-    <height>60</height>
-    <lock_children>true</lock_children>
-    <macros>
-      <include_parent_macros>true</include_parent_macros>
-    </macros>
-    <name>TMP(70kV)_label</name>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <show_scrollbar>false</show_scrollbar>
-    <tooltip></tooltip>
-    <transparent>true</transparent>
-    <visible>true</visible>
-    <widget_type>Grouping Container</widget_type>
-    <width>29</width>
-    <wuid>370f6419:15a40571465:2e4</wuid>
-    <x>391</x>
-    <y>282</y>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
+      <auto_size>false</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -1334,7 +1293,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="6" style="1" />
+        <fontdata fontName="Droid Sans" height="4" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1357,69 +1316,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>29</width>
+      <width>40</width>
       <wrap_words>false</wrap_words>
       <wuid>33171ccd:1588abaf757:530</wuid>
-      <x>0</x>
-      <y>0</y>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <alarm_pulsing>false</alarm_pulsing>
-      <alpha>255</alpha>
-      <anti_alias>true</anti_alias>
-      <arrow_length>20</arrow_length>
-      <arrows>0</arrows>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="0" green="0" blue="0" />
-      </background_color>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <fill_arrow>true</fill_arrow>
-      <fill_level>0.0</fill_level>
-      <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
-      </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <foreground_color>
-        <color red="255" green="0" blue="0" />
-      </foreground_color>
-      <height>24</height>
-      <horizontal_fill>true</horizontal_fill>
-      <line_style>0</line_style>
-      <line_width>1</line_width>
-      <name>TMP(70kV)</name>
-      <points>
-        <point x="14" y="36" />
-        <point x="14" y="59" />
-        <point x="14" y="59" />
-        <point x="14" y="59" />
-      </points>
-      <pv_name></pv_name>
-      <pv_value />
-      <rotation_angle>0.0</rotation_angle>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>true</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <transparent>false</transparent>
-      <visible>true</visible>
-      <widget_type>Polyline</widget_type>
-      <width>1</width>
-      <wuid>370f6419:15a40571465:-29f</wuid>
-      <x>14</x>
-      <y>36</y>
+      <x>5</x>
+      <y>13</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -1443,13 +1344,13 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>53</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -1491,7 +1392,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -1527,47 +1428,6 @@ $(pv_value)</tooltip>
       <x>0</x>
       <y>0</y>
     </widget>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <background_color>
-      <color red="240" green="240" blue="240" />
-    </background_color>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <fc>false</fc>
-    <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
-    </font>
-    <foreground_color>
-      <color red="192" green="192" blue="192" />
-    </foreground_color>
-    <height>55</height>
-    <lock_children>true</lock_children>
-    <macros>
-      <include_parent_macros>true</include_parent_macros>
-    </macros>
-    <name>Pair Solenoide_label</name>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <show_scrollbar>false</show_scrollbar>
-    <tooltip></tooltip>
-    <transparent>true</transparent>
-    <visible>true</visible>
-    <widget_type>Grouping Container</widget_type>
-    <width>38</width>
-    <wuid>370f6419:15a40571465:2e0</wuid>
-    <x>443</x>
-    <y>287</y>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
       <auto_size>true</auto_size>
@@ -1581,12 +1441,12 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="6" style="1" />
+        <fontdata fontName="Droid Sans" height="3" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>18</height>
+      <height>14</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>Pair Solenoide</name>
       <rules />
@@ -1596,76 +1456,18 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>     Pair&#xD;
+      <text>      Pair&#xD;
 Solenoide</text>
       <tooltip></tooltip>
       <transparent>true</transparent>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>38</width>
+      <width>29</width>
       <wrap_words>false</wrap_words>
       <wuid>33171ccd:1588abaf757:582</wuid>
-      <x>0</x>
-      <y>0</y>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <alarm_pulsing>false</alarm_pulsing>
-      <alpha>255</alpha>
-      <anti_alias>true</anti_alias>
-      <arrow_length>20</arrow_length>
-      <arrows>0</arrows>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="0" green="0" blue="0" />
-      </background_color>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <fill_arrow>true</fill_arrow>
-      <fill_level>0.0</fill_level>
-      <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
-      </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <foreground_color>
-        <color red="255" green="0" blue="0" />
-      </foreground_color>
-      <height>24</height>
-      <horizontal_fill>true</horizontal_fill>
-      <line_style>0</line_style>
-      <line_width>1</line_width>
-      <name>Pair Solenoide</name>
-      <points>
-        <point x="16" y="31" />
-        <point x="16" y="54" />
-        <point x="16" y="54" />
-        <point x="16" y="54" />
-      </points>
-      <pv_name></pv_name>
-      <pv_value />
-      <rotation_angle>0.0</rotation_angle>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>true</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <transparent>false</transparent>
-      <visible>true</visible>
-      <widget_type>Polyline</widget_type>
-      <width>1</width>
-      <wuid>370f6419:15a40571465:-299</wuid>
-      <x>16</x>
-      <y>31</y>
+      <x>5</x>
+      <y>20</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -1681,7 +1483,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -1729,7 +1531,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -1783,7 +1585,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>18</height>
+      <height>27</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>Super Conducting Magnet</name>
       <rules />
@@ -1801,11 +1603,11 @@ Conducting &#xD;
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>29</width>
+      <width>45</width>
       <wrap_words>false</wrap_words>
       <wuid>-3163570a:158ae4a82d0:-6b1e</wuid>
-      <x>30</x>
-      <y>27</y>
+      <x>22</x>
+      <y>22</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -1821,13 +1623,13 @@ Conducting &#xD;
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>53</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -1869,7 +1671,7 @@ Conducting &#xD;
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -1905,50 +1707,9 @@ Conducting &#xD;
       <x>0</x>
       <y>0</y>
     </widget>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <background_color>
-      <color red="240" green="240" blue="240" />
-    </background_color>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <fc>false</fc>
-    <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
-    </font>
-    <foreground_color>
-      <color red="192" green="192" blue="192" />
-    </foreground_color>
-    <height>60</height>
-    <lock_children>true</lock_children>
-    <macros>
-      <include_parent_macros>true</include_parent_macros>
-    </macros>
-    <name>TMP(50kV)_label</name>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <show_scrollbar>false</show_scrollbar>
-    <tooltip></tooltip>
-    <transparent>true</transparent>
-    <visible>true</visible>
-    <widget_type>Grouping Container</widget_type>
-    <width>29</width>
-    <wuid>370f6419:15a40571465:2e9</wuid>
-    <x>606</x>
-    <y>282</y>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
+      <auto_size>false</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -1959,7 +1720,7 @@ Conducting &#xD;
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="6" style="1" />
+        <fontdata fontName="Droid Sans" height="4" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1982,69 +1743,11 @@ Conducting &#xD;
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>29</width>
+      <width>40</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:2ea</wuid>
-      <x>0</x>
-      <y>0</y>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <alarm_pulsing>false</alarm_pulsing>
-      <alpha>255</alpha>
-      <anti_alias>true</anti_alias>
-      <arrow_length>20</arrow_length>
-      <arrows>0</arrows>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="0" green="0" blue="0" />
-      </background_color>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <fill_arrow>true</fill_arrow>
-      <fill_level>0.0</fill_level>
-      <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
-      </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <foreground_color>
-        <color red="255" green="0" blue="0" />
-      </foreground_color>
-      <height>24</height>
-      <horizontal_fill>true</horizontal_fill>
-      <line_style>0</line_style>
-      <line_width>1</line_width>
-      <name>TMP(50kV)</name>
-      <points>
-        <point x="14" y="36" />
-        <point x="14" y="59" />
-        <point x="14" y="59" />
-        <point x="14" y="59" />
-      </points>
-      <pv_name></pv_name>
-      <pv_value />
-      <rotation_angle>0.0</rotation_angle>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>true</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <transparent>false</transparent>
-      <visible>true</visible>
-      <widget_type>Polyline</widget_type>
-      <width>1</width>
-      <wuid>370f6419:15a40571465:2eb</wuid>
-      <x>14</x>
-      <y>36</y>
+      <x>5</x>
+      <y>13</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -2068,7 +1771,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -2154,7 +1857,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
+      <auto_size>false</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2170,7 +1873,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>6</height>
+      <height>9</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name> Gyrotron</name>
       <rules />
@@ -2186,11 +1889,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>23</width>
+      <width>40</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-293</wuid>
-      <x>25</x>
-      <y>24</y>
+      <x>15</x>
+      <y>22</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -2214,7 +1917,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -2262,7 +1965,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -2300,7 +2003,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
+      <auto_size>false</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2316,7 +2019,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>6</height>
+      <height>9</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>EQT01</name>
       <rules />
@@ -2332,11 +2035,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>16</width>
+      <width>40</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-276</wuid>
-      <x>16</x>
-      <y>21</y>
+      <x>2</x>
+      <y>19</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -2360,7 +2063,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -2408,7 +2111,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -2446,7 +2149,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
+      <auto_size>false</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2462,7 +2165,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>6</height>
+      <height>9</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>FC01</name>
       <rules />
@@ -2478,11 +2181,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>12</width>
+      <width>40</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-236</wuid>
-      <x>18</x>
-      <y>21</y>
+      <x>2</x>
+      <y>19</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -2506,7 +2209,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -2554,7 +2257,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -2608,7 +2311,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>6</height>
+      <height>9</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>DM01</name>
       <rules />
@@ -2624,11 +2327,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>15</width>
+      <width>21</width>
       <wrap_words>false</wrap_words>
       <wuid>33171ccd:1588abaf757:-1c7</wuid>
-      <x>33</x>
-      <y>38</y>
+      <x>28</x>
+      <y>36</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -2652,7 +2355,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -2700,7 +2403,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -2738,7 +2441,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
+      <auto_size>false</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2754,7 +2457,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>6</height>
+      <height>9</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>EQD01</name>
       <rules />
@@ -2770,11 +2473,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>17</width>
+      <width>40</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-256</wuid>
-      <x>14</x>
-      <y>21</y>
+      <x>2</x>
+      <y>19</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -2798,7 +2501,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -2846,7 +2549,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -2884,7 +2587,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
+      <auto_size>false</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2900,7 +2603,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>6</height>
+      <height>9</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>FC02</name>
       <rules />
@@ -2916,11 +2619,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>12</width>
+      <width>40</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-22c</wuid>
-      <x>18</x>
-      <y>21</y>
+      <x>2</x>
+      <y>19</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -2944,7 +2647,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -2992,7 +2695,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -3030,7 +2733,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
+      <auto_size>false</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -3046,7 +2749,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>6</height>
+      <height>9</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>EQD02</name>
       <rules />
@@ -3062,11 +2765,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>17</width>
+      <width>40</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-272</wuid>
-      <x>14</x>
-      <y>21</y>
+      <x>2</x>
+      <y>19</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -3090,7 +2793,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -3138,7 +2841,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -3192,7 +2895,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>6</height>
+      <height>9</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>DM02</name>
       <rules />
@@ -3208,11 +2911,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>15</width>
+      <width>21</width>
       <wrap_words>false</wrap_words>
       <wuid>33171ccd:1588abaf757:-1c1</wuid>
-      <x>33</x>
-      <y>38</y>
+      <x>30</x>
+      <y>36</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -3228,13 +2931,13 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>31</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -3268,7 +2971,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="6" style="1" />
+        <fontdata fontName="Droid Sans" height="4" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -3292,7 +2995,7 @@ $(pv_value)</tooltip>
       <width>19</width>
       <wrap_words>false</wrap_words>
       <wuid>33171ccd:1588abaf757:55e</wuid>
-      <x>0</x>
+      <x>7</x>
       <y>11</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0.0">
@@ -3315,7 +3018,7 @@ $(pv_value)</tooltip>
       <data_type>0</data_type>
       <enabled>true</enabled>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -3372,7 +3075,7 @@ $(pv_value)</tooltip>
     <effect_3d>true</effect_3d>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -3430,7 +3133,7 @@ $(pv_value)</tooltip>
     <effect_3d>true</effect_3d>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -3487,7 +3190,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -3535,7 +3238,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -3573,7 +3276,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
+      <auto_size>false</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -3589,7 +3292,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>12</height>
+      <height>18</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>Steering Magnet</name>
       <rules />
@@ -3606,11 +3309,11 @@ Magnet01</text>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>25</width>
+      <width>40</width>
       <wrap_words>false</wrap_words>
       <wuid>-7dcc6ae6:15a646ac980:3b05</wuid>
-      <x>11</x>
-      <y>18</y>
+      <x>2</x>
+      <y>15</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -3634,7 +3337,7 @@ Magnet01</text>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -3682,7 +3385,7 @@ Magnet01</text>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -3720,7 +3423,7 @@ Magnet01</text>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
+      <auto_size>false</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -3736,7 +3439,7 @@ Magnet01</text>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>12</height>
+      <height>18</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>Steering Magnet</name>
       <rules />
@@ -3753,52 +3456,12 @@ Magnet02</text>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>25</width>
+      <width>40</width>
       <wrap_words>false</wrap_words>
       <wuid>-7dcc6ae6:15a6eacc81a:-45cd</wuid>
-      <x>11</x>
-      <y>18</y>
+      <x>2</x>
+      <y>15</y>
     </widget>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
-    <background_color>
-      <color red="255" green="255" blue="255" />
-    </background_color>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <font>
-      <fontdata fontName="Droid Sans" height="6" style="1" />
-    </font>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <height>9</height>
-    <horizontal_alignment>1</horizontal_alignment>
-    <name>QM02</name>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <text>QM02</text>
-    <tooltip></tooltip>
-    <transparent>true</transparent>
-    <vertical_alignment>1</vertical_alignment>
-    <visible>true</visible>
-    <widget_type>Label</widget_type>
-    <width>21</width>
-    <wrap_words>false</wrap_words>
-    <wuid>33171ccd:1588abaf757:572</wuid>
-    <x>1090</x>
-    <y>799</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -3822,7 +3485,7 @@ Magnet02</text>
     <effect_3d>true</effect_3d>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -3879,7 +3542,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -3927,7 +3590,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -3965,7 +3628,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
+      <auto_size>false</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -3981,7 +3644,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>6</height>
+      <height>9</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>EQT02</name>
       <rules />
@@ -3997,11 +3660,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>16</width>
+      <width>40</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-26e</wuid>
-      <x>16</x>
-      <y>21</y>
+      <x>2</x>
+      <y>19</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -4017,7 +3680,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -4065,7 +3728,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -4103,7 +3766,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
+      <auto_size>false</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -4119,7 +3782,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>6</height>
+      <height>9</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>Chopper</name>
       <rules />
@@ -4135,11 +3798,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>20</width>
+      <width>40</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:2f1</wuid>
-      <x>14</x>
-      <y>21</y>
+      <x>2</x>
+      <y>19</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -4163,13 +3826,13 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>53</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -4186,7 +3849,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Grouping Container</widget_type>
-    <width>23</width>
+    <width>27</width>
     <wuid>370f6419:15a40571465:-50c</wuid>
     <x>1043</x>
     <y>810</y>
@@ -4211,7 +3874,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -4242,10 +3905,50 @@ $(pv_value)</tooltip>
       <transparency>false</transparency>
       <visible>true</visible>
       <widget_type>Image</widget_type>
-      <width>23</width>
+      <width>27</width>
       <wuid>370f6419:15a40571465:-51c</wuid>
       <x>0</x>
       <y>0</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <auto_size>true</auto_size>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <font>
+        <fontdata fontName="Droid Sans" height="4" style="1" />
+      </font>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>9</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <name>QM01</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <text>QM01</text>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <vertical_alignment>1</vertical_alignment>
+      <visible>true</visible>
+      <widget_type>Label</widget_type>
+      <width>23</width>
+      <wrap_words>false</wrap_words>
+      <wuid>33171ccd:1588abaf757:56a</wuid>
+      <x>1</x>
+      <y>22</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -4269,7 +3972,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -4317,7 +4020,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -4355,7 +4058,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
+      <auto_size>false</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -4371,7 +4074,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>6</height>
+      <height>9</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>FC05</name>
       <rules />
@@ -4387,11 +4090,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>12</width>
+      <width>40</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-20c</wuid>
-      <x>18</x>
-      <y>21</y>
+      <x>2</x>
+      <y>19</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -4415,7 +4118,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -4463,7 +4166,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -4501,7 +4204,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
+      <auto_size>false</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -4517,7 +4220,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>6</height>
+      <height>9</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>FC03</name>
       <rules />
@@ -4533,11 +4236,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>12</width>
+      <width>40</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-220</wuid>
-      <x>18</x>
-      <y>21</y>
+      <x>2</x>
+      <y>19</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -4553,7 +4256,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -4601,7 +4304,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -4655,7 +4358,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>6</height>
+      <height>9</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>QWR</name>
       <rules />
@@ -4671,11 +4374,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>12</width>
+      <width>18</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-200</wuid>
-      <x>39</x>
-      <y>55</y>
+      <x>36</x>
+      <y>53</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -4699,7 +4402,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -4747,7 +4450,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -4785,7 +4488,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
+      <auto_size>false</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -4801,7 +4504,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>6</height>
+      <height>9</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>EQT03</name>
       <rules />
@@ -4817,52 +4520,12 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>16</width>
+      <width>40</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-26a</wuid>
-      <x>16</x>
-      <y>21</y>
+      <x>2</x>
+      <y>19</y>
     </widget>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
-    <background_color>
-      <color red="255" green="255" blue="255" />
-    </background_color>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <font>
-      <fontdata fontName="Droid Sans" height="6" style="1" />
-    </font>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <height>9</height>
-    <horizontal_alignment>1</horizontal_alignment>
-    <name>QM01</name>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <text>QM01</text>
-    <tooltip></tooltip>
-    <transparent>true</transparent>
-    <vertical_alignment>1</vertical_alignment>
-    <visible>true</visible>
-    <widget_type>Label</widget_type>
-    <width>21</width>
-    <wrap_words>false</wrap_words>
-    <wuid>33171ccd:1588abaf757:56a</wuid>
-    <x>1044</x>
-    <y>799</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -4877,7 +4540,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -4917,7 +4580,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="6" style="1" />
+        <fontdata fontName="Droid Sans" height="4" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -4942,7 +4605,7 @@ $(pv_value)</tooltip>
       <wrap_words>false</wrap_words>
       <wuid>-7dcc6ae6:15a6eacc81a:-45da</wuid>
       <x>6</x>
-      <y>0</y>
+      <y>7</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0.0">
       <actions hook="false" hook_all="false" />
@@ -4964,7 +4627,7 @@ $(pv_value)</tooltip>
       <data_type>0</data_type>
       <enabled>true</enabled>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -5020,7 +4683,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -5068,7 +4731,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -5122,7 +4785,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>6</height>
+      <height>9</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>RFQ</name>
       <rules />
@@ -5138,11 +4801,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>31</width>
+      <width>15</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-210</wuid>
-      <x>168</x>
-      <y>48</y>
+      <x>187</x>
+      <y>42</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -5158,7 +4821,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -5206,7 +4869,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -5260,7 +4923,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>18</height>
+      <height>27</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>Beam diagnostic box</name>
       <rules />
@@ -5278,11 +4941,11 @@ diagnostic &#xD;
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>27</width>
+      <width>41</width>
       <wrap_words>false</wrap_words>
       <wuid>33171ccd:1588abaf757:578</wuid>
-      <x>13</x>
-      <y>11</y>
+      <x>6</x>
+      <y>6</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -5298,13 +4961,13 @@ diagnostic &#xD;
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>102</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -5338,7 +5001,7 @@ diagnostic &#xD;
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="6" style="1" />
+        <fontdata fontName="Droid Sans" height="4" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -5363,7 +5026,7 @@ diagnostic &#xD;
       <wrap_words>false</wrap_words>
       <wuid>-3163570a:158ae4a82d0:-7ee0</wuid>
       <x>6</x>
-      <y>0</y>
+      <y>7</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0.0">
       <actions hook="false" hook_all="false" />
@@ -5385,7 +5048,7 @@ diagnostic &#xD;
       <data_type>0</data_type>
       <enabled>true</enabled>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -5441,7 +5104,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -5489,7 +5152,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -5527,7 +5190,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
+      <auto_size>false</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -5543,7 +5206,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>6</height>
+      <height>9</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>FC04</name>
       <rules />
@@ -5559,11 +5222,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>12</width>
+      <width>40</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-21c</wuid>
-      <x>18</x>
-      <y>21</y>
+      <x>2</x>
+      <y>19</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -5588,7 +5251,7 @@ $(pv_value)</tooltip>
     <effect_3d>true</effect_3d>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -5645,7 +5308,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -5668,9 +5331,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Grouping Container</widget_type>
-    <width>23</width>
+    <width>27</width>
     <wuid>370f6419:15a40571465:-504</wuid>
-    <x>1089</x>
+    <x>1086</x>
     <y>810</y>
     <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
       <actions hook="false" hook_all="false" />
@@ -5693,7 +5356,7 @@ $(pv_value)</tooltip>
       <flip_horizontal>false</flip_horizontal>
       <flip_vertical>false</flip_vertical>
       <font>
-        <opifont.name fontName="FontAwesome" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -5724,10 +5387,50 @@ $(pv_value)</tooltip>
       <transparency>false</transparency>
       <visible>true</visible>
       <widget_type>Image</widget_type>
-      <width>23</width>
+      <width>27</width>
       <wuid>370f6419:15a40571465:-512</wuid>
       <x>0</x>
       <y>0</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <auto_size>true</auto_size>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <font>
+        <fontdata fontName="Droid Sans" height="4" style="1" />
+      </font>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>9</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <name>QM02</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <text>QM02</text>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <vertical_alignment>1</vertical_alignment>
+      <visible>true</visible>
+      <widget_type>Label</widget_type>
+      <width>23</width>
+      <wrap_words>false</wrap_words>
+      <wuid>33171ccd:1588abaf757:572</wuid>
+      <x>1</x>
+      <y>22</y>
     </widget>
   </widget>
 </display>
