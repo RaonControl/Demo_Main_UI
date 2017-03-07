@@ -361,7 +361,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -377,7 +377,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>19</height>
+    <height>18</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>P1-2</name>
     <rules />
@@ -460,7 +460,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -476,7 +476,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>19</height>
+    <height>18</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Voltage_2</name>
     <rules />
@@ -501,7 +501,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -517,7 +517,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>19</height>
+    <height>18</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>current_2</name>
     <rules />
@@ -542,7 +542,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="249" green="249" blue="249" />
     </background_color>
@@ -558,7 +558,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>19</height>
+    <height>18</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>mA</name>
     <rules />
@@ -583,7 +583,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="249" green="249" blue="249" />
     </background_color>
@@ -599,7 +599,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>19</height>
+    <height>18</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>V</name>
     <rules />
@@ -728,7 +728,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -744,7 +744,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>19</height>
+    <height>18</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>N1-2</name>
     <rules />
@@ -827,7 +827,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -843,7 +843,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>19</height>
+    <height>18</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Voltage_3</name>
     <rules />
@@ -868,7 +868,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -884,7 +884,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>19</height>
+    <height>18</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>current_3</name>
     <rules />
@@ -909,7 +909,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="249" green="249" blue="249" />
     </background_color>
@@ -925,7 +925,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>19</height>
+    <height>18</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>V</name>
     <rules />
@@ -950,7 +950,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="249" green="249" blue="249" />
     </background_color>
@@ -966,7 +966,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>19</height>
+    <height>18</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>mA</name>
     <rules />
@@ -1095,7 +1095,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -1111,7 +1111,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>19</height>
+    <height>18</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>P1-3</name>
     <rules />
@@ -1194,7 +1194,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -1210,7 +1210,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>19</height>
+    <height>18</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Voltage_4</name>
     <rules />
@@ -1235,7 +1235,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -1251,7 +1251,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>19</height>
+    <height>18</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>current_4</name>
     <rules />
@@ -1276,7 +1276,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="249" green="249" blue="249" />
     </background_color>
@@ -1292,7 +1292,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>19</height>
+    <height>18</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>V</name>
     <rules />
@@ -1317,7 +1317,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="249" green="249" blue="249" />
     </background_color>
@@ -1333,7 +1333,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>19</height>
+    <height>18</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>mA</name>
     <rules />
@@ -1462,7 +1462,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -1478,7 +1478,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>19</height>
+    <height>18</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>N1-3</name>
     <rules />
@@ -1561,7 +1561,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -1577,7 +1577,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>19</height>
+    <height>18</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Voltage_5</name>
     <rules />
@@ -1602,7 +1602,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -1618,7 +1618,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>19</height>
+    <height>18</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>current_5</name>
     <rules />
@@ -1643,7 +1643,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="249" green="249" blue="249" />
     </background_color>
@@ -1659,7 +1659,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>19</height>
+    <height>18</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>mA</name>
     <rules />
@@ -1684,7 +1684,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>true</auto_size>
+    <auto_size>false</auto_size>
     <background_color>
       <color red="249" green="249" blue="249" />
     </background_color>
@@ -1700,7 +1700,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>19</height>
+    <height>18</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>V</name>
     <rules />
@@ -1886,7 +1886,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="0" green="0" blue="255" />
       </foreground_color>
-      <height>224</height>
+      <height>208</height>
       <name>XY Graph</name>
       <plot_area_background_color>
         <color red="255" green="255" blue="255" />
@@ -2003,6 +2003,211 @@ $(trace_0_y_pv_value)</tooltip>
       <wuid>27268950:15a92dd5625:-7b59</wuid>
       <x>5</x>
       <y>3</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <height>14</height>
+      <lock_children>true</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Grouping Container</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>141</width>
+      <wuid>f2647ac:15aa11b143a:-3602</wuid>
+      <x>5</x>
+      <y>213</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <fontdata fontName="Droid Sans" height="6" style="0" />
+        </font>
+        <foreground_color>
+          <color red="21" green="21" blue="196" />
+        </foreground_color>
+        <height>14</height>
+        <horizontal_alignment>0</horizontal_alignment>
+        <name>Voltage_6</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>P1-1</text>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>32</width>
+        <wrap_words>true</wrap_words>
+        <wuid>f2647ac:15aa11b143a:-377a</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <fontdata fontName="Droid Sans" height="6" style="0" />
+        </font>
+        <foreground_color>
+          <color red="242" green="26" blue="26" />
+        </foreground_color>
+        <height>14</height>
+        <horizontal_alignment>0</horizontal_alignment>
+        <name>Voltage_1</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>N1-1</text>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>32</width>
+        <wrap_words>true</wrap_words>
+        <wuid>f2647ac:15aa11b143a:-370a</wuid>
+        <x>36</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <fontdata fontName="Droid Sans" height="6" style="0" />
+        </font>
+        <foreground_color>
+          <color red="33" green="179" blue="33" />
+        </foreground_color>
+        <height>14</height>
+        <horizontal_alignment>0</horizontal_alignment>
+        <name>Voltage_2</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>P1-2</text>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>32</width>
+        <wrap_words>true</wrap_words>
+        <wuid>f2647ac:15aa11b143a:-3706</wuid>
+        <x>72</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <fontdata fontName="Droid Sans" height="6" style="0" />
+        </font>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>14</height>
+        <horizontal_alignment>0</horizontal_alignment>
+        <name>Voltage_3</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>N1-2</text>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>32</width>
+        <wrap_words>true</wrap_words>
+        <wuid>f2647ac:15aa11b143a:-3702</wuid>
+        <x>109</x>
+        <y>0</y>
+      </widget>
     </widget>
   </widget>
 </display>
