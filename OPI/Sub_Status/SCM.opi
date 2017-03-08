@@ -15,7 +15,7 @@
     <color red="192" green="192" blue="192" />
   </foreground_color>
   <grid_space>6</grid_space>
-  <height>252</height>
+  <height>325</height>
   <macros>
     <include_parent_macros>true</include_parent_macros>
   </macros>
@@ -63,7 +63,7 @@
       <color red="255" green="0" blue="0" />
     </foreground_color>
     <gradient>false</gradient>
-    <height>252</height>
+    <height>325</height>
     <horizontal_fill>true</horizontal_fill>
     <line_color>
       <color red="128" green="0" blue="255" />
@@ -103,7 +103,7 @@ $(pv_value)</tooltip>
     <border_width>1</border_width>
     <enabled>true</enabled>
     <font>
-      <fontdata fontName="Droid Sans" height="11" style="1" />
+      <fontdata fontName="Droid Sans" height="9" style="1" />
     </font>
     <foreground_color>
       <color red="255" green="255" blue="255" />
@@ -118,7 +118,7 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <text>Super Conducting Magnet</text>
+    <text>  Superconducting Magnet / Cryostat</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     <transparent>false</transparent>
@@ -268,7 +268,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
-    <height>225</height>
+    <height>298</height>
     <horizontal_tabs>true</horizontal_tabs>
     <macros>
       <include_parent_macros>true</include_parent_macros>
@@ -287,7 +287,7 @@ $(pv_value)</tooltip>
     </tab_0_background_color>
     <tab_0_enabled>true</tab_0_enabled>
     <tab_0_font>
-      <fontdata fontName="Droid Sans" height="5" style="0" />
+      <fontdata fontName="Droid Sans" height="4" style="0" />
     </tab_0_font>
     <tab_0_foreground_color>
       <color red="0" green="0" blue="0" />
@@ -299,7 +299,7 @@ $(pv_value)</tooltip>
     </tab_1_background_color>
     <tab_1_enabled>true</tab_1_enabled>
     <tab_1_font>
-      <fontdata fontName="Droid Sans" height="5" style="0" />
+      <fontdata fontName="Droid Sans" height="4" style="0" />
     </tab_1_font>
     <tab_1_foreground_color>
       <color red="0" green="0" blue="0" />
@@ -311,7 +311,7 @@ $(pv_value)</tooltip>
     </tab_2_background_color>
     <tab_2_enabled>true</tab_2_enabled>
     <tab_2_font>
-      <fontdata fontName="Droid Sans" height="5" style="0" />
+      <fontdata fontName="Droid Sans" height="4" style="0" />
     </tab_2_font>
     <tab_2_foreground_color>
       <color red="0" green="0" blue="0" />
@@ -323,7 +323,7 @@ $(pv_value)</tooltip>
     </tab_3_background_color>
     <tab_3_enabled>true</tab_3_enabled>
     <tab_3_font>
-      <fontdata fontName="Droid Sans" height="5" style="0" />
+      <fontdata fontName="Droid Sans" height="4" style="0" />
     </tab_3_font>
     <tab_3_foreground_color>
       <color red="0" green="0" blue="0" />
@@ -335,20 +335,32 @@ $(pv_value)</tooltip>
     </tab_4_background_color>
     <tab_4_enabled>true</tab_4_enabled>
     <tab_4_font>
-      <fontdata fontName="Droid Sans" height="5" style="0" />
+      <fontdata fontName="Droid Sans" height="4" style="0" />
     </tab_4_font>
     <tab_4_foreground_color>
       <color red="0" green="0" blue="0" />
     </tab_4_foreground_color>
     <tab_4_icon_path></tab_4_icon_path>
     <tab_4_title>HV P/S_5</tab_4_title>
-    <tab_count>5</tab_count>
+    <tab_5_background_color>
+      <color red="255" green="255" blue="255" />
+    </tab_5_background_color>
+    <tab_5_enabled>true</tab_5_enabled>
+    <tab_5_font>
+      <fontdata fontName="Droid Sans" height="4" style="0" />
+    </tab_5_font>
+    <tab_5_foreground_color>
+      <color red="0" green="0" blue="0" />
+    </tab_5_foreground_color>
+    <tab_5_icon_path></tab_5_icon_path>
+    <tab_5_title>Cryostat</tab_5_title>
+    <tab_count>6</tab_count>
     <tooltip></tooltip>
     <visible>true</visible>
     <widget_type>Tabbed Container</widget_type>
-    <width>280</width>
+    <width>284</width>
     <wuid>f2647ac:15aa11b143a:395e</wuid>
-    <x>281</x>
+    <x>276</x>
     <y>24</y>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
       <actions hook="false" hook_all="false" />
@@ -368,7 +380,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
-      <height>200</height>
+      <height>275</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -384,9 +396,9 @@ $(pv_value)</tooltip>
       <show_scrollbar>true</show_scrollbar>
       <tooltip></tooltip>
       <transparent>true</transparent>
-      <visible>true</visible>
+      <visible>false</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>278</width>
+      <width>282</width>
       <wuid>f2647ac:15aa11b143a:395f</wuid>
       <x>1</x>
       <y>1</y>
@@ -403,7 +415,7 @@ $(pv_value)</tooltip>
         <enabled>true</enabled>
         <fc>false</fc>
         <font>
-          <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+          <fontdata fontName="Droid Sans" height="7" style="0" />
         </font>
         <foreground_color>
           <color red="192" green="192" blue="192" />
@@ -454,7 +466,7 @@ $(pv_value)</tooltip>
           <effect_3d>true</effect_3d>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="9" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -487,7 +499,7 @@ $(pv_value)</tooltip>
           <widget_type>LED</widget_type>
           <width>18</width>
           <wuid>f2647ac:15aa11b143a:798c</wuid>
-          <x>71</x>
+          <x>53</x>
           <y>0</y>
         </widget>
         <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -506,7 +518,7 @@ $(pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -555,7 +567,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -596,7 +608,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -640,7 +652,7 @@ $(pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -689,7 +701,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -730,7 +742,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -774,7 +786,7 @@ $(pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -823,7 +835,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -864,7 +876,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -912,7 +924,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
-      <height>200</height>
+      <height>275</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -930,7 +942,7 @@ $(pv_value)</tooltip>
       <transparent>true</transparent>
       <visible>false</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>278</width>
+      <width>282</width>
       <wuid>f2647ac:15aa11b143a:4b5f</wuid>
       <x>1</x>
       <y>1</y>
@@ -947,13 +959,13 @@ $(pv_value)</tooltip>
         <enabled>true</enabled>
         <fc>false</fc>
         <font>
-          <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+          <fontdata fontName="Droid Sans" height="7" style="0" />
         </font>
         <foreground_color>
           <color red="192" green="192" blue="192" />
         </foreground_color>
         <height>81</height>
-        <lock_children>true</lock_children>
+        <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <SUBSYS>PS</SUBSYS>
@@ -998,7 +1010,7 @@ $(pv_value)</tooltip>
           <effect_3d>true</effect_3d>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="9" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -1031,7 +1043,7 @@ $(pv_value)</tooltip>
           <widget_type>LED</widget_type>
           <width>18</width>
           <wuid>f2647ac:15aa11b143a:5b13</wuid>
-          <x>71</x>
+          <x>53</x>
           <y>0</y>
         </widget>
         <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -1050,7 +1062,7 @@ $(pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -1099,7 +1111,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -1140,7 +1152,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -1184,7 +1196,7 @@ $(pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -1233,7 +1245,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -1274,7 +1286,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -1318,7 +1330,7 @@ $(pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -1367,7 +1379,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -1408,7 +1420,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -1456,7 +1468,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
-      <height>200</height>
+      <height>275</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -1474,7 +1486,7 @@ $(pv_value)</tooltip>
       <transparent>true</transparent>
       <visible>false</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>278</width>
+      <width>282</width>
       <wuid>f2647ac:15aa11b143a:4b62</wuid>
       <x>1</x>
       <y>1</y>
@@ -1491,13 +1503,13 @@ $(pv_value)</tooltip>
         <enabled>true</enabled>
         <fc>false</fc>
         <font>
-          <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+          <fontdata fontName="Droid Sans" height="7" style="0" />
         </font>
         <foreground_color>
           <color red="192" green="192" blue="192" />
         </foreground_color>
         <height>81</height>
-        <lock_children>true</lock_children>
+        <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <SUBSYS>PS</SUBSYS>
@@ -1542,7 +1554,7 @@ $(pv_value)</tooltip>
           <effect_3d>true</effect_3d>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="9" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -1575,7 +1587,7 @@ $(pv_value)</tooltip>
           <widget_type>LED</widget_type>
           <width>18</width>
           <wuid>f2647ac:15aa11b143a:79bb</wuid>
-          <x>71</x>
+          <x>53</x>
           <y>0</y>
         </widget>
         <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -1594,7 +1606,7 @@ $(pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -1643,7 +1655,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -1684,7 +1696,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -1728,7 +1740,7 @@ $(pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -1777,7 +1789,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -1818,7 +1830,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -1862,7 +1874,7 @@ $(pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -1911,7 +1923,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -1952,7 +1964,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -2000,7 +2012,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
-      <height>200</height>
+      <height>275</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -2018,7 +2030,7 @@ $(pv_value)</tooltip>
       <transparent>true</transparent>
       <visible>false</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>278</width>
+      <width>282</width>
       <wuid>f2647ac:15aa11b143a:4b65</wuid>
       <x>1</x>
       <y>1</y>
@@ -2035,13 +2047,13 @@ $(pv_value)</tooltip>
         <enabled>true</enabled>
         <fc>false</fc>
         <font>
-          <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+          <fontdata fontName="Droid Sans" height="7" style="0" />
         </font>
         <foreground_color>
           <color red="192" green="192" blue="192" />
         </foreground_color>
         <height>81</height>
-        <lock_children>true</lock_children>
+        <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <SUBSYS>PS</SUBSYS>
@@ -2086,7 +2098,7 @@ $(pv_value)</tooltip>
           <effect_3d>true</effect_3d>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="9" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -2119,7 +2131,7 @@ $(pv_value)</tooltip>
           <widget_type>LED</widget_type>
           <width>18</width>
           <wuid>f2647ac:15aa11b143a:7a02</wuid>
-          <x>71</x>
+          <x>53</x>
           <y>0</y>
         </widget>
         <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -2138,7 +2150,7 @@ $(pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -2187,7 +2199,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -2228,7 +2240,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -2272,7 +2284,7 @@ $(pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -2321,7 +2333,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -2362,7 +2374,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -2406,7 +2418,7 @@ $(pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -2455,7 +2467,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -2496,7 +2508,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -2544,7 +2556,7 @@ $(pv_value)</tooltip>
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
-      <height>200</height>
+      <height>275</height>
       <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
@@ -2562,7 +2574,7 @@ $(pv_value)</tooltip>
       <transparent>true</transparent>
       <visible>false</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>278</width>
+      <width>282</width>
       <wuid>f2647ac:15aa11b143a:4b68</wuid>
       <x>1</x>
       <y>1</y>
@@ -2579,13 +2591,13 @@ $(pv_value)</tooltip>
         <enabled>true</enabled>
         <fc>false</fc>
         <font>
-          <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+          <fontdata fontName="Droid Sans" height="7" style="0" />
         </font>
         <foreground_color>
           <color red="192" green="192" blue="192" />
         </foreground_color>
         <height>81</height>
-        <lock_children>true</lock_children>
+        <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <SUBSYS>PS</SUBSYS>
@@ -2631,7 +2643,7 @@ $(pv_value)</tooltip>
           <effect_3d>true</effect_3d>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="9" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -2664,7 +2676,7 @@ $(pv_value)</tooltip>
           <widget_type>LED</widget_type>
           <width>18</width>
           <wuid>f2647ac:15aa11b143a:7a31</wuid>
-          <x>71</x>
+          <x>53</x>
           <y>0</y>
         </widget>
         <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -2683,7 +2695,7 @@ $(pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -2732,7 +2744,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -2773,7 +2785,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -2817,7 +2829,7 @@ $(pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -2866,7 +2878,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -2907,7 +2919,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -2951,7 +2963,7 @@ $(pv_value)</tooltip>
           <border_width>2</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
           <foreground_color>
@@ -3000,7 +3012,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -3041,7 +3053,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="8" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -3071,6 +3083,47 @@ $(pv_value)</tooltip>
         </widget>
       </widget>
     </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <height>275</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Cryostat</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>true</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>282</width>
+      <wuid>f2647ac:15aa7f5a432:-3c78</wuid>
+      <x>1</x>
+      <y>1</y>
+    </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -3090,7 +3143,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
-    <height>85</height>
+    <height>103</height>
     <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
@@ -3111,7 +3164,7 @@ $(pv_value)</tooltip>
     <width>265</width>
     <wuid>f2647ac:15aa11b143a:562f</wuid>
     <x>6</x>
-    <y>48</y>
+    <y>65</y>
     <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
       <actions hook="false" hook_all="false" />
       <align_to_nearest_second>false</align_to_nearest_second>
@@ -4267,13 +4320,26 @@ $(pv_value)</tooltip>
         <y>30</y>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <auto_size>true</auto_size>
+        <actions hook="true" hook_all="true">
+          <action type="EXECUTE_JAVASCRIPT">
+            <path></path>
+            <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
+importPackage(Packages.org.eclipse.jface.dialogs);
+importPackage(Packages.org.csstudio.platform.data);
+importPackage(Packages.java.lang);
+
+display.getWidget("Tab").setPropertyValue("active_tab",5);
+]]></scriptText>
+            <embedded>true</embedded>
+            <description></description>
+          </action>
+        </actions>
+        <auto_size>false</auto_size>
         <background_color>
-          <color red="240" green="240" blue="240" />
+          <color red="250" green="250" blue="250" />
         </background_color>
         <border_color>
-          <color red="0" green="128" blue="255" />
+          <color red="255" green="255" blue="255" />
         </border_color>
         <border_style>0</border_style>
         <border_width>1</border_width>
@@ -4284,9 +4350,9 @@ $(pv_value)</tooltip>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
-        <height>27</height>
+        <height>15</height>
         <horizontal_alignment>1</horizontal_alignment>
-        <name>Super Conducting Magnet_1</name>
+        <name>Label</name>
         <rules />
         <scale_options>
           <width_scalable>true</width_scalable>
@@ -4294,19 +4360,168 @@ $(pv_value)</tooltip>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
         <scripts />
-        <text>     Super &#xD;
-Conducting &#xD;
-   Magnet</text>
+        <text>Cryostat</text>
         <tooltip></tooltip>
         <transparent>true</transparent>
         <vertical_alignment>1</vertical_alignment>
         <visible>true</visible>
         <widget_type>Label</widget_type>
-        <width>45</width>
+        <width>36</width>
         <wrap_words>false</wrap_words>
-        <wuid>f2647ac:15aa11b143a:4b58</wuid>
-        <x>14</x>
-        <y>10</y>
+        <wuid>f2647ac:15aa7f5a432:-3c79</wuid>
+        <x>24</x>
+        <y>16</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+        <actions hook="true" hook_all="true">
+          <action type="EXECUTE_JAVASCRIPT">
+            <path></path>
+            <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
+importPackage(Packages.org.eclipse.jface.dialogs);
+importPackage(Packages.org.csstudio.platform.data);
+importPackage(Packages.java.lang);
+
+display.getWidget("Tab").setPropertyValue("active_tab",5);
+]]></scriptText>
+            <embedded>true</embedded>
+            <description></description>
+          </action>
+        </actions>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <border_color>
+          <color red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>1</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <fc>false</fc>
+        <font>
+          <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+        </font>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <height>15</height>
+        <lock_children>false</lock_children>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <name>6</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <visible>true</visible>
+        <widget_type>Grouping Container</widget_type>
+        <width>15</width>
+        <wuid>f2647ac:15aa7f5a432:-3c42</wuid>
+        <x>9</x>
+        <y>16</y>
+        <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <alarm_pulsing>false</alarm_pulsing>
+          <alpha>255</alpha>
+          <anti_alias>true</anti_alias>
+          <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+          <background_color>
+            <color red="28" green="128" blue="185" />
+          </background_color>
+          <bg_gradient_color>
+            <color red="255" green="255" blue="255" />
+          </bg_gradient_color>
+          <border_alarm_sensitive>false</border_alarm_sensitive>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>0</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <fg_gradient_color>
+            <color red="255" green="255" blue="255" />
+          </fg_gradient_color>
+          <fill_level>0.0</fill_level>
+          <font>
+            <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+          </font>
+          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+          <foreground_color>
+            <color red="192" green="192" blue="192" />
+          </foreground_color>
+          <gradient>false</gradient>
+          <height>14</height>
+          <horizontal_fill>true</horizontal_fill>
+          <line_color>
+            <color red="128" green="0" blue="255" />
+          </line_color>
+          <line_style>0</line_style>
+          <line_width>0</line_width>
+          <name>Pair Solenoide</name>
+          <pv_name></pv_name>
+          <pv_value />
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <tooltip></tooltip>
+          <transparent>false</transparent>
+          <visible>true</visible>
+          <widget_type>Rectangle</widget_type>
+          <width>14</width>
+          <wuid>f2647ac:15aa7f5a432:-3c41</wuid>
+          <x>0</x>
+          <y>0</y>
+        </widget>
+        <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <auto_size>false</auto_size>
+          <background_color>
+            <color red="255" green="255" blue="255" />
+          </background_color>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>0</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <font>
+            <fontdata fontName="Droid Sans" height="6" style="1" />
+          </font>
+          <foreground_color>
+            <color red="255" green="255" blue="255" />
+          </foreground_color>
+          <height>10</height>
+          <horizontal_alignment>1</horizontal_alignment>
+          <name>Label</name>
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <text>6</text>
+          <tooltip></tooltip>
+          <transparent>true</transparent>
+          <vertical_alignment>1</vertical_alignment>
+          <visible>true</visible>
+          <widget_type>Label</widget_type>
+          <width>10</width>
+          <wrap_words>false</wrap_words>
+          <wuid>f2647ac:15aa7f5a432:-3c40</wuid>
+          <x>2</x>
+          <y>1</y>
+        </widget>
       </widget>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -4432,7 +4647,7 @@ display.getWidget("Tab").setPropertyValue("active_tab",0);
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="5" style="1" />
+          <fontdata fontName="Droid Sans" height="6" style="1" />
         </font>
         <foreground_color>
           <color red="255" green="255" blue="255" />
@@ -4583,7 +4798,7 @@ display.getWidget("Tab").setPropertyValue("active_tab",3);
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="5" style="1" />
+          <fontdata fontName="Droid Sans" height="6" style="1" />
         </font>
         <foreground_color>
           <color red="255" green="255" blue="255" />
@@ -4734,7 +4949,7 @@ display.getWidget("Tab").setPropertyValue("active_tab",2);
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="5" style="1" />
+          <fontdata fontName="Droid Sans" height="6" style="1" />
         </font>
         <foreground_color>
           <color red="255" green="255" blue="255" />
@@ -4885,7 +5100,7 @@ display.getWidget("Tab").setPropertyValue("active_tab",1);
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="5" style="1" />
+          <fontdata fontName="Droid Sans" height="6" style="1" />
         </font>
         <foreground_color>
           <color red="255" green="255" blue="255" />
@@ -5000,7 +5215,7 @@ $(pv_value)</tooltip>
       </scale_options>
       <scripts />
       <text>Acceleration&#xD;
-Colunm</text>
+Column</text>
       <tooltip></tooltip>
       <transparent>true</transparent>
       <vertical_alignment>1</vertical_alignment>
@@ -5135,7 +5350,7 @@ display.getWidget("Tab").setPropertyValue("active_tab",4);
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="5" style="1" />
+          <fontdata fontName="Droid Sans" height="6" style="1" />
         </font>
         <foreground_color>
           <color red="255" green="255" blue="255" />
@@ -5163,216 +5378,11 @@ display.getWidget("Tab").setPropertyValue("active_tab",4);
         <y>1</y>
       </widget>
     </widget>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-    <actions hook="true" hook_all="true">
-      <action type="EXECUTE_JAVASCRIPT">
-        <path></path>
-        <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
-importPackage(Packages.org.eclipse.jface.dialogs);
-importPackage(Packages.org.csstudio.platform.data);
-importPackage(Packages.java.lang);
-
-display.getWidget("Tab").setPropertyValue("active_tab",0);
-]]></scriptText>
-        <embedded>true</embedded>
-        <description></description>
-      </action>
-    </actions>
-    <background_color>
-      <color red="240" green="240" blue="240" />
-    </background_color>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <fc>false</fc>
-    <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-    </font>
-    <foreground_color>
-      <color red="192" green="192" blue="192" />
-    </foreground_color>
-    <height>15</height>
-    <lock_children>false</lock_children>
-    <macros>
-      <include_parent_macros>true</include_parent_macros>
-    </macros>
-    <name>Grouping Container_2</name>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <show_scrollbar>false</show_scrollbar>
-    <tooltip></tooltip>
-    <transparent>true</transparent>
-    <visible>true</visible>
-    <widget_type>Grouping Container</widget_type>
-    <width>240</width>
-    <wuid>f2647ac:15aa11b143a:573b</wuid>
-    <x>10</x>
-    <y>156</y>
-    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-      <actions hook="true" hook_all="true">
-        <action type="EXECUTE_JAVASCRIPT">
-          <path></path>
-          <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
-importPackage(Packages.org.eclipse.jface.dialogs);
-importPackage(Packages.org.csstudio.platform.data);
-importPackage(Packages.java.lang);
-
-display.getWidget("Tab").setPropertyValue("active_tab",0);
-]]></scriptText>
-          <embedded>true</embedded>
-          <description></description>
-        </action>
-      </actions>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <border_color>
-        <color red="0" green="0" blue="0" />
-      </border_color>
-      <border_style>1</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <fc>false</fc>
-      <font>
-        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-      </font>
-      <foreground_color>
-        <color red="192" green="192" blue="192" />
-      </foreground_color>
-      <height>15</height>
-      <lock_children>false</lock_children>
-      <macros>
-        <include_parent_macros>true</include_parent_macros>
-      </macros>
-      <name>1</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <show_scrollbar>false</show_scrollbar>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <visible>true</visible>
-      <widget_type>Grouping Container</widget_type>
-      <width>15</width>
-      <wuid>f2647ac:15aa11b143a:5637</wuid>
-      <x>0</x>
-      <y>0</y>
-      <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <alarm_pulsing>false</alarm_pulsing>
-        <alpha>255</alpha>
-        <anti_alias>true</anti_alias>
-        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-        <background_color>
-          <color red="28" green="128" blue="185" />
-        </background_color>
-        <bg_gradient_color>
-          <color red="255" green="255" blue="255" />
-        </bg_gradient_color>
-        <border_alarm_sensitive>false</border_alarm_sensitive>
-        <border_color>
-          <color red="0" green="128" blue="255" />
-        </border_color>
-        <border_style>0</border_style>
-        <border_width>1</border_width>
-        <enabled>true</enabled>
-        <fg_gradient_color>
-          <color red="255" green="255" blue="255" />
-        </fg_gradient_color>
-        <fill_level>0.0</fill_level>
-        <font>
-          <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-        </font>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-        <foreground_color>
-          <color red="192" green="192" blue="192" />
-        </foreground_color>
-        <gradient>false</gradient>
-        <height>14</height>
-        <horizontal_fill>true</horizontal_fill>
-        <line_color>
-          <color red="128" green="0" blue="255" />
-        </line_color>
-        <line_style>0</line_style>
-        <line_width>0</line_width>
-        <name>Pair Solenoide</name>
-        <pv_name></pv_name>
-        <pv_value />
-        <rules />
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <tooltip></tooltip>
-        <transparent>false</transparent>
-        <visible>true</visible>
-        <widget_type>Rectangle</widget_type>
-        <width>14</width>
-        <wuid>f2647ac:15aa11b143a:5638</wuid>
-        <x>0</x>
-        <y>0</y>
-      </widget>
-      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <auto_size>false</auto_size>
-        <background_color>
-          <color red="255" green="255" blue="255" />
-        </background_color>
-        <border_color>
-          <color red="0" green="128" blue="255" />
-        </border_color>
-        <border_style>0</border_style>
-        <border_width>1</border_width>
-        <enabled>true</enabled>
-        <font>
-          <fontdata fontName="Droid Sans" height="5" style="1" />
-        </font>
-        <foreground_color>
-          <color red="255" green="255" blue="255" />
-        </foreground_color>
-        <height>10</height>
-        <horizontal_alignment>1</horizontal_alignment>
-        <name>Label</name>
-        <rules />
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <text>1</text>
-        <tooltip></tooltip>
-        <transparent>true</transparent>
-        <vertical_alignment>1</vertical_alignment>
-        <visible>true</visible>
-        <widget_type>Label</widget_type>
-        <width>10</width>
-        <wrap_words>false</wrap_words>
-        <wuid>f2647ac:15aa11b143a:5639</wuid>
-        <x>2</x>
-        <y>1</y>
-      </widget>
-    </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
       <auto_size>false</auto_size>
       <background_color>
-        <color red="255" green="255" blue="255" />
+        <color red="240" green="240" blue="240" />
       </background_color>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -5381,14 +5391,14 @@ display.getWidget("Tab").setPropertyValue("active_tab",0);
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="5" style="0" />
+        <fontdata fontName="Droid Sans" height="4" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>15</height>
-      <horizontal_alignment>0</horizontal_alignment>
-      <name>Pair Solenoide_6</name>
+      <height>9</height>
+      <horizontal_alignment>1</horizontal_alignment>
+      <name>Super Conducting Magnet_1</name>
       <rules />
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -5396,752 +5406,75 @@ display.getWidget("Tab").setPropertyValue("active_tab",0);
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>HV P/S for Bias disk (1kV/120mA)</text>
+      <text>Superconducting Magnet</text>
       <tooltip></tooltip>
       <transparent>true</transparent>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>220</width>
+      <width>100</width>
       <wrap_words>false</wrap_words>
-      <wuid>f2647ac:15aa11b143a:5659</wuid>
-      <x>20</x>
-      <y>0</y>
+      <wuid>f2647ac:15aa11b143a:4b58</wuid>
+      <x>102</x>
+      <y>84</y>
     </widget>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-    <actions hook="true" hook_all="true">
-      <action type="EXECUTE_JAVASCRIPT">
-        <path></path>
-        <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
-importPackage(Packages.org.eclipse.jface.dialogs);
-importPackage(Packages.org.csstudio.platform.data);
-importPackage(Packages.java.lang);
-
-display.getWidget("Tab").setPropertyValue("active_tab",1);
-]]></scriptText>
-        <embedded>true</embedded>
-        <description></description>
-      </action>
-    </actions>
-    <background_color>
-      <color red="240" green="240" blue="240" />
-    </background_color>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <fc>false</fc>
-    <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-    </font>
-    <foreground_color>
-      <color red="192" green="192" blue="192" />
-    </foreground_color>
-    <height>15</height>
-    <lock_children>false</lock_children>
-    <macros>
-      <include_parent_macros>true</include_parent_macros>
-    </macros>
-    <name>Grouping Container_3</name>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <show_scrollbar>false</show_scrollbar>
-    <tooltip></tooltip>
-    <transparent>true</transparent>
-    <visible>true</visible>
-    <widget_type>Grouping Container</widget_type>
-    <width>240</width>
-    <wuid>f2647ac:15aa11b143a:573d</wuid>
-    <x>10</x>
-    <y>174</y>
-    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-      <actions hook="true" hook_all="true">
-        <action type="EXECUTE_JAVASCRIPT">
-          <path></path>
-          <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
-importPackage(Packages.org.eclipse.jface.dialogs);
-importPackage(Packages.org.csstudio.platform.data);
-importPackage(Packages.java.lang);
-
-display.getWidget("Tab").setPropertyValue("active_tab",1);
-]]></scriptText>
-          <embedded>true</embedded>
-          <description></description>
-        </action>
-      </actions>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <border_color>
-        <color red="0" green="0" blue="0" />
-      </border_color>
-      <border_style>1</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <fc>false</fc>
-      <font>
-        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-      </font>
-      <foreground_color>
-        <color red="192" green="192" blue="192" />
-      </foreground_color>
-      <height>15</height>
-      <lock_children>false</lock_children>
-      <macros>
-        <include_parent_macros>true</include_parent_macros>
-      </macros>
-      <name>2</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <show_scrollbar>false</show_scrollbar>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <visible>true</visible>
-      <widget_type>Grouping Container</widget_type>
-      <width>15</width>
-      <wuid>f2647ac:15aa11b143a:563f</wuid>
-      <x>0</x>
-      <y>0</y>
-      <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <alarm_pulsing>false</alarm_pulsing>
-        <alpha>255</alpha>
-        <anti_alias>true</anti_alias>
-        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-        <background_color>
-          <color red="28" green="128" blue="185" />
-        </background_color>
-        <bg_gradient_color>
-          <color red="255" green="255" blue="255" />
-        </bg_gradient_color>
-        <border_alarm_sensitive>false</border_alarm_sensitive>
-        <border_color>
-          <color red="0" green="128" blue="255" />
-        </border_color>
-        <border_style>0</border_style>
-        <border_width>1</border_width>
-        <enabled>true</enabled>
-        <fg_gradient_color>
-          <color red="255" green="255" blue="255" />
-        </fg_gradient_color>
-        <fill_level>0.0</fill_level>
-        <font>
-          <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-        </font>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-        <foreground_color>
-          <color red="192" green="192" blue="192" />
-        </foreground_color>
-        <gradient>false</gradient>
-        <height>14</height>
-        <horizontal_fill>true</horizontal_fill>
-        <line_color>
-          <color red="128" green="0" blue="255" />
-        </line_color>
-        <line_style>0</line_style>
-        <line_width>0</line_width>
-        <name>Pair Solenoide</name>
-        <pv_name></pv_name>
-        <pv_value />
-        <rules />
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <tooltip></tooltip>
-        <transparent>false</transparent>
-        <visible>true</visible>
-        <widget_type>Rectangle</widget_type>
-        <width>14</width>
-        <wuid>f2647ac:15aa11b143a:5640</wuid>
-        <x>0</x>
-        <y>0</y>
-      </widget>
-      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <auto_size>false</auto_size>
-        <background_color>
-          <color red="255" green="255" blue="255" />
-        </background_color>
-        <border_color>
-          <color red="0" green="128" blue="255" />
-        </border_color>
-        <border_style>0</border_style>
-        <border_width>1</border_width>
-        <enabled>true</enabled>
-        <font>
-          <fontdata fontName="Droid Sans" height="5" style="1" />
-        </font>
-        <foreground_color>
-          <color red="255" green="255" blue="255" />
-        </foreground_color>
-        <height>10</height>
-        <horizontal_alignment>1</horizontal_alignment>
-        <name>Label</name>
-        <rules />
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <text>2</text>
-        <tooltip></tooltip>
-        <transparent>true</transparent>
-        <vertical_alignment>1</vertical_alignment>
-        <visible>true</visible>
-        <widget_type>Label</widget_type>
-        <width>10</width>
-        <wrap_words>false</wrap_words>
-        <wuid>f2647ac:15aa11b143a:5641</wuid>
-        <x>2</x>
-        <y>1</y>
-      </widget>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
+      <alarm_pulsing>false</alarm_pulsing>
+      <alpha>255</alpha>
+      <anti_alias>true</anti_alias>
+      <arrow_length>20</arrow_length>
+      <arrows>0</arrows>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <background_color>
-        <color red="255" green="255" blue="255" />
+        <color red="0" green="0" blue="0" />
       </background_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
       <border_color>
         <color red="0" green="128" blue="255" />
       </border_color>
       <border_style>0</border_style>
       <border_width>1</border_width>
       <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Droid Sans" height="5" style="0" />
-      </font>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>15</height>
-      <horizontal_alignment>0</horizontal_alignment>
-      <name>Pair Solenoide_7</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <text>HV P/S for plasma electrode (50kV/40mA)</text>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <vertical_alignment>1</vertical_alignment>
-      <visible>true</visible>
-      <widget_type>Label</widget_type>
-      <width>220</width>
-      <wrap_words>false</wrap_words>
-      <wuid>f2647ac:15aa11b143a:565d</wuid>
-      <x>20</x>
-      <y>0</y>
-    </widget>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-    <actions hook="true" hook_all="true">
-      <action type="EXECUTE_JAVASCRIPT">
-        <path></path>
-        <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
-importPackage(Packages.org.eclipse.jface.dialogs);
-importPackage(Packages.org.csstudio.platform.data);
-importPackage(Packages.java.lang);
-
-display.getWidget("Tab").setPropertyValue("active_tab",2);
-]]></scriptText>
-        <embedded>true</embedded>
-        <description></description>
-      </action>
-    </actions>
-    <background_color>
-      <color red="240" green="240" blue="240" />
-    </background_color>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <fc>false</fc>
-    <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-    </font>
-    <foreground_color>
-      <color red="192" green="192" blue="192" />
-    </foreground_color>
-    <height>15</height>
-    <lock_children>false</lock_children>
-    <macros>
-      <include_parent_macros>true</include_parent_macros>
-    </macros>
-    <name>Grouping Container_4</name>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <show_scrollbar>false</show_scrollbar>
-    <tooltip></tooltip>
-    <transparent>true</transparent>
-    <visible>true</visible>
-    <widget_type>Grouping Container</widget_type>
-    <width>240</width>
-    <wuid>f2647ac:15aa11b143a:573f</wuid>
-    <x>10</x>
-    <y>192</y>
-    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-      <actions hook="true" hook_all="true">
-        <action type="EXECUTE_JAVASCRIPT">
-          <path></path>
-          <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
-importPackage(Packages.org.eclipse.jface.dialogs);
-importPackage(Packages.org.csstudio.platform.data);
-importPackage(Packages.java.lang);
-
-display.getWidget("Tab").setPropertyValue("active_tab",2);
-]]></scriptText>
-          <embedded>true</embedded>
-          <description></description>
-        </action>
-      </actions>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <border_color>
-        <color red="0" green="0" blue="0" />
-      </border_color>
-      <border_style>1</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <fc>false</fc>
+      <fill_arrow>true</fill_arrow>
+      <fill_level>0.0</fill_level>
       <font>
         <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
-        <color red="192" green="192" blue="192" />
+        <color red="255" green="0" blue="0" />
       </foreground_color>
       <height>15</height>
-      <lock_children>false</lock_children>
-      <macros>
-        <include_parent_macros>true</include_parent_macros>
-      </macros>
-      <name>3</name>
+      <horizontal_fill>true</horizontal_fill>
+      <line_style>0</line_style>
+      <line_width>1</line_width>
+      <name>Polyline_1</name>
+      <points>
+        <point x="151" y="66" />
+        <point x="151" y="80" />
+        <point x="151" y="80" />
+        <point x="151" y="80" />
+      </points>
+      <pv_name></pv_name>
+      <pv_value />
+      <rotation_angle>0.0</rotation_angle>
       <rules />
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
+        <keep_wh_ratio>true</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <show_scrollbar>false</show_scrollbar>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <transparent>false</transparent>
       <visible>true</visible>
-      <widget_type>Grouping Container</widget_type>
-      <width>15</width>
-      <wuid>f2647ac:15aa11b143a:5647</wuid>
-      <x>0</x>
-      <y>0</y>
-      <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <alarm_pulsing>false</alarm_pulsing>
-        <alpha>255</alpha>
-        <anti_alias>true</anti_alias>
-        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-        <background_color>
-          <color red="28" green="128" blue="185" />
-        </background_color>
-        <bg_gradient_color>
-          <color red="255" green="255" blue="255" />
-        </bg_gradient_color>
-        <border_alarm_sensitive>false</border_alarm_sensitive>
-        <border_color>
-          <color red="0" green="128" blue="255" />
-        </border_color>
-        <border_style>0</border_style>
-        <border_width>1</border_width>
-        <enabled>true</enabled>
-        <fg_gradient_color>
-          <color red="255" green="255" blue="255" />
-        </fg_gradient_color>
-        <fill_level>0.0</fill_level>
-        <font>
-          <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-        </font>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-        <foreground_color>
-          <color red="192" green="192" blue="192" />
-        </foreground_color>
-        <gradient>false</gradient>
-        <height>14</height>
-        <horizontal_fill>true</horizontal_fill>
-        <line_color>
-          <color red="128" green="0" blue="255" />
-        </line_color>
-        <line_style>0</line_style>
-        <line_width>0</line_width>
-        <name>Pair Solenoide</name>
-        <pv_name></pv_name>
-        <pv_value />
-        <rules />
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <tooltip></tooltip>
-        <transparent>false</transparent>
-        <visible>true</visible>
-        <widget_type>Rectangle</widget_type>
-        <width>14</width>
-        <wuid>f2647ac:15aa11b143a:5648</wuid>
-        <x>0</x>
-        <y>0</y>
-      </widget>
-      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <auto_size>false</auto_size>
-        <background_color>
-          <color red="255" green="255" blue="255" />
-        </background_color>
-        <border_color>
-          <color red="0" green="128" blue="255" />
-        </border_color>
-        <border_style>0</border_style>
-        <border_width>1</border_width>
-        <enabled>true</enabled>
-        <font>
-          <fontdata fontName="Droid Sans" height="5" style="1" />
-        </font>
-        <foreground_color>
-          <color red="255" green="255" blue="255" />
-        </foreground_color>
-        <height>10</height>
-        <horizontal_alignment>1</horizontal_alignment>
-        <name>Label</name>
-        <rules />
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <text>3</text>
-        <tooltip></tooltip>
-        <transparent>true</transparent>
-        <vertical_alignment>1</vertical_alignment>
-        <visible>true</visible>
-        <widget_type>Label</widget_type>
-        <width>10</width>
-        <wrap_words>false</wrap_words>
-        <wuid>f2647ac:15aa11b143a:5649</wuid>
-        <x>2</x>
-        <y>1</y>
-      </widget>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Droid Sans" height="5" style="0" />
-      </font>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>15</height>
-      <horizontal_alignment>0</horizontal_alignment>
-      <name>Pair Solenoide_8</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <text>HV P/S for acceleration electrode (-10kV/12mA)</text>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <vertical_alignment>1</vertical_alignment>
-      <visible>true</visible>
-      <widget_type>Label</widget_type>
-      <width>220</width>
-      <wrap_words>false</wrap_words>
-      <wuid>f2647ac:15aa11b143a:56ce</wuid>
-      <x>20</x>
-      <y>0</y>
-    </widget>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-    <actions hook="true" hook_all="true">
-      <action type="EXECUTE_JAVASCRIPT">
-        <path></path>
-        <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
-importPackage(Packages.org.eclipse.jface.dialogs);
-importPackage(Packages.org.csstudio.platform.data);
-importPackage(Packages.java.lang);
-
-display.getWidget("Tab").setPropertyValue("active_tab",3);
-]]></scriptText>
-        <embedded>true</embedded>
-        <description></description>
-      </action>
-    </actions>
-    <background_color>
-      <color red="240" green="240" blue="240" />
-    </background_color>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <fc>false</fc>
-    <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-    </font>
-    <foreground_color>
-      <color red="192" green="192" blue="192" />
-    </foreground_color>
-    <height>15</height>
-    <lock_children>false</lock_children>
-    <macros>
-      <include_parent_macros>true</include_parent_macros>
-    </macros>
-    <name>Grouping Container_5</name>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <show_scrollbar>false</show_scrollbar>
-    <tooltip></tooltip>
-    <transparent>true</transparent>
-    <visible>true</visible>
-    <widget_type>Grouping Container</widget_type>
-    <width>240</width>
-    <wuid>f2647ac:15aa11b143a:5741</wuid>
-    <x>10</x>
-    <y>210</y>
-    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-      <actions hook="true" hook_all="true">
-        <action type="EXECUTE_JAVASCRIPT">
-          <path></path>
-          <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
-importPackage(Packages.org.eclipse.jface.dialogs);
-importPackage(Packages.org.csstudio.platform.data);
-importPackage(Packages.java.lang);
-
-display.getWidget("Tab").setPropertyValue("active_tab",3);
-]]></scriptText>
-          <embedded>true</embedded>
-          <description></description>
-        </action>
-      </actions>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <border_color>
-        <color red="0" green="0" blue="0" />
-      </border_color>
-      <border_style>1</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <fc>false</fc>
-      <font>
-        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-      </font>
-      <foreground_color>
-        <color red="192" green="192" blue="192" />
-      </foreground_color>
-      <height>15</height>
-      <lock_children>false</lock_children>
-      <macros>
-        <include_parent_macros>true</include_parent_macros>
-      </macros>
-      <name>4</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <show_scrollbar>false</show_scrollbar>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <visible>true</visible>
-      <widget_type>Grouping Container</widget_type>
-      <width>15</width>
-      <wuid>f2647ac:15aa11b143a:564f</wuid>
-      <x>0</x>
-      <y>0</y>
-      <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <alarm_pulsing>false</alarm_pulsing>
-        <alpha>255</alpha>
-        <anti_alias>true</anti_alias>
-        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-        <background_color>
-          <color red="28" green="128" blue="185" />
-        </background_color>
-        <bg_gradient_color>
-          <color red="255" green="255" blue="255" />
-        </bg_gradient_color>
-        <border_alarm_sensitive>false</border_alarm_sensitive>
-        <border_color>
-          <color red="0" green="128" blue="255" />
-        </border_color>
-        <border_style>0</border_style>
-        <border_width>1</border_width>
-        <enabled>true</enabled>
-        <fg_gradient_color>
-          <color red="255" green="255" blue="255" />
-        </fg_gradient_color>
-        <fill_level>0.0</fill_level>
-        <font>
-          <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-        </font>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-        <foreground_color>
-          <color red="192" green="192" blue="192" />
-        </foreground_color>
-        <gradient>false</gradient>
-        <height>14</height>
-        <horizontal_fill>true</horizontal_fill>
-        <line_color>
-          <color red="128" green="0" blue="255" />
-        </line_color>
-        <line_style>0</line_style>
-        <line_width>0</line_width>
-        <name>Pair Solenoide</name>
-        <pv_name></pv_name>
-        <pv_value />
-        <rules />
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <tooltip></tooltip>
-        <transparent>false</transparent>
-        <visible>true</visible>
-        <widget_type>Rectangle</widget_type>
-        <width>14</width>
-        <wuid>f2647ac:15aa11b143a:5650</wuid>
-        <x>0</x>
-        <y>0</y>
-      </widget>
-      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <auto_size>false</auto_size>
-        <background_color>
-          <color red="255" green="255" blue="255" />
-        </background_color>
-        <border_color>
-          <color red="0" green="128" blue="255" />
-        </border_color>
-        <border_style>0</border_style>
-        <border_width>1</border_width>
-        <enabled>true</enabled>
-        <font>
-          <fontdata fontName="Droid Sans" height="5" style="1" />
-        </font>
-        <foreground_color>
-          <color red="255" green="255" blue="255" />
-        </foreground_color>
-        <height>10</height>
-        <horizontal_alignment>1</horizontal_alignment>
-        <name>Label</name>
-        <rules />
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <text>4</text>
-        <tooltip></tooltip>
-        <transparent>true</transparent>
-        <vertical_alignment>1</vertical_alignment>
-        <visible>true</visible>
-        <widget_type>Label</widget_type>
-        <width>10</width>
-        <wrap_words>false</wrap_words>
-        <wuid>f2647ac:15aa11b143a:5651</wuid>
-        <x>2</x>
-        <y>1</y>
-      </widget>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Droid Sans" height="5" style="0" />
-      </font>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>15</height>
-      <horizontal_alignment>0</horizontal_alignment>
-      <name>Pair Solenoide_9</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <text>HV P/S for deceleration electrode (50kV/40mA)</text>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <vertical_alignment>1</vertical_alignment>
-      <visible>true</visible>
-      <widget_type>Label</widget_type>
-      <width>220</width>
-      <wrap_words>false</wrap_words>
-      <wuid>f2647ac:15aa11b143a:56d2</wuid>
-      <x>20</x>
-      <y>0</y>
+      <widget_type>Polyline</widget_type>
+      <width>1</width>
+      <wuid>f2647ac:15aa7f5a432:-3c2c</wuid>
+      <x>151</x>
+      <y>66</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -6162,12 +5495,12 @@ display.getWidget("Tab").setPropertyValue("active_tab",3);
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
-    <height>15</height>
-    <lock_children>false</lock_children>
+    <height>105</height>
+    <lock_children>true</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
-    <name>Grouping Container_6</name>
+    <name>Grouping Container_1</name>
     <rules />
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -6181,9 +5514,9 @@ display.getWidget("Tab").setPropertyValue("active_tab",3);
     <visible>true</visible>
     <widget_type>Grouping Container</widget_type>
     <width>240</width>
-    <wuid>f2647ac:15aa11b143a:5743</wuid>
-    <x>10</x>
-    <y>228</y>
+    <wuid>f2647ac:15aa7f5a432:e98</wuid>
+    <x>12</x>
+    <y>210</y>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
       <actions hook="true" hook_all="true">
         <action type="EXECUTE_JAVASCRIPT">
@@ -6193,7 +5526,7 @@ importPackage(Packages.org.eclipse.jface.dialogs);
 importPackage(Packages.org.csstudio.platform.data);
 importPackage(Packages.java.lang);
 
-display.getWidget("Tab").setPropertyValue("active_tab",4);
+display.getWidget("Tab").setPropertyValue("active_tab",0);
 ]]></scriptText>
           <embedded>true</embedded>
           <description></description>
@@ -6203,9 +5536,9 @@ display.getWidget("Tab").setPropertyValue("active_tab",4);
         <color red="240" green="240" blue="240" />
       </background_color>
       <border_color>
-        <color red="0" green="0" blue="0" />
+        <color red="0" green="128" blue="255" />
       </border_color>
-      <border_style>1</border_style>
+      <border_style>0</border_style>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <fc>false</fc>
@@ -6220,7 +5553,7 @@ display.getWidget("Tab").setPropertyValue("active_tab",4);
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
-      <name>5</name>
+      <name>Grouping Container_2</name>
       <rules />
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -6233,51 +5566,47 @@ display.getWidget("Tab").setPropertyValue("active_tab",4);
       <transparent>true</transparent>
       <visible>true</visible>
       <widget_type>Grouping Container</widget_type>
-      <width>15</width>
-      <wuid>f2647ac:15aa11b143a:447c</wuid>
+      <width>240</width>
+      <wuid>f2647ac:15aa11b143a:573b</wuid>
       <x>0</x>
       <y>0</y>
-      <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
-        <actions hook="false" hook_all="false" />
-        <alarm_pulsing>false</alarm_pulsing>
-        <alpha>255</alpha>
-        <anti_alias>true</anti_alias>
-        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+        <actions hook="true" hook_all="true">
+          <action type="EXECUTE_JAVASCRIPT">
+            <path></path>
+            <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
+importPackage(Packages.org.eclipse.jface.dialogs);
+importPackage(Packages.org.csstudio.platform.data);
+importPackage(Packages.java.lang);
+
+display.getWidget("Tab").setPropertyValue("active_tab",0);
+]]></scriptText>
+            <embedded>true</embedded>
+            <description></description>
+          </action>
+        </actions>
         <background_color>
-          <color red="28" green="128" blue="185" />
+          <color red="240" green="240" blue="240" />
         </background_color>
-        <bg_gradient_color>
-          <color red="255" green="255" blue="255" />
-        </bg_gradient_color>
-        <border_alarm_sensitive>false</border_alarm_sensitive>
         <border_color>
-          <color red="0" green="128" blue="255" />
+          <color red="0" green="0" blue="0" />
         </border_color>
-        <border_style>0</border_style>
+        <border_style>1</border_style>
         <border_width>1</border_width>
         <enabled>true</enabled>
-        <fg_gradient_color>
-          <color red="255" green="255" blue="255" />
-        </fg_gradient_color>
-        <fill_level>0.0</fill_level>
+        <fc>false</fc>
         <font>
           <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
         </font>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
           <color red="192" green="192" blue="192" />
         </foreground_color>
-        <gradient>false</gradient>
-        <height>14</height>
-        <horizontal_fill>true</horizontal_fill>
-        <line_color>
-          <color red="128" green="0" blue="255" />
-        </line_color>
-        <line_style>0</line_style>
-        <line_width>0</line_width>
-        <name>Pair Solenoide</name>
-        <pv_name></pv_name>
-        <pv_value />
+        <height>15</height>
+        <lock_children>false</lock_children>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <name>1</name>
         <rules />
         <scale_options>
           <width_scalable>true</width_scalable>
@@ -6285,14 +5614,112 @@ display.getWidget("Tab").setPropertyValue("active_tab",4);
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
         <scripts />
+        <show_scrollbar>false</show_scrollbar>
         <tooltip></tooltip>
-        <transparent>false</transparent>
+        <transparent>true</transparent>
         <visible>true</visible>
-        <widget_type>Rectangle</widget_type>
-        <width>14</width>
-        <wuid>f2647ac:15aa11b143a:447d</wuid>
+        <widget_type>Grouping Container</widget_type>
+        <width>15</width>
+        <wuid>f2647ac:15aa11b143a:5637</wuid>
         <x>0</x>
         <y>0</y>
+        <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <alarm_pulsing>false</alarm_pulsing>
+          <alpha>255</alpha>
+          <anti_alias>true</anti_alias>
+          <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+          <background_color>
+            <color red="28" green="128" blue="185" />
+          </background_color>
+          <bg_gradient_color>
+            <color red="255" green="255" blue="255" />
+          </bg_gradient_color>
+          <border_alarm_sensitive>false</border_alarm_sensitive>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>0</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <fg_gradient_color>
+            <color red="255" green="255" blue="255" />
+          </fg_gradient_color>
+          <fill_level>0.0</fill_level>
+          <font>
+            <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+          </font>
+          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+          <foreground_color>
+            <color red="192" green="192" blue="192" />
+          </foreground_color>
+          <gradient>false</gradient>
+          <height>14</height>
+          <horizontal_fill>true</horizontal_fill>
+          <line_color>
+            <color red="128" green="0" blue="255" />
+          </line_color>
+          <line_style>0</line_style>
+          <line_width>0</line_width>
+          <name>Pair Solenoide</name>
+          <pv_name></pv_name>
+          <pv_value />
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <tooltip></tooltip>
+          <transparent>false</transparent>
+          <visible>true</visible>
+          <widget_type>Rectangle</widget_type>
+          <width>14</width>
+          <wuid>f2647ac:15aa11b143a:5638</wuid>
+          <x>0</x>
+          <y>0</y>
+        </widget>
+        <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <auto_size>false</auto_size>
+          <background_color>
+            <color red="255" green="255" blue="255" />
+          </background_color>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>0</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <font>
+            <fontdata fontName="Droid Sans" height="5" style="1" />
+          </font>
+          <foreground_color>
+            <color red="255" green="255" blue="255" />
+          </foreground_color>
+          <height>10</height>
+          <horizontal_alignment>1</horizontal_alignment>
+          <name>Label</name>
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <text>1</text>
+          <tooltip></tooltip>
+          <transparent>true</transparent>
+          <vertical_alignment>1</vertical_alignment>
+          <visible>true</visible>
+          <widget_type>Label</widget_type>
+          <width>10</width>
+          <wrap_words>false</wrap_words>
+          <wuid>f2647ac:15aa11b143a:5639</wuid>
+          <x>2</x>
+          <y>1</y>
+        </widget>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
         <actions hook="false" hook_all="false" />
@@ -6307,14 +5734,14 @@ display.getWidget("Tab").setPropertyValue("active_tab",4);
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="5" style="1" />
+          <fontdata fontName="Droid Sans" height="5" style="0" />
         </font>
         <foreground_color>
-          <color red="255" green="255" blue="255" />
+          <color red="0" green="0" blue="0" />
         </foreground_color>
-        <height>10</height>
-        <horizontal_alignment>1</horizontal_alignment>
-        <name>Label</name>
+        <height>15</height>
+        <horizontal_alignment>0</horizontal_alignment>
+        <name>Pair Solenoide_6</name>
         <rules />
         <scale_options>
           <width_scalable>true</width_scalable>
@@ -6322,20 +5749,20 @@ display.getWidget("Tab").setPropertyValue("active_tab",4);
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
         <scripts />
-        <text>5</text>
+        <text>HV P/S for Bias disk (1kV/120mA)</text>
         <tooltip></tooltip>
         <transparent>true</transparent>
         <vertical_alignment>1</vertical_alignment>
         <visible>true</visible>
         <widget_type>Label</widget_type>
-        <width>10</width>
+        <width>220</width>
         <wrap_words>false</wrap_words>
-        <wuid>f2647ac:15aa11b143a:4599</wuid>
-        <x>2</x>
-        <y>1</y>
+        <wuid>f2647ac:15aa11b143a:5659</wuid>
+        <x>20</x>
+        <y>0</y>
       </widget>
     </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
       <actions hook="true" hook_all="true">
         <action type="EXECUTE_JAVASCRIPT">
           <path></path>
@@ -6344,15 +5771,14 @@ importPackage(Packages.org.eclipse.jface.dialogs);
 importPackage(Packages.org.csstudio.platform.data);
 importPackage(Packages.java.lang);
 
-display.getWidget("Tab").setPropertyValue("active_tab",4);
+display.getWidget("Tab").setPropertyValue("active_tab",1);
 ]]></scriptText>
           <embedded>true</embedded>
           <description></description>
         </action>
       </actions>
-      <auto_size>false</auto_size>
       <background_color>
-        <color red="255" green="255" blue="255" />
+        <color red="240" green="240" blue="240" />
       </background_color>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -6360,15 +5786,19 @@ display.getWidget("Tab").setPropertyValue("active_tab",4);
       <border_style>0</border_style>
       <border_width>1</border_width>
       <enabled>true</enabled>
+      <fc>false</fc>
       <font>
-        <fontdata fontName="Droid Sans" height="5" style="0" />
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
-        <color red="0" green="0" blue="0" />
+        <color red="192" green="192" blue="192" />
       </foreground_color>
       <height>15</height>
-      <horizontal_alignment>0</horizontal_alignment>
-      <name>Pair Solenoide_10</name>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Grouping Container_3</name>
       <rules />
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -6376,17 +5806,1160 @@ display.getWidget("Tab").setPropertyValue("active_tab",4);
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>HV P/S for Metal sputtering (-10kV/12A)</text>
+      <show_scrollbar>false</show_scrollbar>
       <tooltip></tooltip>
       <transparent>true</transparent>
-      <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
-      <widget_type>Label</widget_type>
-      <width>220</width>
-      <wrap_words>false</wrap_words>
-      <wuid>f2647ac:15aa11b143a:56d6</wuid>
-      <x>20</x>
-      <y>0</y>
+      <widget_type>Grouping Container</widget_type>
+      <width>240</width>
+      <wuid>f2647ac:15aa11b143a:573d</wuid>
+      <x>0</x>
+      <y>18</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+        <actions hook="true" hook_all="true">
+          <action type="EXECUTE_JAVASCRIPT">
+            <path></path>
+            <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
+importPackage(Packages.org.eclipse.jface.dialogs);
+importPackage(Packages.org.csstudio.platform.data);
+importPackage(Packages.java.lang);
+
+display.getWidget("Tab").setPropertyValue("active_tab",1);
+]]></scriptText>
+            <embedded>true</embedded>
+            <description></description>
+          </action>
+        </actions>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <border_color>
+          <color red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>1</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <fc>false</fc>
+        <font>
+          <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+        </font>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <height>15</height>
+        <lock_children>false</lock_children>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <name>2</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <visible>true</visible>
+        <widget_type>Grouping Container</widget_type>
+        <width>15</width>
+        <wuid>f2647ac:15aa11b143a:563f</wuid>
+        <x>0</x>
+        <y>0</y>
+        <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <alarm_pulsing>false</alarm_pulsing>
+          <alpha>255</alpha>
+          <anti_alias>true</anti_alias>
+          <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+          <background_color>
+            <color red="28" green="128" blue="185" />
+          </background_color>
+          <bg_gradient_color>
+            <color red="255" green="255" blue="255" />
+          </bg_gradient_color>
+          <border_alarm_sensitive>false</border_alarm_sensitive>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>0</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <fg_gradient_color>
+            <color red="255" green="255" blue="255" />
+          </fg_gradient_color>
+          <fill_level>0.0</fill_level>
+          <font>
+            <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+          </font>
+          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+          <foreground_color>
+            <color red="192" green="192" blue="192" />
+          </foreground_color>
+          <gradient>false</gradient>
+          <height>14</height>
+          <horizontal_fill>true</horizontal_fill>
+          <line_color>
+            <color red="128" green="0" blue="255" />
+          </line_color>
+          <line_style>0</line_style>
+          <line_width>0</line_width>
+          <name>Pair Solenoide</name>
+          <pv_name></pv_name>
+          <pv_value />
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <tooltip></tooltip>
+          <transparent>false</transparent>
+          <visible>true</visible>
+          <widget_type>Rectangle</widget_type>
+          <width>14</width>
+          <wuid>f2647ac:15aa11b143a:5640</wuid>
+          <x>0</x>
+          <y>0</y>
+        </widget>
+        <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <auto_size>false</auto_size>
+          <background_color>
+            <color red="255" green="255" blue="255" />
+          </background_color>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>0</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <font>
+            <fontdata fontName="Droid Sans" height="5" style="1" />
+          </font>
+          <foreground_color>
+            <color red="255" green="255" blue="255" />
+          </foreground_color>
+          <height>10</height>
+          <horizontal_alignment>1</horizontal_alignment>
+          <name>Label</name>
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <text>2</text>
+          <tooltip></tooltip>
+          <transparent>true</transparent>
+          <vertical_alignment>1</vertical_alignment>
+          <visible>true</visible>
+          <widget_type>Label</widget_type>
+          <width>10</width>
+          <wrap_words>false</wrap_words>
+          <wuid>f2647ac:15aa11b143a:5641</wuid>
+          <x>2</x>
+          <y>1</y>
+        </widget>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <fontdata fontName="Droid Sans" height="5" style="0" />
+        </font>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>15</height>
+        <horizontal_alignment>0</horizontal_alignment>
+        <name>Pair Solenoide_7</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <text>HV P/S for plasma electrode (50kV/40mA)</text>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>220</width>
+        <wrap_words>false</wrap_words>
+        <wuid>f2647ac:15aa11b143a:565d</wuid>
+        <x>20</x>
+        <y>0</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="true" hook_all="true">
+        <action type="EXECUTE_JAVASCRIPT">
+          <path></path>
+          <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
+importPackage(Packages.org.eclipse.jface.dialogs);
+importPackage(Packages.org.csstudio.platform.data);
+importPackage(Packages.java.lang);
+
+display.getWidget("Tab").setPropertyValue("active_tab",2);
+]]></scriptText>
+          <embedded>true</embedded>
+          <description></description>
+        </action>
+      </actions>
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <height>15</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Grouping Container_4</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>240</width>
+      <wuid>f2647ac:15aa11b143a:573f</wuid>
+      <x>0</x>
+      <y>36</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+        <actions hook="true" hook_all="true">
+          <action type="EXECUTE_JAVASCRIPT">
+            <path></path>
+            <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
+importPackage(Packages.org.eclipse.jface.dialogs);
+importPackage(Packages.org.csstudio.platform.data);
+importPackage(Packages.java.lang);
+
+display.getWidget("Tab").setPropertyValue("active_tab",2);
+]]></scriptText>
+            <embedded>true</embedded>
+            <description></description>
+          </action>
+        </actions>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <border_color>
+          <color red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>1</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <fc>false</fc>
+        <font>
+          <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+        </font>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <height>15</height>
+        <lock_children>false</lock_children>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <name>3</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <visible>true</visible>
+        <widget_type>Grouping Container</widget_type>
+        <width>15</width>
+        <wuid>f2647ac:15aa11b143a:5647</wuid>
+        <x>0</x>
+        <y>0</y>
+        <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <alarm_pulsing>false</alarm_pulsing>
+          <alpha>255</alpha>
+          <anti_alias>true</anti_alias>
+          <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+          <background_color>
+            <color red="28" green="128" blue="185" />
+          </background_color>
+          <bg_gradient_color>
+            <color red="255" green="255" blue="255" />
+          </bg_gradient_color>
+          <border_alarm_sensitive>false</border_alarm_sensitive>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>0</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <fg_gradient_color>
+            <color red="255" green="255" blue="255" />
+          </fg_gradient_color>
+          <fill_level>0.0</fill_level>
+          <font>
+            <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+          </font>
+          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+          <foreground_color>
+            <color red="192" green="192" blue="192" />
+          </foreground_color>
+          <gradient>false</gradient>
+          <height>14</height>
+          <horizontal_fill>true</horizontal_fill>
+          <line_color>
+            <color red="128" green="0" blue="255" />
+          </line_color>
+          <line_style>0</line_style>
+          <line_width>0</line_width>
+          <name>Pair Solenoide</name>
+          <pv_name></pv_name>
+          <pv_value />
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <tooltip></tooltip>
+          <transparent>false</transparent>
+          <visible>true</visible>
+          <widget_type>Rectangle</widget_type>
+          <width>14</width>
+          <wuid>f2647ac:15aa11b143a:5648</wuid>
+          <x>0</x>
+          <y>0</y>
+        </widget>
+        <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <auto_size>false</auto_size>
+          <background_color>
+            <color red="255" green="255" blue="255" />
+          </background_color>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>0</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <font>
+            <fontdata fontName="Droid Sans" height="5" style="1" />
+          </font>
+          <foreground_color>
+            <color red="255" green="255" blue="255" />
+          </foreground_color>
+          <height>10</height>
+          <horizontal_alignment>1</horizontal_alignment>
+          <name>Label</name>
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <text>3</text>
+          <tooltip></tooltip>
+          <transparent>true</transparent>
+          <vertical_alignment>1</vertical_alignment>
+          <visible>true</visible>
+          <widget_type>Label</widget_type>
+          <width>10</width>
+          <wrap_words>false</wrap_words>
+          <wuid>f2647ac:15aa11b143a:5649</wuid>
+          <x>2</x>
+          <y>1</y>
+        </widget>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <fontdata fontName="Droid Sans" height="5" style="0" />
+        </font>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>15</height>
+        <horizontal_alignment>0</horizontal_alignment>
+        <name>Pair Solenoide_8</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <text>HV P/S for acceleration electrode (-10kV/12mA)</text>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>220</width>
+        <wrap_words>false</wrap_words>
+        <wuid>f2647ac:15aa11b143a:56ce</wuid>
+        <x>20</x>
+        <y>0</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="true" hook_all="true">
+        <action type="EXECUTE_JAVASCRIPT">
+          <path></path>
+          <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
+importPackage(Packages.org.eclipse.jface.dialogs);
+importPackage(Packages.org.csstudio.platform.data);
+importPackage(Packages.java.lang);
+
+display.getWidget("Tab").setPropertyValue("active_tab",3);
+]]></scriptText>
+          <embedded>true</embedded>
+          <description></description>
+        </action>
+      </actions>
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <height>15</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Grouping Container_5</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>240</width>
+      <wuid>f2647ac:15aa11b143a:5741</wuid>
+      <x>0</x>
+      <y>54</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+        <actions hook="true" hook_all="true">
+          <action type="EXECUTE_JAVASCRIPT">
+            <path></path>
+            <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
+importPackage(Packages.org.eclipse.jface.dialogs);
+importPackage(Packages.org.csstudio.platform.data);
+importPackage(Packages.java.lang);
+
+display.getWidget("Tab").setPropertyValue("active_tab",3);
+]]></scriptText>
+            <embedded>true</embedded>
+            <description></description>
+          </action>
+        </actions>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <border_color>
+          <color red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>1</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <fc>false</fc>
+        <font>
+          <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+        </font>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <height>15</height>
+        <lock_children>false</lock_children>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <name>4</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <visible>true</visible>
+        <widget_type>Grouping Container</widget_type>
+        <width>15</width>
+        <wuid>f2647ac:15aa11b143a:564f</wuid>
+        <x>0</x>
+        <y>0</y>
+        <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <alarm_pulsing>false</alarm_pulsing>
+          <alpha>255</alpha>
+          <anti_alias>true</anti_alias>
+          <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+          <background_color>
+            <color red="28" green="128" blue="185" />
+          </background_color>
+          <bg_gradient_color>
+            <color red="255" green="255" blue="255" />
+          </bg_gradient_color>
+          <border_alarm_sensitive>false</border_alarm_sensitive>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>0</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <fg_gradient_color>
+            <color red="255" green="255" blue="255" />
+          </fg_gradient_color>
+          <fill_level>0.0</fill_level>
+          <font>
+            <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+          </font>
+          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+          <foreground_color>
+            <color red="192" green="192" blue="192" />
+          </foreground_color>
+          <gradient>false</gradient>
+          <height>14</height>
+          <horizontal_fill>true</horizontal_fill>
+          <line_color>
+            <color red="128" green="0" blue="255" />
+          </line_color>
+          <line_style>0</line_style>
+          <line_width>0</line_width>
+          <name>Pair Solenoide</name>
+          <pv_name></pv_name>
+          <pv_value />
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <tooltip></tooltip>
+          <transparent>false</transparent>
+          <visible>true</visible>
+          <widget_type>Rectangle</widget_type>
+          <width>14</width>
+          <wuid>f2647ac:15aa11b143a:5650</wuid>
+          <x>0</x>
+          <y>0</y>
+        </widget>
+        <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <auto_size>false</auto_size>
+          <background_color>
+            <color red="255" green="255" blue="255" />
+          </background_color>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>0</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <font>
+            <fontdata fontName="Droid Sans" height="5" style="1" />
+          </font>
+          <foreground_color>
+            <color red="255" green="255" blue="255" />
+          </foreground_color>
+          <height>10</height>
+          <horizontal_alignment>1</horizontal_alignment>
+          <name>Label</name>
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <text>4</text>
+          <tooltip></tooltip>
+          <transparent>true</transparent>
+          <vertical_alignment>1</vertical_alignment>
+          <visible>true</visible>
+          <widget_type>Label</widget_type>
+          <width>10</width>
+          <wrap_words>false</wrap_words>
+          <wuid>f2647ac:15aa11b143a:5651</wuid>
+          <x>2</x>
+          <y>1</y>
+        </widget>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <fontdata fontName="Droid Sans" height="5" style="0" />
+        </font>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>15</height>
+        <horizontal_alignment>0</horizontal_alignment>
+        <name>Pair Solenoide_9</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <text>HV P/S for deceleration electrode (50kV/40mA)</text>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>220</width>
+        <wrap_words>false</wrap_words>
+        <wuid>f2647ac:15aa11b143a:56d2</wuid>
+        <x>20</x>
+        <y>0</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <height>15</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Grouping Container_6</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>240</width>
+      <wuid>f2647ac:15aa11b143a:5743</wuid>
+      <x>0</x>
+      <y>72</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+        <actions hook="true" hook_all="true">
+          <action type="EXECUTE_JAVASCRIPT">
+            <path></path>
+            <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
+importPackage(Packages.org.eclipse.jface.dialogs);
+importPackage(Packages.org.csstudio.platform.data);
+importPackage(Packages.java.lang);
+
+display.getWidget("Tab").setPropertyValue("active_tab",4);
+]]></scriptText>
+            <embedded>true</embedded>
+            <description></description>
+          </action>
+        </actions>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <border_color>
+          <color red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>1</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <fc>false</fc>
+        <font>
+          <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+        </font>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <height>15</height>
+        <lock_children>false</lock_children>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <name>5</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <visible>true</visible>
+        <widget_type>Grouping Container</widget_type>
+        <width>15</width>
+        <wuid>f2647ac:15aa11b143a:447c</wuid>
+        <x>0</x>
+        <y>0</y>
+        <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <alarm_pulsing>false</alarm_pulsing>
+          <alpha>255</alpha>
+          <anti_alias>true</anti_alias>
+          <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+          <background_color>
+            <color red="28" green="128" blue="185" />
+          </background_color>
+          <bg_gradient_color>
+            <color red="255" green="255" blue="255" />
+          </bg_gradient_color>
+          <border_alarm_sensitive>false</border_alarm_sensitive>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>0</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <fg_gradient_color>
+            <color red="255" green="255" blue="255" />
+          </fg_gradient_color>
+          <fill_level>0.0</fill_level>
+          <font>
+            <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+          </font>
+          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+          <foreground_color>
+            <color red="192" green="192" blue="192" />
+          </foreground_color>
+          <gradient>false</gradient>
+          <height>14</height>
+          <horizontal_fill>true</horizontal_fill>
+          <line_color>
+            <color red="128" green="0" blue="255" />
+          </line_color>
+          <line_style>0</line_style>
+          <line_width>0</line_width>
+          <name>Pair Solenoide</name>
+          <pv_name></pv_name>
+          <pv_value />
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <tooltip></tooltip>
+          <transparent>false</transparent>
+          <visible>true</visible>
+          <widget_type>Rectangle</widget_type>
+          <width>14</width>
+          <wuid>f2647ac:15aa11b143a:447d</wuid>
+          <x>0</x>
+          <y>0</y>
+        </widget>
+        <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <auto_size>false</auto_size>
+          <background_color>
+            <color red="255" green="255" blue="255" />
+          </background_color>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>0</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <font>
+            <fontdata fontName="Droid Sans" height="5" style="1" />
+          </font>
+          <foreground_color>
+            <color red="255" green="255" blue="255" />
+          </foreground_color>
+          <height>10</height>
+          <horizontal_alignment>1</horizontal_alignment>
+          <name>Label</name>
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <text>5</text>
+          <tooltip></tooltip>
+          <transparent>true</transparent>
+          <vertical_alignment>1</vertical_alignment>
+          <visible>true</visible>
+          <widget_type>Label</widget_type>
+          <width>10</width>
+          <wrap_words>false</wrap_words>
+          <wuid>f2647ac:15aa11b143a:4599</wuid>
+          <x>2</x>
+          <y>1</y>
+        </widget>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <fontdata fontName="Droid Sans" height="5" style="0" />
+        </font>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>15</height>
+        <horizontal_alignment>0</horizontal_alignment>
+        <name>Pair Solenoide_10</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <text>HV P/S for Metal sputtering (-10kV/12A)</text>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>220</width>
+        <wrap_words>false</wrap_words>
+        <wuid>f2647ac:15aa11b143a:56d6</wuid>
+        <x>20</x>
+        <y>0</y>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fc>false</fc>
+      <font>
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+      </font>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <height>15</height>
+      <lock_children>false</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Grouping Container_7</name>
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <show_scrollbar>false</show_scrollbar>
+      <tooltip></tooltip>
+      <transparent>true</transparent>
+      <visible>true</visible>
+      <widget_type>Grouping Container</widget_type>
+      <width>240</width>
+      <wuid>f2647ac:15aa7f5a432:-3c70</wuid>
+      <x>0</x>
+      <y>90</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+        <actions hook="true" hook_all="true">
+          <action type="EXECUTE_JAVASCRIPT">
+            <path></path>
+            <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
+importPackage(Packages.org.eclipse.jface.dialogs);
+importPackage(Packages.org.csstudio.platform.data);
+importPackage(Packages.java.lang);
+
+display.getWidget("Tab").setPropertyValue("active_tab",5);
+]]></scriptText>
+            <embedded>true</embedded>
+            <description></description>
+          </action>
+        </actions>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <border_color>
+          <color red="0" green="0" blue="0" />
+        </border_color>
+        <border_style>1</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <fc>false</fc>
+        <font>
+          <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+        </font>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <height>15</height>
+        <lock_children>true</lock_children>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <name>6</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <visible>true</visible>
+        <widget_type>Grouping Container</widget_type>
+        <width>15</width>
+        <wuid>f2647ac:15aa7f5a432:-3c6f</wuid>
+        <x>0</x>
+        <y>0</y>
+        <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <alarm_pulsing>false</alarm_pulsing>
+          <alpha>255</alpha>
+          <anti_alias>true</anti_alias>
+          <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+          <background_color>
+            <color red="28" green="128" blue="185" />
+          </background_color>
+          <bg_gradient_color>
+            <color red="255" green="255" blue="255" />
+          </bg_gradient_color>
+          <border_alarm_sensitive>false</border_alarm_sensitive>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>0</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <fg_gradient_color>
+            <color red="255" green="255" blue="255" />
+          </fg_gradient_color>
+          <fill_level>0.0</fill_level>
+          <font>
+            <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+          </font>
+          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+          <foreground_color>
+            <color red="192" green="192" blue="192" />
+          </foreground_color>
+          <gradient>false</gradient>
+          <height>14</height>
+          <horizontal_fill>true</horizontal_fill>
+          <line_color>
+            <color red="128" green="0" blue="255" />
+          </line_color>
+          <line_style>0</line_style>
+          <line_width>0</line_width>
+          <name>Pair Solenoide</name>
+          <pv_name></pv_name>
+          <pv_value />
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <tooltip></tooltip>
+          <transparent>false</transparent>
+          <visible>true</visible>
+          <widget_type>Rectangle</widget_type>
+          <width>14</width>
+          <wuid>f2647ac:15aa7f5a432:-3c6e</wuid>
+          <x>0</x>
+          <y>0</y>
+        </widget>
+        <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+          <actions hook="false" hook_all="false" />
+          <auto_size>false</auto_size>
+          <background_color>
+            <color red="255" green="255" blue="255" />
+          </background_color>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <border_style>0</border_style>
+          <border_width>1</border_width>
+          <enabled>true</enabled>
+          <font>
+            <fontdata fontName="Droid Sans" height="5" style="1" />
+          </font>
+          <foreground_color>
+            <color red="255" green="255" blue="255" />
+          </foreground_color>
+          <height>10</height>
+          <horizontal_alignment>1</horizontal_alignment>
+          <name>Label</name>
+          <rules />
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <scripts />
+          <text>6</text>
+          <tooltip></tooltip>
+          <transparent>true</transparent>
+          <vertical_alignment>1</vertical_alignment>
+          <visible>true</visible>
+          <widget_type>Label</widget_type>
+          <width>10</width>
+          <wrap_words>false</wrap_words>
+          <wuid>f2647ac:15aa7f5a432:-3c6d</wuid>
+          <x>2</x>
+          <y>1</y>
+        </widget>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <fontdata fontName="Droid Sans" height="5" style="0" />
+        </font>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>15</height>
+        <horizontal_alignment>0</horizontal_alignment>
+        <name>Pair Solenoide_10</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <text>Cryostat</text>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>220</width>
+        <wrap_words>false</wrap_words>
+        <wuid>f2647ac:15aa7f5a432:-3c6c</wuid>
+        <x>20</x>
+        <y>0</y>
+      </widget>
     </widget>
   </widget>
 </display>
