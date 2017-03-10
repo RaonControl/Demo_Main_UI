@@ -1354,7 +1354,7 @@ $(pv_value)</tooltip>
     <widget_type>Grouping Container</widget_type>
     <width>53</width>
     <wuid>370f6419:15a40571465:-6f7</wuid>
-    <x>379</x>
+    <x>594</x>
     <y>360</y>
     <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
       <actions hook="false" hook_all="false" />
@@ -1796,7 +1796,7 @@ Solenoide</text>
     <widget_type>Grouping Container</widget_type>
     <width>53</width>
     <wuid>370f6419:15a40571465:-698</wuid>
-    <x>594</x>
+    <x>379</x>
     <y>360</y>
     <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
       <actions hook="false" hook_all="false" />
