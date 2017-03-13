@@ -250,7 +250,7 @@ $(pv_value)</tooltip>
           <color red="192" green="192" blue="192" />
         </foreground_color>
         <height>100</height>
-        <lock_children>true</lock_children>
+        <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
@@ -265,12 +265,12 @@ $(pv_value)</tooltip>
         <show_scrollbar>false</show_scrollbar>
         <tooltip></tooltip>
         <transparent>true</transparent>
-        <visible>false</visible>
+        <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
         <width>131</width>
         <wuid>2defbc27:15a5ab91195:4358</wuid>
         <x>2</x>
-        <y>680</y>
+        <y>678</y>
         <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
           <actions hook="false" hook_all="false" />
           <alarm_pulsing>false</alarm_pulsing>
@@ -342,7 +342,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="10" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -498,7 +498,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="10" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />
@@ -538,7 +538,7 @@ $(pv_value)</tooltip>
           <border_width>1</border_width>
           <enabled>true</enabled>
           <font>
-            <fontdata fontName="Droid Sans" height="10" style="0" />
+            <fontdata fontName="Droid Sans" height="7" style="0" />
           </font>
           <foreground_color>
             <color red="0" green="0" blue="0" />

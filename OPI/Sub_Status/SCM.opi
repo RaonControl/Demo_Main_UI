@@ -396,7 +396,7 @@ $(pv_value)</tooltip>
       <show_scrollbar>true</show_scrollbar>
       <tooltip></tooltip>
       <transparent>true</transparent>
-      <visible>true</visible>
+      <visible>false</visible>
       <widget_type>Grouping Container</widget_type>
       <width>280</width>
       <wuid>f2647ac:15aa11b143a:395f</wuid>
@@ -940,7 +940,7 @@ $(pv_value)</tooltip>
       <show_scrollbar>true</show_scrollbar>
       <tooltip></tooltip>
       <transparent>true</transparent>
-      <visible>false</visible>
+      <visible>true</visible>
       <widget_type>Grouping Container</widget_type>
       <width>280</width>
       <wuid>f2647ac:15aa11b143a:4b5f</wuid>
@@ -3403,7 +3403,7 @@ display.getWidget("Tab").setPropertyValue("active_tab",0);
         <vertical_alignment>1</vertical_alignment>
         <visible>true</visible>
         <widget_type>Label</widget_type>
-        <width>220</width>
+        <width>239</width>
         <wrap_words>false</wrap_words>
         <wuid>f2647ac:15aa11b143a:5659</wuid>
         <x>20</x>
@@ -3648,7 +3648,7 @@ display.getWidget("Tab").setPropertyValue("active_tab",1);
         <vertical_alignment>1</vertical_alignment>
         <visible>true</visible>
         <widget_type>Label</widget_type>
-        <width>220</width>
+        <width>239</width>
         <wrap_words>false</wrap_words>
         <wuid>f2647ac:15aa11b143a:565d</wuid>
         <x>20</x>
@@ -3893,7 +3893,7 @@ display.getWidget("Tab").setPropertyValue("active_tab",2);
         <vertical_alignment>1</vertical_alignment>
         <visible>true</visible>
         <widget_type>Label</widget_type>
-        <width>220</width>
+        <width>239</width>
         <wrap_words>false</wrap_words>
         <wuid>f2647ac:15aa11b143a:56ce</wuid>
         <x>20</x>
@@ -4138,7 +4138,7 @@ display.getWidget("Tab").setPropertyValue("active_tab",3);
         <vertical_alignment>1</vertical_alignment>
         <visible>true</visible>
         <widget_type>Label</widget_type>
-        <width>220</width>
+        <width>239</width>
         <wrap_words>false</wrap_words>
         <wuid>f2647ac:15aa11b143a:56d2</wuid>
         <x>20</x>
@@ -4370,7 +4370,7 @@ display.getWidget("Tab").setPropertyValue("active_tab",4);
         <vertical_alignment>1</vertical_alignment>
         <visible>true</visible>
         <widget_type>Label</widget_type>
-        <width>220</width>
+        <width>239</width>
         <wrap_words>false</wrap_words>
         <wuid>f2647ac:15aa11b143a:56d6</wuid>
         <x>20</x>
@@ -4602,7 +4602,7 @@ display.getWidget("Tab").setPropertyValue("active_tab",5);
         <vertical_alignment>1</vertical_alignment>
         <visible>true</visible>
         <widget_type>Label</widget_type>
-        <width>220</width>
+        <width>239</width>
         <wrap_words>false</wrap_words>
         <wuid>f2647ac:15aa7f5a432:-3c6c</wuid>
         <x>20</x>
@@ -5505,7 +5505,7 @@ display.getWidget("Tab").setPropertyValue("active_tab",4);
         <color red="192" green="192" blue="192" />
       </foreground_color>
       <height>15</height>
-      <lock_children>true</lock_children>
+      <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
@@ -6912,59 +6912,6 @@ $(pv_value)</tooltip>
         <x>3</x>
         <y>30</y>
       </widget>
-      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-        <actions hook="true" hook_all="true">
-          <action type="EXECUTE_JAVASCRIPT">
-            <path></path>
-            <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
-importPackage(Packages.org.eclipse.jface.dialogs);
-importPackage(Packages.org.csstudio.platform.data);
-importPackage(Packages.java.lang);
-
-display.getWidget("Tab").setPropertyValue("active_tab",5);
-]]></scriptText>
-            <embedded>true</embedded>
-            <description></description>
-          </action>
-        </actions>
-        <auto_size>false</auto_size>
-        <background_color>
-          <color red="250" green="250" blue="250" />
-        </background_color>
-        <border_color>
-          <color red="255" green="255" blue="255" />
-        </border_color>
-        <border_style>0</border_style>
-        <border_width>1</border_width>
-        <enabled>true</enabled>
-        <font>
-          <fontdata fontName="Droid Sans" height="4" style="1" />
-        </font>
-        <foreground_color>
-          <color red="0" green="0" blue="0" />
-        </foreground_color>
-        <height>15</height>
-        <horizontal_alignment>1</horizontal_alignment>
-        <name>Label</name>
-        <rules />
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <scripts />
-        <text>Cryostat</text>
-        <tooltip></tooltip>
-        <transparent>true</transparent>
-        <vertical_alignment>1</vertical_alignment>
-        <visible>true</visible>
-        <widget_type>Label</widget_type>
-        <width>36</width>
-        <wrap_words>false</wrap_words>
-        <wuid>f2647ac:15aa7f5a432:-3c79</wuid>
-        <x>24</x>
-        <y>16</y>
-      </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
         <actions hook="true" hook_all="true">
           <action type="EXECUTE_JAVASCRIPT">
@@ -6997,7 +6944,7 @@ display.getWidget("Tab").setPropertyValue("active_tab",5);
           <color red="192" green="192" blue="192" />
         </foreground_color>
         <height>15</height>
-        <lock_children>false</lock_children>
+        <lock_children>true</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
@@ -7016,7 +6963,7 @@ display.getWidget("Tab").setPropertyValue("active_tab",5);
         <widget_type>Grouping Container</widget_type>
         <width>15</width>
         <wuid>f2647ac:15aa7f5a432:-3c42</wuid>
-        <x>9</x>
+        <x>29</x>
         <y>16</y>
         <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
           <actions hook="false" hook_all="false" />
