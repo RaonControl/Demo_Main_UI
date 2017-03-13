@@ -134,64 +134,16 @@ $(pv_value)</tooltip>
     <y>0</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <align_to_nearest_second>false</align_to_nearest_second>
-    <auto_size>false</auto_size>
-    <background_color>
-      <color red="240" green="240" blue="240" />
-    </background_color>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <crop_bottom>0</crop_bottom>
-    <crop_left>0</crop_left>
-    <crop_right>0</crop_right>
-    <crop_top>0</crop_top>
-    <degree>0</degree>
-    <enabled>true</enabled>
-    <flip_horizontal>false</flip_horizontal>
-    <flip_vertical>false</flip_vertical>
-    <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-    </font>
-    <foreground_color>
-      <color red="192" green="192" blue="192" />
-    </foreground_color>
-    <height>17</height>
-    <image_file>../../symbols/Control/Icon_SVG/graph-line-screen_.svg</image_file>
-    <name>Graph</name>
-    <no_animation>false</no_animation>
-    <permutation_matrix>
-      <row>
-        <col>1.0</col>
-        <col>0.0</col>
-      </row>
-      <row>
-        <col>0.0</col>
-        <col>1.0</col>
-      </row>
-    </permutation_matrix>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <stretch_to_fit>true</stretch_to_fit>
-    <tooltip></tooltip>
-    <transparency>true</transparency>
-    <visible>true</visible>
-    <widget_type>Image</widget_type>
-    <width>17</width>
-    <wuid>-7dcc6ae6:15a646ac980:3fbd</wuid>
-    <x>500</x>
-    <y>2</y>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
-    <actions hook="false" hook_all="false" />
+    <actions hook="true" hook_all="true">
+      <action type="OPEN_DISPLAY">
+        <path>../Subsystem/LEBT2/[LC]LEBT_Overview.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <mode>8</mode>
+        <description></description>
+      </action>
+    </actions>
     <align_to_nearest_second>false</align_to_nearest_second>
     <auto_size>false</auto_size>
     <background_color>

@@ -190,7 +190,16 @@ $(pv_value)</tooltip>
     <y>22</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
-    <actions hook="false" hook_all="false" />
+    <actions hook="true" hook_all="true">
+      <action type="OPEN_DISPLAY">
+        <path>../Subsystem/LEBT2/[LC]LEBT_Overview.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <mode>8</mode>
+        <description></description>
+      </action>
+    </actions>
     <align_to_nearest_second>false</align_to_nearest_second>
     <auto_size>false</auto_size>
     <background_color>
