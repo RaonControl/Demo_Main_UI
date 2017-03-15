@@ -18,8 +18,6 @@
   <height>325</height>
   <macros>
     <include_parent_macros>true</include_parent_macros>
-    <SUBSYS>Mag</SUBSYS>
-    <DEV>Sol01</DEV>
   </macros>
   <name></name>
   <rules />
@@ -105,7 +103,7 @@ $(pv_value)</tooltip>
     <border_width>1</border_width>
     <enabled>true</enabled>
     <font>
-      <fontdata fontName="Droid Sans" height="9" style="1" />
+      <fontdata fontName="Droid Sans" height="14" style="1" />
     </font>
     <foreground_color>
       <color red="255" green="255" blue="255" />
@@ -286,11 +284,11 @@ $(pv_value)</tooltip>
     <effect_3d>true</effect_3d>
     <enabled>true</enabled>
     <font>
-      <fontdata fontName="Droid Sans" height="9" style="0" />
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
-      <color red="192" green="192" blue="192" />
+      <color red="0" green="0" blue="0" />
     </foreground_color>
     <height>18</height>
     <name>LED</name>
@@ -335,7 +333,7 @@ $(pv_value)</tooltip>
     <border_width>1</border_width>
     <enabled>true</enabled>
     <font>
-      <fontdata fontName="Droid Sans" height="8" style="0" />
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -387,11 +385,11 @@ $(pv_value)</tooltip>
     </fg_gradient_color>
     <fill_level>0.0</fill_level>
     <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
-      <color red="255" green="0" blue="0" />
+      <color red="0" green="0" blue="0" />
     </foreground_color>
     <gradient>false</gradient>
     <height>303</height>
@@ -554,10 +552,10 @@ $(trace_0_y_pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <foreground_color>
-      <color red="192" green="192" blue="192" />
+      <color red="0" green="0" blue="0" />
     </foreground_color>
     <height>175</height>
     <lock_children>false</lock_children>
@@ -594,10 +592,10 @@ $(trace_0_y_pv_value)</tooltip>
       <enabled>true</enabled>
       <fc>false</fc>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
-        <color red="192" green="192" blue="192" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <height>18</height>
       <lock_children>false</lock_children>
@@ -637,7 +635,7 @@ $(trace_0_y_pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="7" style="0" />
+          <fontdata fontName="Droid Sans" height="12" style="0" />
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
@@ -686,7 +684,7 @@ $(pv_value)</tooltip>
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="7" style="0" />
+          <fontdata fontName="Droid Sans" height="12" style="0" />
         </font>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -727,7 +725,7 @@ $(pv_value)</tooltip>
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="7" style="0" />
+          <fontdata fontName="Droid Sans" height="12" style="0" />
         </font>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -769,10 +767,10 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <fc>false</fc>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
-        <color red="192" green="192" blue="192" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <height>18</height>
       <lock_children>false</lock_children>
@@ -812,7 +810,7 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="7" style="0" />
+          <fontdata fontName="Droid Sans" height="12" style="0" />
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
@@ -861,7 +859,7 @@ $(pv_value)</tooltip>
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="7" style="0" />
+          <fontdata fontName="Droid Sans" height="12" style="0" />
         </font>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -902,7 +900,7 @@ $(pv_value)</tooltip>
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="7" style="0" />
+          <fontdata fontName="Droid Sans" height="12" style="0" />
         </font>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -944,10 +942,10 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <fc>false</fc>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
-        <color red="192" green="192" blue="192" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <height>44</height>
       <lock_children>false</lock_children>
@@ -984,7 +982,7 @@ $(pv_value)</tooltip>
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="7" style="0" />
+          <fontdata fontName="Droid Sans" height="12" style="0" />
         </font>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -1011,7 +1009,7 @@ temperature</text>
         <wrap_words>true</wrap_words>
         <wuid>f2647ac:15aa7f5a432:40a</wuid>
         <x>0</x>
-        <y>-6</y>
+        <y>0</y>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
         <actions hook="false" hook_all="false" />
@@ -1029,7 +1027,7 @@ temperature</text>
         <border_width>2</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="7" style="0" />
+          <fontdata fontName="Droid Sans" height="12" style="0" />
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
@@ -1078,7 +1076,7 @@ $(pv_value)</tooltip>
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="7" style="0" />
+          <fontdata fontName="Droid Sans" height="12" style="0" />
         </font>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -1120,10 +1118,10 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <fc>false</fc>
       <font>
-        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
-        <color red="192" green="192" blue="192" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <height>18</height>
       <lock_children>false</lock_children>
@@ -1163,7 +1161,7 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="7" style="0" />
+          <fontdata fontName="Droid Sans" height="12" style="0" />
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
@@ -1212,7 +1210,7 @@ $(pv_value)</tooltip>
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="7" style="0" />
+          <fontdata fontName="Droid Sans" height="12" style="0" />
         </font>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -1253,7 +1251,7 @@ $(pv_value)</tooltip>
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="7" style="0" />
+          <fontdata fontName="Droid Sans" height="12" style="0" />
         </font>
         <foreground_color>
           <color red="0" green="0" blue="0" />

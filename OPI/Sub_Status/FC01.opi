@@ -103,7 +103,7 @@ $(pv_value)</tooltip>
     <border_width>1</border_width>
     <enabled>true</enabled>
     <font>
-      <fontdata fontName="Droid Sans" height="9" style="1" />
+      <fontdata fontName="Droid Sans" height="14" style="1" />
     </font>
     <foreground_color>
       <color red="255" green="255" blue="255" />
@@ -278,7 +278,7 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <fontdata fontName="Droid Sans" height="7" style="0" />
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -336,7 +336,7 @@ $(pv_value)</tooltip>
     <effect_3d>true</effect_3d>
     <enabled>true</enabled>
     <font>
-      <fontdata fontName="Droid Sans" height="7" style="0" />
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -345,11 +345,11 @@ $(pv_value)</tooltip>
     <height>18</height>
     <name>LED</name>
     <off_color>
-      <color red="0" green="100" blue="0" />
+      <color red="0" green="255" blue="0" />
     </off_color>
     <off_label>OFF</off_label>
     <on_color>
-      <color red="0" green="255" blue="0" />
+      <color red="0" green="100" blue="0" />
     </on_color>
     <on_label>ON</on_label>
     <pv_name>ECRIS-Cryo:FC02:INOUT</pv_name>
@@ -385,7 +385,7 @@ $(pv_value)</tooltip>
     <border_width>1</border_width>
     <enabled>true</enabled>
     <font>
-      <fontdata fontName="Droid Sans" height="7" style="0" />
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -426,7 +426,7 @@ $(pv_value)</tooltip>
     <border_width>1</border_width>
     <enabled>true</enabled>
     <font>
-      <fontdata fontName="Droid Sans" height="7" style="0" />
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -467,7 +467,7 @@ $(pv_value)</tooltip>
     <border_width>1</border_width>
     <enabled>true</enabled>
     <font>
-      <fontdata fontName="Droid Sans" height="7" style="0" />
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -511,7 +511,7 @@ $(pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <fontdata fontName="Droid Sans" height="7" style="0" />
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -560,7 +560,7 @@ $(pv_value)</tooltip>
     <border_width>1</border_width>
     <enabled>true</enabled>
     <font>
-      <fontdata fontName="Droid Sans" height="7" style="0" />
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -612,7 +612,7 @@ $(pv_value)</tooltip>
     </fg_gradient_color>
     <fill_level>0.0</fill_level>
     <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -667,7 +667,7 @@ $(pv_value)</tooltip>
     </axis_0_scale_font>
     <axis_0_scale_format></axis_0_scale_format>
     <axis_0_show_grid>true</axis_0_show_grid>
-    <axis_0_time_format>0</axis_0_time_format>
+    <axis_0_time_format>1</axis_0_time_format>
     <axis_0_title_font>
       <fontdata fontName="Droid Sans" height="6" style="0" />
     </axis_0_title_font>
@@ -735,7 +735,7 @@ $(pv_value)</tooltip>
     <tooltip>$(trace_0_y_pv)
 $(trace_0_y_pv_value)</tooltip>
     <trace_0_anti_alias>true</trace_0_anti_alias>
-    <trace_0_buffer_size>100000</trace_0_buffer_size>
+    <trace_0_buffer_size>100</trace_0_buffer_size>
     <trace_0_concatenate_data>true</trace_0_concatenate_data>
     <trace_0_line_width>1</trace_0_line_width>
     <trace_0_name>1st FC Current[A] vs Time[s]</trace_0_name>
@@ -782,7 +782,7 @@ $(trace_0_y_pv_value)</tooltip>
     <border_width>2</border_width>
     <enabled>true</enabled>
     <font>
-      <fontdata fontName="Droid Sans" height="7" style="0" />
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -803,7 +803,26 @@ $(trace_0_y_pv_value)</tooltip>
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
-    <scripts />
+    <scripts>
+      <path pathString="EmbeddedJs" checkConnect="true" sfe="false" seoe="false">
+        <scriptName>EmbeddedScript</scriptName>
+        <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil);
+importPackage(Packages.org.eclipse.jface.dialogs);
+importPackage(Packages.org.csstudio.platform.data);
+importPackage(Packages.java.lang);
+
+var pv0 = PVUtil.getString(pvs[0]);
+
+if(pv0=="O")
+	widget.setPropertyValue("text","In");
+else if(pv0=="I")
+	widget.setPropertyValue("text","Out");
+else
+	widget.setPropertyValue("text","status");
+]]></scriptText>
+        <pv trig="true">ECRIS-Cryo:FC02:INOUT</pv>
+      </path>
+    </scripts>
     <show_units>true</show_units>
     <text>status</text>
     <tooltip>$(pv_name)

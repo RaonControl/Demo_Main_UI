@@ -6,7 +6,7 @@ importPackage(Packages.java.lang);
 var info= PVUtil.getString(pvs[0]);
 
 if(info == "Main.opi") {
-widget.setPropertyValue("text", "*MJ. Park (mijoy0909@ibs.re.kr), Control group, AET    *Last modified : 2016/11/30");
+widget.setPropertyValue("text", "*MJ. Park (mijoy0909@ibs.re.kr), Control group, AET    *Last modified : 2017/03/15");
 
 } else if(info == "Subsystem/ECR-IS/ECR-IS_Main.opi") {
 widget.setPropertyValue("text", "*MJ. Park (mijoy0909@ibs.re.kr), Control Group, AET / MJ.Kim (mjkim@ibs.re.kr), RH Group, RI exp.   *Last modified : 2016/12/14");

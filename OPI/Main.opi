@@ -143,7 +143,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="9" style="1" />
+        <fontdata fontName="Droid Sans" height="14" style="1" />
       </font>
       <foreground_color>
         <color red="255" green="255" blue="255" />
@@ -248,7 +248,7 @@ $(pv_value)</tooltip>
         <color red="192" green="192" blue="192" />
       </foreground_color>
       <height>23</height>
-      <lock_children>true</lock_children>
+      <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
@@ -282,7 +282,7 @@ $(pv_value)</tooltip>
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="8" style="0" />
+          <fontdata fontName="Droid Sans" height="14" style="0" />
         </font>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -326,7 +326,7 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="8" style="0" />
+          <fontdata fontName="Droid Sans" height="14" style="0" />
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
@@ -375,7 +375,7 @@ $(pv_value)</tooltip>
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="8" style="0" />
+          <fontdata fontName="Droid Sans" height="14" style="0" />
         </font>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -423,7 +423,7 @@ $(pv_value)</tooltip>
         <color red="192" green="192" blue="192" />
       </foreground_color>
       <height>23</height>
-      <lock_children>true</lock_children>
+      <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
@@ -457,7 +457,7 @@ $(pv_value)</tooltip>
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="8" style="0" />
+          <fontdata fontName="Droid Sans" height="14" style="0" />
         </font>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -501,7 +501,7 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="8" style="0" />
+          <fontdata fontName="Droid Sans" height="14" style="0" />
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
@@ -550,7 +550,7 @@ $(pv_value)</tooltip>
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="8" style="0" />
+          <fontdata fontName="Droid Sans" height="14" style="0" />
         </font>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -598,7 +598,7 @@ $(pv_value)</tooltip>
         <color red="192" green="192" blue="192" />
       </foreground_color>
       <height>24</height>
-      <lock_children>true</lock_children>
+      <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
@@ -632,7 +632,7 @@ $(pv_value)</tooltip>
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="8" style="0" />
+          <fontdata fontName="Droid Sans" height="14" style="0" />
         </font>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -676,7 +676,7 @@ $(pv_value)</tooltip>
         <border_width>2</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="8" style="0" />
+          <fontdata fontName="Droid Sans" height="14" style="0" />
         </font>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <foreground_color>
@@ -725,7 +725,7 @@ $(pv_value)</tooltip>
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="8" style="0" />
+          <fontdata fontName="Droid Sans" height="14" style="0" />
         </font>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -808,14 +808,14 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="9" style="1" />
+        <fontdata fontName="Droid Sans" height="14" style="1" />
       </font>
       <foreground_color>
         <color red="255" green="255" blue="255" />
       </foreground_color>
       <height>22</height>
       <horizontal_alignment>0</horizontal_alignment>
-      <name>Vacuum Status</name>
+      <name>Vacuum Data Browser</name>
       <rules />
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -823,7 +823,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>  Vacuum Status</text>
+      <text>  Vacuum Data Browser</text>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <transparent>false</transparent>
@@ -986,7 +986,7 @@ display.getWidget("db").setPropertyValue("opi_file", "Subsystem/Vacuum/[LC]Vacuu
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>31</height>
+      <height>25</height>
       <items>
         <s>All</s>
         <s>50kV</s>
@@ -1335,7 +1335,7 @@ $(pv_value)</tooltip>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>53</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -1415,7 +1415,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -1426,12 +1426,12 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="8" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>27</height>
+      <height>39</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>TMP(70kV)</name>
       <rules />
@@ -1449,11 +1449,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>40</width>
+      <width>43</width>
       <wrap_words>false</wrap_words>
       <wuid>33171ccd:1588abaf757:530</wuid>
       <x>5</x>
-      <y>13</y>
+      <y>7</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -1574,12 +1574,12 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="3" style="1" />
+        <fontdata fontName="Droid Sans" height="7" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>14</height>
+      <height>30</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>Pair Solenoide</name>
       <rules />
@@ -1589,18 +1589,19 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>   Pair&#xD;
-Solenoide</text>
+      <text>Pair&#xD;
+Sole-&#xD;
+noide</text>
       <tooltip></tooltip>
       <transparent>true</transparent>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>29</width>
+      <width>23</width>
       <wrap_words>false</wrap_words>
       <wuid>33171ccd:1588abaf757:582</wuid>
-      <x>5</x>
-      <y>20</y>
+      <x>8</x>
+      <y>12</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -1721,12 +1722,12 @@ Solenoide</text>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="8" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>18</height>
+      <height>39</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>Super Conducting Magnet</name>
       <rules />
@@ -1736,18 +1737,19 @@ Solenoide</text>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>Superconducting &#xD;
-         Magnet</text>
+      <text>     Super-&#xD;
+conducting &#xD;
+    Magnet</text>
       <tooltip></tooltip>
       <transparent>true</transparent>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>66</width>
+      <width>64</width>
       <wrap_words>false</wrap_words>
       <wuid>-3163570a:158ae4a82d0:-6b1e</wuid>
-      <x>12</x>
-      <y>27</y>
+      <x>14</x>
+      <y>16</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -1777,7 +1779,7 @@ Solenoide</text>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>53</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -1857,7 +1859,7 @@ Solenoide</text>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -1868,12 +1870,12 @@ Solenoide</text>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="8" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>27</height>
+      <height>39</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>TMP(50kV)</name>
       <rules />
@@ -1891,11 +1893,11 @@ Solenoide</text>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>40</width>
+      <width>43</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:2ea</wuid>
       <x>5</x>
-      <y>13</y>
+      <y>7</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -2005,7 +2007,7 @@ Solenoide</text>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2016,12 +2018,12 @@ Solenoide</text>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="8" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>9</height>
+      <height>13</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name> Gyrotron</name>
       <rules />
@@ -2037,11 +2039,11 @@ Solenoide</text>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>40</width>
+      <width>53</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-293</wuid>
-      <x>15</x>
-      <y>22</y>
+      <x>10</x>
+      <y>20</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -2151,7 +2153,7 @@ Solenoide</text>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2162,12 +2164,12 @@ Solenoide</text>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="8" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>9</height>
+      <height>13</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>EQT01</name>
       <rules />
@@ -2183,11 +2185,11 @@ Solenoide</text>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>40</width>
+      <width>33</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-276</wuid>
-      <x>2</x>
-      <y>19</y>
+      <x>7</x>
+      <y>17</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -2297,7 +2299,7 @@ Solenoide</text>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2308,12 +2310,12 @@ Solenoide</text>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="8" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>9</height>
+      <height>13</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>FC01</name>
       <rules />
@@ -2329,11 +2331,11 @@ Solenoide</text>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>40</width>
+      <width>25</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-236</wuid>
-      <x>2</x>
-      <y>19</y>
+      <x>11</x>
+      <y>17</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -2454,12 +2456,12 @@ Solenoide</text>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="8" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>9</height>
+      <height>13</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>DM01</name>
       <rules />
@@ -2475,11 +2477,11 @@ Solenoide</text>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>21</width>
+      <width>30</width>
       <wrap_words>false</wrap_words>
       <wuid>33171ccd:1588abaf757:-1c7</wuid>
-      <x>28</x>
-      <y>36</y>
+      <x>26</x>
+      <y>34</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -2589,7 +2591,7 @@ Solenoide</text>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2600,12 +2602,12 @@ Solenoide</text>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="8" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>9</height>
+      <height>13</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>EQD01</name>
       <rules />
@@ -2621,11 +2623,11 @@ Solenoide</text>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>40</width>
+      <width>35</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-256</wuid>
-      <x>2</x>
-      <y>19</y>
+      <x>5</x>
+      <y>17</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -2735,7 +2737,7 @@ Solenoide</text>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2746,12 +2748,12 @@ Solenoide</text>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="8" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>9</height>
+      <height>13</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>FC02</name>
       <rules />
@@ -2767,11 +2769,11 @@ Solenoide</text>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>40</width>
+      <width>25</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-22c</wuid>
-      <x>2</x>
-      <y>19</y>
+      <x>11</x>
+      <y>17</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -2881,7 +2883,7 @@ Solenoide</text>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2892,12 +2894,12 @@ Solenoide</text>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="8" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>9</height>
+      <height>13</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>EQD02</name>
       <rules />
@@ -2913,11 +2915,11 @@ Solenoide</text>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>40</width>
+      <width>35</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-272</wuid>
-      <x>2</x>
-      <y>19</y>
+      <x>5</x>
+      <y>17</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -3038,12 +3040,12 @@ Solenoide</text>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="8" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>9</height>
+      <height>13</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>DM02</name>
       <rules />
@@ -3059,146 +3061,11 @@ Solenoide</text>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>21</width>
+      <width>30</width>
       <wrap_words>false</wrap_words>
       <wuid>33171ccd:1588abaf757:-1c1</wuid>
-      <x>30</x>
-      <y>36</y>
-    </widget>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <background_color>
-      <color red="240" green="240" blue="240" />
-    </background_color>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <fc>false</fc>
-    <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-    </font>
-    <foreground_color>
-      <color red="192" green="192" blue="192" />
-    </foreground_color>
-    <height>31</height>
-    <lock_children>false</lock_children>
-    <macros>
-      <include_parent_macros>true</include_parent_macros>
-    </macros>
-    <name>GV01</name>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <show_scrollbar>false</show_scrollbar>
-    <tooltip></tooltip>
-    <transparent>true</transparent>
-    <visible>true</visible>
-    <widget_type>Grouping Container</widget_type>
-    <width>112</width>
-    <wuid>370f6419:15a40571465:2f3</wuid>
-    <x>54</x>
-    <y>595</y>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
-      </font>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>9</height>
-      <horizontal_alignment>1</horizontal_alignment>
-      <name>GV01</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <text>GV01</text>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <vertical_alignment>1</vertical_alignment>
-      <visible>true</visible>
-      <widget_type>Label</widget_type>
-      <width>19</width>
-      <wrap_words>false</wrap_words>
-      <wuid>33171ccd:1588abaf757:55e</wuid>
-      <x>7</x>
-      <y>11</y>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <alarm_pulsing>false</alarm_pulsing>
-      <align_to_nearest_second>false</align_to_nearest_second>
-      <auto_size>false</auto_size>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <bit>-1</bit>
-      <boolean_label_position>0</boolean_label_position>
-      <border_alarm_sensitive>true</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <data_type>0</data_type>
-      <enabled>true</enabled>
-      <font>
-        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-      </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>31</height>
-      <name>GV01</name>
-      <no_animation>false</no_animation>
-      <off_image>../symbols/Device/SVG/gatevalve2_L.svg</off_image>
-      <off_label>OFF</off_label>
-      <on_image>../symbols/Device/SVG/gatevalve2_on.open_L.svg</on_image>
-      <on_label>ON</on_label>
-      <pv_name>ECRIS-Cryo:GateValve05:ONOFF</pv_name>
-      <pv_value />
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <show_boolean_label>false</show_boolean_label>
-      <stretch_to_fit>true</stretch_to_fit>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <transparency>true</transparency>
-      <visible>true</visible>
-      <widget_type>Image Boolean Indicator</widget_type>
-      <width>87</width>
-      <wuid>370f6419:15a40571465:2ca</wuid>
-      <x>25</x>
-      <y>0</y>
+      <x>26</x>
+      <y>34</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -3424,7 +3291,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -3435,12 +3302,12 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="7" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>18</height>
+      <height>20</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>Steering Magnet</name>
       <rules />
@@ -3457,11 +3324,11 @@ Magnet01</text>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>40</width>
+      <width>42</width>
       <wrap_words>false</wrap_words>
       <wuid>-7dcc6ae6:15a646ac980:3b05</wuid>
-      <x>2</x>
-      <y>15</y>
+      <x>3</x>
+      <y>14</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -3571,7 +3438,7 @@ Magnet01</text>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -3582,12 +3449,12 @@ Magnet01</text>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="7" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>18</height>
+      <height>20</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>Steering Magnet</name>
       <rules />
@@ -3604,11 +3471,11 @@ Magnet02</text>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>40</width>
+      <width>42</width>
       <wrap_words>false</wrap_words>
       <wuid>-7dcc6ae6:15a6eacc81a:-45cd</wuid>
       <x>2</x>
-      <y>15</y>
+      <y>14</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -3776,7 +3643,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -3787,12 +3654,12 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="8" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>9</height>
+      <height>13</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>EQT02</name>
       <rules />
@@ -3808,11 +3675,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>40</width>
+      <width>33</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-26e</wuid>
-      <x>2</x>
-      <y>19</y>
+      <x>7</x>
+      <y>17</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -3914,7 +3781,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -3925,12 +3792,12 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="8" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>9</height>
+      <height>13</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>Chopper</name>
       <rules />
@@ -3946,11 +3813,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>40</width>
+      <width>46</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:2f1</wuid>
-      <x>2</x>
-      <y>19</y>
+      <x>1</x>
+      <y>17</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -4057,46 +3924,6 @@ $(pv_value)</tooltip>
       <wuid>370f6419:15a40571465:-51c</wuid>
       <x>0</x>
       <y>0</y>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
-      </font>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>9</height>
-      <horizontal_alignment>1</horizontal_alignment>
-      <name>QM01</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <text>QM01</text>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <vertical_alignment>1</vertical_alignment>
-      <visible>true</visible>
-      <widget_type>Label</widget_type>
-      <width>21</width>
-      <wrap_words>false</wrap_words>
-      <wuid>33171ccd:1588abaf757:56a</wuid>
-      <x>1</x>
-      <y>22</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -4206,7 +4033,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -4217,12 +4044,12 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="8" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>9</height>
+      <height>13</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>FC05</name>
       <rules />
@@ -4238,11 +4065,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>40</width>
+      <width>25</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-20c</wuid>
-      <x>2</x>
-      <y>19</y>
+      <x>11</x>
+      <y>17</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -4352,7 +4179,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -4363,12 +4190,12 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="8" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>9</height>
+      <height>13</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>FC03</name>
       <rules />
@@ -4384,11 +4211,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>40</width>
+      <width>25</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-220</wuid>
-      <x>2</x>
-      <y>19</y>
+      <x>11</x>
+      <y>17</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -4501,12 +4328,12 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="8" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>9</height>
+      <height>13</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>QWR</name>
       <rules />
@@ -4522,11 +4349,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>18</width>
+      <width>26</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-200</wuid>
-      <x>36</x>
-      <y>53</y>
+      <x>32</x>
+      <y>51</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -4636,7 +4463,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -4647,12 +4474,12 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="8" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>9</height>
+      <height>13</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>EQT03</name>
       <rules />
@@ -4668,11 +4495,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>40</width>
+      <width>33</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-26a</wuid>
-      <x>2</x>
-      <y>19</y>
+      <x>7</x>
+      <y>17</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -4715,46 +4542,6 @@ $(pv_value)</tooltip>
     <wuid>-7dcc6ae6:15a6eacc81a:-45db</wuid>
     <x>433</x>
     <y>757</y>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
-      </font>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>9</height>
-      <horizontal_alignment>1</horizontal_alignment>
-      <name>GV02</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <text>GV02</text>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <vertical_alignment>1</vertical_alignment>
-      <visible>true</visible>
-      <widget_type>Label</widget_type>
-      <width>19</width>
-      <wrap_words>false</wrap_words>
-      <wuid>-7dcc6ae6:15a6eacc81a:-45da</wuid>
-      <x>6</x>
-      <y>7</y>
-    </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0.0">
       <actions hook="false" hook_all="false" />
       <alarm_pulsing>false</alarm_pulsing>
@@ -4928,12 +4715,12 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="8" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>9</height>
+      <height>13</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>RFQ</name>
       <rules />
@@ -4949,11 +4736,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>15</width>
+      <width>22</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-210</wuid>
-      <x>187</x>
-      <y>42</y>
+      <x>174</x>
+      <y>40</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
       <actions hook="false" hook_all="false" />
@@ -4989,7 +4776,7 @@ $(pv_value)</tooltip>
       <show_scrollbar>false</show_scrollbar>
       <tooltip></tooltip>
       <transparent>true</transparent>
-      <visible>false</visible>
+      <visible>true</visible>
       <widget_type>Grouping Container</widget_type>
       <width>389</width>
       <wuid>f2647ac:15aa11b143a:-c97</wuid>
@@ -11568,12 +11355,12 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="7" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>27</height>
+      <height>30</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>Beam diagnostic box</name>
       <rules />
@@ -11591,146 +11378,11 @@ diagnostic &#xD;
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>41</width>
+      <width>45</width>
       <wrap_words>false</wrap_words>
       <wuid>33171ccd:1588abaf757:578</wuid>
-      <x>6</x>
+      <x>5</x>
       <y>6</y>
-    </widget>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <background_color>
-      <color red="240" green="240" blue="240" />
-    </background_color>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <fc>false</fc>
-    <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-    </font>
-    <foreground_color>
-      <color red="192" green="192" blue="192" />
-    </foreground_color>
-    <height>102</height>
-    <lock_children>false</lock_children>
-    <macros>
-      <include_parent_macros>true</include_parent_macros>
-    </macros>
-    <name>GV03</name>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <show_scrollbar>false</show_scrollbar>
-    <tooltip></tooltip>
-    <transparent>true</transparent>
-    <visible>true</visible>
-    <widget_type>Grouping Container</widget_type>
-    <width>31</width>
-    <wuid>370f6419:15a40571465:2f5</wuid>
-    <x>993</x>
-    <y>757</y>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
-      </font>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>9</height>
-      <horizontal_alignment>1</horizontal_alignment>
-      <name>GV03</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <text>GV03</text>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <vertical_alignment>1</vertical_alignment>
-      <visible>true</visible>
-      <widget_type>Label</widget_type>
-      <width>19</width>
-      <wrap_words>false</wrap_words>
-      <wuid>-3163570a:158ae4a82d0:-7ee0</wuid>
-      <x>6</x>
-      <y>7</y>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <alarm_pulsing>false</alarm_pulsing>
-      <align_to_nearest_second>false</align_to_nearest_second>
-      <auto_size>false</auto_size>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <bit>-1</bit>
-      <boolean_label_position>0</boolean_label_position>
-      <border_alarm_sensitive>true</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <data_type>0</data_type>
-      <enabled>true</enabled>
-      <font>
-        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-      </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>87</height>
-      <name>GV03</name>
-      <no_animation>false</no_animation>
-      <off_image>../symbols/Device/SVG/gatevalve2.svg</off_image>
-      <off_label>OFF</off_label>
-      <on_image>../symbols/Device/SVG/gatevalve2_on.open.svg</on_image>
-      <on_label>ON</on_label>
-      <pv_name>RFQ1-Vac:GV6:Open</pv_name>
-      <pv_value />
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <show_boolean_label>false</show_boolean_label>
-      <stretch_to_fit>true</stretch_to_fit>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <transparency>true</transparency>
-      <visible>true</visible>
-      <widget_type>Image Boolean Indicator</widget_type>
-      <width>31</width>
-      <wuid>-3292f59c:1588fe26f54:1860</wuid>
-      <x>0</x>
-      <y>15</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -11760,7 +11412,7 @@ $(pv_value)</tooltip>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>47</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -11840,7 +11492,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -11851,12 +11503,12 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
+        <fontdata fontName="Droid Sans" height="8" style="1" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>9</height>
+      <height>13</height>
       <horizontal_alignment>1</horizontal_alignment>
       <name>FC04</name>
       <rules />
@@ -11872,11 +11524,11 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
       <widget_type>Label</widget_type>
-      <width>40</width>
+      <width>25</width>
       <wrap_words>false</wrap_words>
       <wuid>370f6419:15a40571465:-21c</wuid>
-      <x>2</x>
-      <y>19</y>
+      <x>11</x>
+      <y>17</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -11964,7 +11616,7 @@ $(pv_value)</tooltip>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>53</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -12042,46 +11694,6 @@ $(pv_value)</tooltip>
       <x>0</x>
       <y>0</y>
     </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Droid Sans" height="4" style="1" />
-      </font>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>9</height>
-      <horizontal_alignment>1</horizontal_alignment>
-      <name>QM02</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <text>QM02</text>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <vertical_alignment>1</vertical_alignment>
-      <visible>true</visible>
-      <widget_type>Label</widget_type>
-      <width>21</width>
-      <wrap_words>false</wrap_words>
-      <wuid>33171ccd:1588abaf757:572</wuid>
-      <x>1</x>
-      <y>22</y>
-    </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -12139,5 +11751,313 @@ $(pv_value)</tooltip>
     <wuid>f2647ac:15aa7f5a432:5ef7</wuid>
     <x>779</x>
     <y>427</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <align_to_nearest_second>false</align_to_nearest_second>
+    <auto_size>false</auto_size>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <bit>-1</bit>
+    <boolean_label_position>0</boolean_label_position>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <data_type>0</data_type>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <height>31</height>
+    <name>GV01</name>
+    <no_animation>false</no_animation>
+    <off_image>../symbols/Device/SVG/gatevalve2_L.svg</off_image>
+    <off_label>OFF</off_label>
+    <on_image>../symbols/Device/SVG/gatevalve2_on.open_L.svg</on_image>
+    <on_label>ON</on_label>
+    <pv_name>ECRIS-Cryo:GateValve05:ONOFF</pv_name>
+    <pv_value />
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <transparency>true</transparency>
+    <visible>true</visible>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <width>87</width>
+    <wuid>370f6419:15a40571465:2ca</wuid>
+    <x>79</x>
+    <y>595</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <auto_size>true</auto_size>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <font>
+      <fontdata fontName="Droid Sans" height="8" style="1" />
+    </font>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <height>13</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <name>GV01</name>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <text>GV01</text>
+    <tooltip></tooltip>
+    <transparent>true</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <visible>true</visible>
+    <widget_type>Label</widget_type>
+    <width>27</width>
+    <wrap_words>false</wrap_words>
+    <wuid>33171ccd:1588abaf757:55e</wuid>
+    <x>53</x>
+    <y>604</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <auto_size>true</auto_size>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <font>
+      <fontdata fontName="Droid Sans" height="8" style="1" />
+    </font>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <height>13</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <name>GV02</name>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <text>GV02</text>
+    <tooltip></tooltip>
+    <transparent>true</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <visible>true</visible>
+    <widget_type>Label</widget_type>
+    <width>27</width>
+    <wrap_words>false</wrap_words>
+    <wuid>-7dcc6ae6:15a6eacc81a:-45da</wuid>
+    <x>435</x>
+    <y>757</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <auto_size>true</auto_size>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <font>
+      <fontdata fontName="Droid Sans" height="8" style="1" />
+    </font>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <height>13</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <name>GV03</name>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <text>GV03</text>
+    <tooltip></tooltip>
+    <transparent>true</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <visible>true</visible>
+    <widget_type>Label</widget_type>
+    <width>27</width>
+    <wrap_words>false</wrap_words>
+    <wuid>-3163570a:158ae4a82d0:-7ee0</wuid>
+    <x>999</x>
+    <y>757</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <align_to_nearest_second>false</align_to_nearest_second>
+    <auto_size>false</auto_size>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <bit>-1</bit>
+    <boolean_label_position>0</boolean_label_position>
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <data_type>0</data_type>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <height>87</height>
+    <name>GV03</name>
+    <no_animation>false</no_animation>
+    <off_image>../symbols/Device/SVG/gatevalve2.svg</off_image>
+    <off_label>OFF</off_label>
+    <on_image>../symbols/Device/SVG/gatevalve2_on.open.svg</on_image>
+    <on_label>ON</on_label>
+    <pv_name>RFQ1-Vac:GV6:Open</pv_name>
+    <pv_value />
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <transparency>true</transparency>
+    <visible>true</visible>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <width>31</width>
+    <wuid>-3292f59c:1588fe26f54:1860</wuid>
+    <x>993</x>
+    <y>772</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <auto_size>true</auto_size>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <font>
+      <fontdata fontName="Droid Sans" height="7" style="1" />
+    </font>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <height>10</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <name>QM01</name>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <text>QM01</text>
+    <tooltip></tooltip>
+    <transparent>true</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <visible>true</visible>
+    <widget_type>Label</widget_type>
+    <width>25</width>
+    <wrap_words>false</wrap_words>
+    <wuid>33171ccd:1588abaf757:56a</wuid>
+    <x>1044</x>
+    <y>795</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <auto_size>true</auto_size>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <font>
+      <fontdata fontName="Droid Sans" height="7" style="1" />
+    </font>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <height>10</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <name>QM02</name>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <text>QM02</text>
+    <tooltip></tooltip>
+    <transparent>true</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <visible>true</visible>
+    <widget_type>Label</widget_type>
+    <width>25</width>
+    <wrap_words>false</wrap_words>
+    <wuid>33171ccd:1588abaf757:572</wuid>
+    <x>1087</x>
+    <y>795</y>
   </widget>
 </display>

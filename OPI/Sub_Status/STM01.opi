@@ -18,9 +18,6 @@
   <height>325</height>
   <macros>
     <include_parent_macros>true</include_parent_macros>
-    <SUBSYS>Mag</SUBSYS>
-    <DEV>Sol01</DEV>
-    <SYS>ECRIS</SYS>
   </macros>
   <name></name>
   <rules />
@@ -106,7 +103,7 @@ $(pv_value)</tooltip>
     <border_width>1</border_width>
     <enabled>true</enabled>
     <font>
-      <fontdata fontName="Droid Sans" height="9" style="1" />
+      <fontdata fontName="Droid Sans" height="14" style="1" />
     </font>
     <foreground_color>
       <color red="255" green="255" blue="255" />
@@ -265,47 +262,30 @@ $(pv_value)</tooltip>
     <x>542</x>
     <y>3</y>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <alarm_pulsing>false</alarm_pulsing>
-    <alpha>255</alpha>
-    <anti_alias>true</anti_alias>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <background_color>
-      <color red="191" green="191" blue="191" />
+      <color red="240" green="240" blue="240" />
     </background_color>
-    <bg_gradient_color>
-      <color red="255" green="255" blue="255" />
-    </bg_gradient_color>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
     <border_style>0</border_style>
     <border_width>1</border_width>
     <enabled>true</enabled>
-    <fg_gradient_color>
-      <color red="255" green="255" blue="255" />
-    </fg_gradient_color>
-    <fill_level>0.0</fill_level>
+    <fc>false</fc>
     <font>
-      <fontdata fontName="Droid Sans" height="7" style="0" />
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
     </font>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
-      <color red="255" green="0" blue="0" />
+      <color red="192" green="192" blue="192" />
     </foreground_color>
-    <gradient>false</gradient>
     <height>303</height>
-    <horizontal_fill>true</horizontal_fill>
-    <line_color>
-      <color red="128" green="0" blue="255" />
-    </line_color>
-    <line_style>0</line_style>
-    <line_width>0</line_width>
-    <name>center line</name>
-    <pv_name></pv_name>
-    <pv_value />
+    <lock_children>false</lock_children>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+    </macros>
+    <name>Grouping Container_13</name>
     <rules />
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -313,73 +293,131 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <transparent>false</transparent>
+    <show_scrollbar>false</show_scrollbar>
+    <tooltip></tooltip>
+    <transparent>true</transparent>
     <visible>true</visible>
-    <widget_type>Rectangle</widget_type>
-    <width>1</width>
-    <wuid>-7dcc6ae6:15a6ec0baee:-208f</wuid>
-    <x>281</x>
-    <y>22</y>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <alarm_pulsing>false</alarm_pulsing>
-    <alpha>255</alpha>
-    <anti_alias>true</anti_alias>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <background_color>
-      <color red="191" green="191" blue="191" />
-    </background_color>
-    <bg_gradient_color>
-      <color red="255" green="255" blue="255" />
-    </bg_gradient_color>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <fg_gradient_color>
-      <color red="255" green="255" blue="255" />
-    </fg_gradient_color>
-    <fill_level>0.0</fill_level>
-    <font>
-      <fontdata fontName="Droid Sans" height="7" style="0" />
-    </font>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <foreground_color>
-      <color red="255" green="0" blue="0" />
-    </foreground_color>
-    <gradient>false</gradient>
-    <height>1</height>
-    <horizontal_fill>true</horizontal_fill>
-    <line_color>
-      <color red="128" green="0" blue="255" />
-    </line_color>
-    <line_style>0</line_style>
-    <line_width>0</line_width>
-    <name>center line_1</name>
-    <pv_name></pv_name>
-    <pv_value />
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <transparent>false</transparent>
-    <visible>true</visible>
-    <widget_type>Rectangle</widget_type>
+    <widget_type>Grouping Container</widget_type>
     <width>282</width>
-    <wuid>f2647ac:15aa7f5a432:120d</wuid>
+    <wuid>49f1ed94:15ad0849902:-477e</wuid>
     <x>0</x>
-    <y>173</y>
+    <y>22</y>
+    <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <alarm_pulsing>false</alarm_pulsing>
+      <alpha>255</alpha>
+      <anti_alias>true</anti_alias>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <background_color>
+        <color red="191" green="191" blue="191" />
+      </background_color>
+      <bg_gradient_color>
+        <color red="255" green="255" blue="255" />
+      </bg_gradient_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fg_gradient_color>
+        <color red="255" green="255" blue="255" />
+      </fg_gradient_color>
+      <fill_level>0.0</fill_level>
+      <font>
+        <fontdata fontName="Droid Sans" height="7" style="0" />
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color red="255" green="0" blue="0" />
+      </foreground_color>
+      <gradient>false</gradient>
+      <height>303</height>
+      <horizontal_fill>true</horizontal_fill>
+      <line_color>
+        <color red="128" green="0" blue="255" />
+      </line_color>
+      <line_style>0</line_style>
+      <line_width>0</line_width>
+      <name>center line</name>
+      <pv_name></pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <transparent>false</transparent>
+      <visible>true</visible>
+      <widget_type>Rectangle</widget_type>
+      <width>1</width>
+      <wuid>-7dcc6ae6:15a6ec0baee:-208f</wuid>
+      <x>281</x>
+      <y>0</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+      <actions hook="false" hook_all="false" />
+      <alarm_pulsing>false</alarm_pulsing>
+      <alpha>255</alpha>
+      <anti_alias>true</anti_alias>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <background_color>
+        <color red="191" green="191" blue="191" />
+      </background_color>
+      <bg_gradient_color>
+        <color red="255" green="255" blue="255" />
+      </bg_gradient_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <fg_gradient_color>
+        <color red="255" green="255" blue="255" />
+      </fg_gradient_color>
+      <fill_level>0.0</fill_level>
+      <font>
+        <fontdata fontName="Droid Sans" height="12" style="0" />
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color red="255" green="0" blue="0" />
+      </foreground_color>
+      <gradient>false</gradient>
+      <height>1</height>
+      <horizontal_fill>true</horizontal_fill>
+      <line_color>
+        <color red="128" green="0" blue="255" />
+      </line_color>
+      <line_style>0</line_style>
+      <line_width>0</line_width>
+      <name>center line_1</name>
+      <pv_name></pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <transparent>false</transparent>
+      <visible>true</visible>
+      <widget_type>Rectangle</widget_type>
+      <width>282</width>
+      <wuid>f2647ac:15aa7f5a432:120d</wuid>
+      <x>0</x>
+      <y>151</y>
+    </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -394,7 +432,7 @@ $(pv_value)</tooltip>
     <border_width>1</border_width>
     <enabled>true</enabled>
     <font>
-      <fontdata fontName="Droid Sans" height="7" style="0" />
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -435,13 +473,13 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <fontdata fontName="Droid Sans" height="7" style="0" />
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>42</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -475,7 +513,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -519,7 +557,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -531,7 +569,7 @@ $(pv_value)</tooltip>
       <name>Current_1</name>
       <precision>2</precision>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>$(SYS)-$(SUBSYS):Str01:RCTarget</pv_name>
+      <pv_name>ECRIS-Mag:Str01:RCTarget</pv_name>
       <pv_value />
       <rotation_angle>0.0</rotation_angle>
       <rules />
@@ -568,7 +606,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -612,7 +650,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -624,7 +662,7 @@ $(pv_value)</tooltip>
       <name>Current_2</name>
       <precision>2</precision>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>$(SYS)-$(SUBSYS):Str01:RCTime</pv_name>
+      <pv_name>ECRIS-Mag:Str01:RCTime</pv_name>
       <pv_value />
       <rotation_angle>0.0</rotation_angle>
       <rules />
@@ -661,7 +699,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -703,7 +741,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <fontdata fontName="Droid Sans" height="7" style="0" />
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -746,7 +784,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -758,7 +796,7 @@ $(pv_value)</tooltip>
       <name>P1-3 Voltage</name>
       <precision>2</precision>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>$(SYS)-$(SUBSYS):Str01:VoltRB</pv_name>
+      <pv_name>ECRIS-Mag:Str01:VoltRB</pv_name>
       <pv_value />
       <rotation_angle>0.0</rotation_angle>
       <rules />
@@ -795,7 +833,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -836,7 +874,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -878,7 +916,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <fontdata fontName="Droid Sans" height="7" style="0" />
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -921,7 +959,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -970,7 +1008,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1011,7 +1049,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1053,13 +1091,13 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <fontdata fontName="Droid Sans" height="7" style="0" />
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>18</height>
-    <lock_children>false</lock_children>
+    <lock_children>true</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -1096,7 +1134,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1108,7 +1146,7 @@ $(pv_value)</tooltip>
       <name>Current</name>
       <precision>2</precision>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>$(SYS)-$(SUBSYS):Str01:CurrentRB</pv_name>
+      <pv_name>ECRIS-Mag:Str01:CurrentRB</pv_name>
       <pv_value />
       <rotation_angle>0.0</rotation_angle>
       <rules />
@@ -1154,7 +1192,7 @@ $(pv_value)</tooltip>
       <effect_3d>true</effect_3d>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1170,7 +1208,7 @@ $(pv_value)</tooltip>
         <color red="0" green="255" blue="0" />
       </on_color>
       <on_label>ON</on_label>
-      <pv_name>$(SYS)-$(SUBSYS):$(DEV):CurrentStatus</pv_name>
+      <pv_name>ECRIS-Mag:Sol01:CurrentStatus</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -1203,7 +1241,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1244,7 +1282,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1286,7 +1324,7 @@ $(pv_value)</tooltip>
     <border_width>1</border_width>
     <enabled>true</enabled>
     <font>
-      <fontdata fontName="Droid Sans" height="7" style="0" />
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -1327,13 +1365,13 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <fontdata fontName="Droid Sans" height="7" style="0" />
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>42</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -1367,7 +1405,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1411,7 +1449,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1423,7 +1461,7 @@ $(pv_value)</tooltip>
       <name>Current_7</name>
       <precision>2</precision>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>$(SYS)-$(SUBSYS):Str02:RCTarget</pv_name>
+      <pv_name>ECRIS-Mag:Str02:RCTarget</pv_name>
       <pv_value />
       <rotation_angle>0.0</rotation_angle>
       <rules />
@@ -1460,7 +1498,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1504,7 +1542,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1516,7 +1554,7 @@ $(pv_value)</tooltip>
       <name>Current_8</name>
       <precision>2</precision>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>$(SYS)-$(SUBSYS):Str02:RCTime</pv_name>
+      <pv_name>ECRIS-Mag:Str02:RCTime</pv_name>
       <pv_value />
       <rotation_angle>0.0</rotation_angle>
       <rules />
@@ -1553,7 +1591,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1595,13 +1633,13 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <fontdata fontName="Droid Sans" height="7" style="0" />
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>18</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -1638,7 +1676,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1650,7 +1688,7 @@ $(pv_value)</tooltip>
       <name>P1-3 Voltage_2</name>
       <precision>2</precision>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>$(SYS)-$(SUBSYS):Str02:VoltRB</pv_name>
+      <pv_name>ECRIS-Mag:Str02:VoltRB</pv_name>
       <pv_value />
       <rotation_angle>0.0</rotation_angle>
       <rules />
@@ -1687,7 +1725,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1728,7 +1766,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1770,13 +1808,13 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <fontdata fontName="Droid Sans" height="7" style="0" />
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>18</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -1813,7 +1851,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1862,7 +1900,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1903,7 +1941,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1945,7 +1983,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <fontdata fontName="Droid Sans" height="7" style="0" />
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
@@ -1988,7 +2026,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -2000,7 +2038,7 @@ $(pv_value)</tooltip>
       <name>Current_6</name>
       <precision>2</precision>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>$(SYS)-$(SUBSYS):Str02:CurrentRB</pv_name>
+      <pv_name>ECRIS-Mag:Str02:CurrentRB</pv_name>
       <pv_value />
       <rotation_angle>0.0</rotation_angle>
       <rules />
@@ -2046,7 +2084,7 @@ $(pv_value)</tooltip>
       <effect_3d>true</effect_3d>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -2062,7 +2100,7 @@ $(pv_value)</tooltip>
         <color red="0" green="255" blue="0" />
       </on_color>
       <on_label>ON</on_label>
-      <pv_name>$(SYS)-$(SUBSYS):$(DEV):CurrentStatus</pv_name>
+      <pv_name>ECRIS-Mag:Sol01:CurrentStatus</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -2095,7 +2133,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -2136,7 +2174,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -2312,7 +2350,7 @@ $(trace_0_y_pv_value)</tooltip>
       <trace_0_x_pv></trace_0_x_pv>
       <trace_0_x_pv_value />
       <trace_0_y_axis_index>1</trace_0_y_axis_index>
-      <trace_0_y_pv>$(SYS)-$(SUBSYS):Str01:CurrentRB</trace_0_y_pv>
+      <trace_0_y_pv>ECRIS-Mag:Str01:CurrentRB</trace_0_y_pv>
       <trace_0_y_pv_value />
       <trace_1_anti_alias>true</trace_1_anti_alias>
       <trace_1_buffer_size>100</trace_1_buffer_size>
@@ -2333,7 +2371,7 @@ $(trace_0_y_pv_value)</tooltip>
       <trace_1_x_pv></trace_1_x_pv>
       <trace_1_x_pv_value />
       <trace_1_y_axis_index>1</trace_1_y_axis_index>
-      <trace_1_y_pv>$(SYS)-$(SUBSYS):Str02:CurrentRB</trace_1_y_pv>
+      <trace_1_y_pv>ECRIS-Mag:Str02:CurrentRB</trace_1_y_pv> 
       <trace_1_y_pv_value />
       <trace_count>2</trace_count>
       <transparent>true</transparent>
@@ -2359,7 +2397,7 @@ $(trace_0_y_pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="6" style="0" />
+        <fontdata fontName="Droid Sans" height="10" style="0" />
       </font>
       <foreground_color>
         <color red="21" green="21" blue="196" />
@@ -2400,7 +2438,7 @@ $(trace_0_y_pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="6" style="0" />
+        <fontdata fontName="Droid Sans" height="10" style="0" />
       </font>
       <foreground_color>
         <color red="242" green="26" blue="26" />

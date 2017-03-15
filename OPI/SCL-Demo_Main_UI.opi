@@ -1623,10 +1623,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>450</width>
+    <width>1770</width>
     <wrap_words>false</wrap_words>
     <wuid>33f58a63:1586fe437fe:30dc</wuid>
-    <x>807</x>
+    <x>148</x>
     <y>7</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">

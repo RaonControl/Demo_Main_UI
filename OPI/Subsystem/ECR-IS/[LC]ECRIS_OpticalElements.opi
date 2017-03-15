@@ -18801,7 +18801,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>28</height>
+    <height>18</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_5</name>
     <rules />
@@ -18818,7 +18818,7 @@ Magnet</text>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>45</width>
+    <width>31</width>
     <wrap_words>false</wrap_words>
     <wuid>33f58a63:1584d683971:-499e</wuid>
     <x>754</x>
@@ -18842,7 +18842,7 @@ Magnet</text>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>28</height>
+    <height>18</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_6</name>
     <rules />
@@ -18859,7 +18859,7 @@ Solenoid</text>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>47</width>
+    <width>33</width>
     <wrap_words>false</wrap_words>
     <wuid>33f58a63:1584d683971:-499d</wuid>
     <x>867</x>
@@ -18923,7 +18923,7 @@ Solenoid</text>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>28</height>
+    <height>18</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_8</name>
     <rules />
@@ -18940,7 +18940,7 @@ Magnet</text>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>95</width>
+    <width>65</width>
     <wrap_words>false</wrap_words>
     <wuid>33f58a63:1584d683971:-499b</wuid>
     <x>909</x>
@@ -18964,7 +18964,7 @@ Magnet</text>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>42</height>
+    <height>27</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_9</name>
     <rules />
@@ -18982,7 +18982,7 @@ Magnet</text>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>47</width>
+    <width>29</width>
     <wrap_words>false</wrap_words>
     <wuid>33f58a63:1584d683971:-499a</wuid>
     <x>829</x>
@@ -19006,7 +19006,7 @@ Magnet</text>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>42</height>
+    <height>27</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_10</name>
     <rules />
@@ -19024,7 +19024,7 @@ Magnet</text>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>47</width>
+    <width>29</width>
     <wrap_words>false</wrap_words>
     <wuid>33f58a63:1584d683971:-4999</wuid>
     <x>1001</x>

@@ -7,7 +7,7 @@ importPackage(Packages.java.lang);
 var title= PVUtil.getString(pvs[0]);
 
 if(title == "Main.opi") {
-widget.setPropertyValue("text", "Demo Main");
+widget.setPropertyValue("text", "Superconducting Linac Demo");
 
 } else if(title == "Subsystem/ECR-IS/ECR-IS_Main.opi") {
 widget.setPropertyValue("text", "ECR-IS");

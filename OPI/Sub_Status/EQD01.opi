@@ -18,7 +18,6 @@
   <height>325</height>
   <macros>
     <include_parent_macros>true</include_parent_macros>
-    <SUBSYS>ESQ</SUBSYS>
   </macros>
   <name></name>
   <rules />
@@ -104,7 +103,7 @@ $(pv_value)</tooltip>
     <border_width>1</border_width>
     <enabled>true</enabled>
     <font>
-      <fontdata fontName="Droid Sans" height="9" style="1" />
+      <fontdata fontName="Droid Sans" height="14" style="1" />
     </font>
     <foreground_color>
       <color red="255" green="255" blue="255" />
@@ -287,7 +286,7 @@ $(pv_value)</tooltip>
     </fg_gradient_color>
     <fill_level>0.0</fill_level>
     <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
@@ -334,13 +333,13 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>42</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -377,7 +376,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -389,7 +388,7 @@ $(pv_value)</tooltip>
       <name>N1-3 Voltage</name>
       <precision>2</precision>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>LEBT1-$(SUBSYS):EQDN02:VoltRB</pv_name>
+      <pv_name>LEBT1-ESQ:EQDN02:VoltRB</pv_name>
       <pv_value />
       <rotation_angle>0.0</rotation_angle>
       <rules />
@@ -429,7 +428,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -441,7 +440,7 @@ $(pv_value)</tooltip>
       <name>N1-3 Current</name>
       <precision>2</precision>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>LEBT1-$(SUBSYS):EQDN02:CurrentRB</pv_name>
+      <pv_name>LEBT1-ESQ:EQDN02:CurrentRB</pv_name>
       <pv_value />
       <rotation_angle>0.0</rotation_angle>
       <rules />
@@ -478,7 +477,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -528,7 +527,7 @@ $(pv_value)</tooltip>
       <effect_3d>true</effect_3d>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -544,7 +543,7 @@ $(pv_value)</tooltip>
         <color red="0" green="255" blue="0" />
       </on_color>
       <on_label>ON</on_label>
-      <pv_name>LEBT1-$(SUBSYS):EQTN03:OnOffMonitor</pv_name>
+      <pv_name>LEBT1-ESQ:EQTN03:OnOffMonitor</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -577,7 +576,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -618,7 +617,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -659,7 +658,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -700,7 +699,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -742,13 +741,13 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>42</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -785,7 +784,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -797,7 +796,7 @@ $(pv_value)</tooltip>
       <name>P1-3 Current</name>
       <precision>2</precision>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>LEBT1-$(SUBSYS):EQDP02:CurrentRB</pv_name>
+      <pv_name>LEBT1-ESQ:EQDP02:CurrentRB</pv_name>
       <pv_value />
       <rotation_angle>0.0</rotation_angle>
       <rules />
@@ -837,7 +836,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -849,7 +848,7 @@ $(pv_value)</tooltip>
       <name>P1-3 Voltage</name>
       <precision>2</precision>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>LEBT1-$(SUBSYS):EQDP02:VoltRB</pv_name>
+      <pv_name>LEBT1-ESQ:EQDP02:VoltRB</pv_name>
       <pv_value />
       <rotation_angle>0.0</rotation_angle>
       <rules />
@@ -886,7 +885,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -936,7 +935,7 @@ $(pv_value)</tooltip>
       <effect_3d>true</effect_3d>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -952,7 +951,7 @@ $(pv_value)</tooltip>
         <color red="0" green="255" blue="0" />
       </on_color>
       <on_label>ON</on_label>
-      <pv_name>LEBT1-$(SUBSYS):EQTP03:OnOffMonitor</pv_name>
+      <pv_name>LEBT1-ESQ:EQTP03:OnOffMonitor</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -985,7 +984,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1026,7 +1025,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1067,7 +1066,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1108,7 +1107,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1150,13 +1149,13 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>42</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -1193,7 +1192,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1205,7 +1204,7 @@ $(pv_value)</tooltip>
       <name>N1-2 Voltage</name>
       <precision>2</precision>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>LEBT1-$(SUBSYS):EQDN01:VoltRB</pv_name>
+      <pv_name>LEBT1-ESQ:EQDN01:VoltRB</pv_name>
       <pv_value />
       <rotation_angle>0.0</rotation_angle>
       <rules />
@@ -1245,7 +1244,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1257,7 +1256,7 @@ $(pv_value)</tooltip>
       <name>N1-2 Current</name>
       <precision>2</precision>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>LEBT1-$(SUBSYS):EQDN01:CurrentRB</pv_name>
+      <pv_name>LEBT1-ESQ:EQDN01:CurrentRB</pv_name>
       <pv_value />
       <rotation_angle>0.0</rotation_angle>
       <rules />
@@ -1294,7 +1293,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1344,7 +1343,7 @@ $(pv_value)</tooltip>
       <effect_3d>true</effect_3d>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1360,7 +1359,7 @@ $(pv_value)</tooltip>
         <color red="0" green="255" blue="0" />
       </on_color>
       <on_label>ON</on_label>
-      <pv_name>LEBT1-$(SUBSYS):EQTN02:OnOffMonitor</pv_name>
+      <pv_name>LEBT1-ESQ:EQTN02:OnOffMonitor</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -1393,7 +1392,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1434,7 +1433,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1475,7 +1474,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1516,7 +1515,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1558,13 +1557,13 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <fc>false</fc>
     <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+      <fontdata fontName="Droid Sans" height="12" style="0" />
     </font>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>42</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -1601,7 +1600,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1613,7 +1612,7 @@ $(pv_value)</tooltip>
       <name>P1-2 Voltage</name>
       <precision>2</precision>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>LEBT1-$(SUBSYS):EQDP01:VoltRB</pv_name>
+      <pv_name>LEBT1-ESQ:EQDP01:VoltRB</pv_name>
       <pv_value />
       <rotation_angle>0.0</rotation_angle>
       <rules />
@@ -1653,7 +1652,7 @@ $(pv_value)</tooltip>
       <border_width>2</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1665,7 +1664,7 @@ $(pv_value)</tooltip>
       <name>P1-2 Current</name>
       <precision>2</precision>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>LEBT1-$(SUBSYS):EQDP01:CurrentRB</pv_name>
+      <pv_name>LEBT1-ESQ:EQDP01:CurrentRB</pv_name>
       <pv_value />
       <rotation_angle>0.0</rotation_angle>
       <rules />
@@ -1702,7 +1701,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1752,7 +1751,7 @@ $(pv_value)</tooltip>
       <effect_3d>true</effect_3d>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
@@ -1768,7 +1767,7 @@ $(pv_value)</tooltip>
         <color red="0" green="255" blue="0" />
       </on_color>
       <on_label>ON</on_label>
-      <pv_name>LEBT1-$(SUBSYS):EQTP02:OnOffMonitor</pv_name>
+      <pv_name>LEBT1-ESQ:EQTP02:OnOffMonitor</pv_name>
       <pv_value />
       <rules />
       <scale_options>
@@ -1801,7 +1800,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1842,7 +1841,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1883,7 +1882,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1924,7 +1923,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="7" style="0" />
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1972,7 +1971,7 @@ $(pv_value)</tooltip>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>295</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -2100,7 +2099,7 @@ $(trace_0_y_pv_value)</tooltip>
       <trace_0_x_pv></trace_0_x_pv>
       <trace_0_x_pv_value />
       <trace_0_y_axis_index>1</trace_0_y_axis_index>
-      <trace_0_y_pv>LEBT1-$(SUBSYS):EQDP01:CurrentRB</trace_0_y_pv>
+      <trace_0_y_pv>LEBT1-ESQ:EQDP01:CurrentRB</trace_0_y_pv>
       <trace_0_y_pv_value />
       <trace_1_anti_alias>true</trace_1_anti_alias>
       <trace_1_buffer_size>100</trace_1_buffer_size>
@@ -2121,7 +2120,7 @@ $(trace_0_y_pv_value)</tooltip>
       <trace_1_x_pv></trace_1_x_pv>
       <trace_1_x_pv_value />
       <trace_1_y_axis_index>1</trace_1_y_axis_index>
-      <trace_1_y_pv>LEBT1-$(SUBSYS):EQDN01:CurrentRB</trace_1_y_pv>
+      <trace_1_y_pv>LEBT1-ESQ:EQDN01:CurrentRB</trace_1_y_pv>
       <trace_1_y_pv_value />
       <trace_2_anti_alias>true</trace_2_anti_alias>
       <trace_2_buffer_size>100</trace_2_buffer_size>
@@ -2142,7 +2141,7 @@ $(trace_0_y_pv_value)</tooltip>
       <trace_2_x_pv></trace_2_x_pv>
       <trace_2_x_pv_value />
       <trace_2_y_axis_index>1</trace_2_y_axis_index>
-      <trace_2_y_pv>LEBT1-$(SUBSYS):EQDP02:CurrentRB</trace_2_y_pv>
+      <trace_2_y_pv>LEBT1-ESQ:EQDP02:CurrentRB</trace_2_y_pv>
       <trace_2_y_pv_value />
       <trace_3_anti_alias>true</trace_3_anti_alias>
       <trace_3_buffer_size>100</trace_3_buffer_size>
@@ -2163,7 +2162,7 @@ $(trace_0_y_pv_value)</tooltip>
       <trace_3_x_pv></trace_3_x_pv>
       <trace_3_x_pv_value />
       <trace_3_y_axis_index>1</trace_3_y_axis_index>
-      <trace_3_y_pv>LEBT1-$(SUBSYS):EQDN02:CurrentRB</trace_3_y_pv>
+      <trace_3_y_pv>LEBT1-ESQ:EQDN02:CurrentRB</trace_3_y_pv>
       <trace_3_y_pv_value />
       <trace_count>4</trace_count>
       <transparent>true</transparent>
@@ -2189,13 +2188,13 @@ $(trace_0_y_pv_value)</tooltip>
       <enabled>true</enabled>
       <fc>false</fc>
       <font>
-        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+        <fontdata fontName="Droid Sans" height="12" style="0" />
       </font>
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
       <height>14</height>
-      <lock_children>true</lock_children>
+      <lock_children>false</lock_children>
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
@@ -2229,7 +2228,7 @@ $(trace_0_y_pv_value)</tooltip>
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="6" style="0" />
+          <fontdata fontName="Droid Sans" height="10" style="0" />
         </font>
         <foreground_color>
           <color red="21" green="21" blue="196" />
@@ -2270,7 +2269,7 @@ $(trace_0_y_pv_value)</tooltip>
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="6" style="0" />
+          <fontdata fontName="Droid Sans" height="10" style="0" />
         </font>
         <foreground_color>
           <color red="242" green="26" blue="26" />
@@ -2311,7 +2310,7 @@ $(trace_0_y_pv_value)</tooltip>
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="6" style="0" />
+          <fontdata fontName="Droid Sans" height="10" style="0" />
         </font>
         <foreground_color>
           <color red="33" green="179" blue="33" />
@@ -2352,7 +2351,7 @@ $(trace_0_y_pv_value)</tooltip>
         <border_width>1</border_width>
         <enabled>true</enabled>
         <font>
-          <fontdata fontName="Droid Sans" height="6" style="0" />
+          <fontdata fontName="Droid Sans" height="10" style="0" />
         </font>
         <foreground_color>
           <color red="0" green="0" blue="0" />
