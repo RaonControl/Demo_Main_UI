@@ -409,7 +409,7 @@ $(pv_value)</tooltip>
     <tooltip>$(trace_0_y_pv)
 $(trace_0_y_pv_value)</tooltip>
     <trace_0_anti_alias>true</trace_0_anti_alias>
-    <trace_0_buffer_size>100000</trace_0_buffer_size>
+    <trace_0_buffer_size>100</trace_0_buffer_size>
     <trace_0_concatenate_data>true</trace_0_concatenate_data>
     <trace_0_line_width>1</trace_0_line_width>
     <trace_0_name>Currnt</trace_0_name>

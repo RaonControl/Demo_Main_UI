@@ -17,9 +17,9 @@
         <blue>255</blue>
     </background>
     <title_font>Droid Sans|13|1</title_font>
-    <label_font>Droid Sans|10|1</label_font>
-    <scale_font>Droid Sans|10|0</scale_font>
-    <legend_font>Droid Sans|10|0</legend_font>
+    <label_font>Droid Sans|14|1</label_font>
+    <scale_font>Droid Sans|14|0</scale_font>
+    <legend_font>Droid Sans|14|0</legend_font>
     <axes>
         <axis>
             <visible>true</visible>
@@ -98,7 +98,7 @@
             <log_scale>false</log_scale>
         </axis>
         <axis>
-            <visible>true</visible>
+            <visible>false</visible>
             <name>QWR</name>
             <use_axis_name>true</use_axis_name>
             <use_trace_names>true</use_trace_names>
@@ -140,7 +140,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -164,7 +164,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -188,7 +188,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -212,7 +212,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -236,13 +236,13 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
         <pv>
             <display_name>SCL01-CM:CM001:VS-R-HP01</display_name>
-            <visible>true</visible>
+            <visible>false</visible>
             <name>SCL01-CM:CM001:VS-R-HP01</name>
             <axis>4</axis>
             <color>
@@ -260,13 +260,13 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
         <pv>
             <display_name>SCL01-CM:CM001:VS-R-LP01</display_name>
-            <visible>true</visible>
+            <visible>false</visible>
             <name>SCL01-CM:CM001:VS-R-LP01</name>
             <axis>4</axis>
             <color>
@@ -284,13 +284,13 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
         <pv>
             <display_name>SCL01-CM:CM001:CA-R-HP01</display_name>
-            <visible>true</visible>
+            <visible>false</visible>
             <name>SCL01-CM:CM001:CA-R-HP01</name>
             <axis>4</axis>
             <color>
@@ -308,13 +308,13 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
         <pv>
             <display_name>SCL01-CM:CM001:CA-R-LP01</display_name>
-            <visible>true</visible>
+            <visible>false</visible>
             <name>SCL01-CM:CM001:CA-R-LP01</name>
             <axis>4</axis>
             <color>
@@ -332,7 +332,7 @@
             <request>OPTIMIZED</request>
             <archive>
                 <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>

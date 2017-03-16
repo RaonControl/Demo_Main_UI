@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <databrowser>
-    <title>RFQ</title>
+    <title></title>
     <save_changes>true</save_changes>
     <show_legend>true</show_legend>
     <show_toolbar>false</show_toolbar>
@@ -8,7 +8,7 @@
     <scroll>true</scroll>
     <update_period>1.0</update_period>
     <scroll_step>1</scroll_step>
-    <start>-12 hour</start>
+    <start>-12.00 h</start>
     <end>now</end>
     <archive_rescale>NONE</archive_rescale>
     <background>
@@ -17,9 +17,9 @@
         <blue>255</blue>
     </background>
     <title_font>Droid Sans|15|0</title_font>
-    <label_font>Droid Sans|10|0</label_font>
-    <scale_font>Droid Sans|9|0</scale_font>
-    <legend_font>Droid Sans|9|0</legend_font>
+    <label_font>Droid Sans|14|0</label_font>
+    <scale_font>Droid Sans|14|0</scale_font>
+    <legend_font>Droid Sans|14|0</legend_font>
     <axes>
         <axis>
             <visible>true</visible>
@@ -34,8 +34,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>0.0</min>
-            <max>0.10010000000000001</max>
+            <min>3.853E-8</min>
+            <max>3.896E-8</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -53,8 +53,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>1.161E-7</min>
-            <max>1.28E-7</max>
+            <min>1.9979E-8</min>
+            <max>2.0151E-8</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -229,6 +229,11 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>Control Archiver Appliance</name>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
             <display_name>RFQ1-Vac:VGP5:Vacuum</display_name>
@@ -248,6 +253,11 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>Control Archiver Appliance</name>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
             <display_name>RFQ1-Vac:VGP6:Vacuum</display_name>
@@ -267,6 +277,11 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>Control Archiver Appliance</name>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
+                <key>1</key>
+            </archive>
         </pv>
     </pvlist>
 </databrowser>

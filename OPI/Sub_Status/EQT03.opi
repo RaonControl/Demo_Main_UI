@@ -2952,7 +2952,7 @@ $(pv_value)</tooltip>
       </axis_0_scale_font>
       <axis_0_scale_format></axis_0_scale_format>
       <axis_0_show_grid>true</axis_0_show_grid>
-      <axis_0_time_format>0</axis_0_time_format>
+      <axis_0_time_format>1</axis_0_time_format>
       <axis_0_title_font>
         <fontdata fontName="Droid Sans" height="6" style="0" />
       </axis_0_title_font>
@@ -3020,7 +3020,7 @@ $(pv_value)</tooltip>
       <tooltip>$(trace_0_y_pv)
 $(trace_0_y_pv_value)</tooltip>
       <trace_0_anti_alias>true</trace_0_anti_alias>
-      <trace_0_buffer_size>100000</trace_0_buffer_size>
+      <trace_0_buffer_size>100</trace_0_buffer_size>
       <trace_0_concatenate_data>true</trace_0_concatenate_data>
       <trace_0_line_width>1</trace_0_line_width>
       <trace_0_name>Currnt</trace_0_name>
@@ -3156,11 +3156,10 @@ $(trace_0_y_pv_value)</tooltip>
       <x>0</x>
       <y>0</y>
     </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
       <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
       <background_color>
-        <color red="255" green="255" blue="255" />
+        <color red="240" green="240" blue="240" />
       </background_color>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -3168,15 +3167,19 @@ $(trace_0_y_pv_value)</tooltip>
       <border_style>0</border_style>
       <border_width>1</border_width>
       <enabled>true</enabled>
+      <fc>false</fc>
       <font>
-        <fontdata fontName="Droid Sans" height="10" style="0" />
+        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
       </font>
       <foreground_color>
-        <color red="21" green="21" blue="196" />
+        <color red="192" green="192" blue="192" />
       </foreground_color>
       <height>14</height>
-      <horizontal_alignment>0</horizontal_alignment>
-      <name>Voltage_6</name>
+      <lock_children>true</lock_children>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+      </macros>
+      <name>Grouping Container</name>
       <rules />
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -3185,222 +3188,260 @@ $(trace_0_y_pv_value)</tooltip>
       </scale_options>
       <scripts />
       <show_scrollbar>false</show_scrollbar>
-      <text>P1-1</text>
       <tooltip></tooltip>
       <transparent>true</transparent>
-      <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
-      <widget_type>Label</widget_type>
-      <width>32</width>
-      <wrap_words>true</wrap_words>
-      <wuid>f2647ac:15aa7f5a432:-11e2</wuid>
-      <x>228</x>
+      <widget_type>Grouping Container</widget_type>
+      <width>224</width>
+      <wuid>49f1ed94:15ad0849902:1cf2</wuid>
+      <x>1</x>
       <y>281</y>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Droid Sans" height="10" style="0" />
-      </font>
-      <foreground_color>
-        <color red="242" green="26" blue="26" />
-      </foreground_color>
-      <height>14</height>
-      <horizontal_alignment>0</horizontal_alignment>
-      <name>Voltage_1</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <show_scrollbar>false</show_scrollbar>
-      <text>N1-1</text>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <vertical_alignment>1</vertical_alignment>
-      <visible>true</visible>
-      <widget_type>Label</widget_type>
-      <width>32</width>
-      <wrap_words>true</wrap_words>
-      <wuid>f2647ac:15aa7f5a432:-11e1</wuid>
-      <x>36</x>
-      <y>281</y>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Droid Sans" height="10" style="0" />
-      </font>
-      <foreground_color>
-        <color red="33" green="179" blue="33" />
-      </foreground_color>
-      <height>14</height>
-      <horizontal_alignment>0</horizontal_alignment>
-      <name>Voltage_2</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <show_scrollbar>false</show_scrollbar>
-      <text>P1-2</text>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <vertical_alignment>1</vertical_alignment>
-      <visible>true</visible>
-      <widget_type>Label</widget_type>
-      <width>32</width>
-      <wrap_words>true</wrap_words>
-      <wuid>f2647ac:15aa7f5a432:-11e0</wuid>
-      <x>72</x>
-      <y>281</y>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Droid Sans" height="10" style="0" />
-      </font>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>14</height>
-      <horizontal_alignment>0</horizontal_alignment>
-      <name>Voltage_3</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <show_scrollbar>false</show_scrollbar>
-      <text>N1-2</text>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <vertical_alignment>1</vertical_alignment>
-      <visible>true</visible>
-      <widget_type>Label</widget_type>
-      <width>32</width>
-      <wrap_words>true</wrap_words>
-      <wuid>f2647ac:15aa7f5a432:-11df</wuid>
-      <x>108</x>
-      <y>281</y>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Droid Sans" height="10" style="0" />
-      </font>
-      <foreground_color>
-        <color red="128" green="0" blue="255" />
-      </foreground_color>
-      <height>14</height>
-      <horizontal_alignment>0</horizontal_alignment>
-      <name>Voltage_4</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <show_scrollbar>false</show_scrollbar>
-      <text>P1-3</text>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <vertical_alignment>1</vertical_alignment>
-      <visible>true</visible>
-      <widget_type>Label</widget_type>
-      <width>32</width>
-      <wrap_words>true</wrap_words>
-      <wuid>f2647ac:15aa7f5a432:-117b</wuid>
-      <x>144</x>
-      <y>281</y>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Droid Sans" height="10" style="0" />
-      </font>
-      <foreground_color>
-        <color red="255" green="170" blue="0" />
-      </foreground_color>
-      <height>14</height>
-      <horizontal_alignment>0</horizontal_alignment>
-      <name>Voltage_5</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <show_scrollbar>false</show_scrollbar>
-      <text>N1-3</text>
-      <tooltip></tooltip>
-      <transparent>true</transparent>
-      <vertical_alignment>1</vertical_alignment>
-      <visible>true</visible>
-      <widget_type>Label</widget_type>
-      <width>32</width>
-      <wrap_words>true</wrap_words>
-      <wuid>f2647ac:15aa7f5a432:-1177</wuid>
-      <x>180</x>
-      <y>281</y>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <fontdata fontName="Droid Sans" height="10" style="0" />
+        </font>
+        <foreground_color>
+          <color red="21" green="21" blue="196" />
+        </foreground_color>
+        <height>14</height>
+        <horizontal_alignment>0</horizontal_alignment>
+        <name>Voltage_6</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>P1-1</text>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>32</width>
+        <wrap_words>true</wrap_words>
+        <wuid>f2647ac:15aa7f5a432:-11e2</wuid>
+        <x>192</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <fontdata fontName="Droid Sans" height="10" style="0" />
+        </font>
+        <foreground_color>
+          <color red="242" green="26" blue="26" />
+        </foreground_color>
+        <height>14</height>
+        <horizontal_alignment>0</horizontal_alignment>
+        <name>Voltage_1</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>N1-1</text>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>32</width>
+        <wrap_words>true</wrap_words>
+        <wuid>f2647ac:15aa7f5a432:-11e1</wuid>
+        <x>0</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <fontdata fontName="Droid Sans" height="10" style="0" />
+        </font>
+        <foreground_color>
+          <color red="33" green="179" blue="33" />
+        </foreground_color>
+        <height>14</height>
+        <horizontal_alignment>0</horizontal_alignment>
+        <name>Voltage_2</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>P1-2</text>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>32</width>
+        <wrap_words>true</wrap_words>
+        <wuid>f2647ac:15aa7f5a432:-11e0</wuid>
+        <x>38</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <fontdata fontName="Droid Sans" height="10" style="0" />
+        </font>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <height>14</height>
+        <horizontal_alignment>0</horizontal_alignment>
+        <name>Voltage_3</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>N1-2</text>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>32</width>
+        <wrap_words>true</wrap_words>
+        <wuid>f2647ac:15aa7f5a432:-11df</wuid>
+        <x>76</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <fontdata fontName="Droid Sans" height="10" style="0" />
+        </font>
+        <foreground_color>
+          <color red="128" green="0" blue="255" />
+        </foreground_color>
+        <height>14</height>
+        <horizontal_alignment>0</horizontal_alignment>
+        <name>Voltage_4</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>P1-3</text>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>32</width>
+        <wrap_words>true</wrap_words>
+        <wuid>f2647ac:15aa7f5a432:-117b</wuid>
+        <x>114</x>
+        <y>0</y>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <actions hook="false" hook_all="false" />
+        <auto_size>false</auto_size>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <border_style>0</border_style>
+        <border_width>1</border_width>
+        <enabled>true</enabled>
+        <font>
+          <fontdata fontName="Droid Sans" height="10" style="0" />
+        </font>
+        <foreground_color>
+          <color red="255" green="170" blue="0" />
+        </foreground_color>
+        <height>14</height>
+        <horizontal_alignment>0</horizontal_alignment>
+        <name>Voltage_5</name>
+        <rules />
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <scripts />
+        <show_scrollbar>false</show_scrollbar>
+        <text>N1-3</text>
+        <tooltip></tooltip>
+        <transparent>true</transparent>
+        <vertical_alignment>1</vertical_alignment>
+        <visible>true</visible>
+        <widget_type>Label</widget_type>
+        <width>32</width>
+        <wrap_words>true</wrap_words>
+        <wuid>f2647ac:15aa7f5a432:-1177</wuid>
+        <x>152</x>
+        <y>0</y>
+      </widget>
     </widget>
   </widget>
 </display>

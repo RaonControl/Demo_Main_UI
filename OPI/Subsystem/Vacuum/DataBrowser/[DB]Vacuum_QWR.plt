@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <databrowser>
-    <title>QWR</title>
+    <title></title>
     <save_changes>true</save_changes>
     <show_legend>true</show_legend>
     <show_toolbar>false</show_toolbar>
@@ -17,9 +17,9 @@
         <blue>255</blue>
     </background>
     <title_font>Droid Sans|15|0</title_font>
-    <label_font>Droid Sans|10|0</label_font>
-    <scale_font>Droid Sans|9|0</scale_font>
-    <legend_font>Droid Sans|9|0</legend_font>
+    <label_font>Droid Sans|14|0</label_font>
+    <scale_font>Droid Sans|14|0</scale_font>
+    <legend_font>Droid Sans|14|0</legend_font>
     <axes>
         <axis>
             <visible>true</visible>
@@ -82,8 +82,8 @@
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
             <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <name>Control Archiver Appliance</name>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -106,8 +106,8 @@
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
             <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <name>Control Archiver Appliance</name>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -130,8 +130,8 @@
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
             <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <name>Control Archiver Appliance</name>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -154,8 +154,8 @@
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
             <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://210.125.43.155:17668/retrieval</url>
+                <name>Control Archiver Appliance</name>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>

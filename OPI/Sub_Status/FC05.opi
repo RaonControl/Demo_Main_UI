@@ -332,7 +332,7 @@ $(pv_value)</tooltip>
     </axis_0_scale_font>
     <axis_0_scale_format></axis_0_scale_format>
     <axis_0_show_grid>true</axis_0_show_grid>
-    <axis_0_time_format>0</axis_0_time_format>
+    <axis_0_time_format>1</axis_0_time_format>
     <axis_0_title_font>
       <fontdata fontName="Droid Sans" height="6" style="0" />
     </axis_0_title_font>
@@ -400,7 +400,7 @@ $(pv_value)</tooltip>
     <tooltip>$(trace_0_y_pv)
 $(trace_0_y_pv_value)</tooltip>
     <trace_0_anti_alias>true</trace_0_anti_alias>
-    <trace_0_buffer_size>100000</trace_0_buffer_size>
+    <trace_0_buffer_size>100</trace_0_buffer_size>
     <trace_0_concatenate_data>true</trace_0_concatenate_data>
     <trace_0_line_width>1</trace_0_line_width>
     <trace_0_name>3rd FC Current[A] vs Time[s]</trace_0_name>
@@ -453,7 +453,7 @@ $(trace_0_y_pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <format_type>0</format_type>
+    <format_type>2</format_type>
     <height>18</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>P1-3 Current</name>

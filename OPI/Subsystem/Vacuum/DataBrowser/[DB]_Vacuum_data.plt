@@ -17,9 +17,9 @@
         <blue>255</blue>
     </background>
     <title_font>&#47569;&#51008; &#44256;&#46357;|13|1</title_font>
-    <label_font>&#47569;&#51008; &#44256;&#46357;|9|1</label_font>
-    <scale_font>&#47569;&#51008; &#44256;&#46357;|8|0</scale_font>
-    <legend_font>&#47569;&#51008; &#44256;&#46357;|8|0</legend_font>
+    <label_font>Droid Sans|14|1</label_font>
+    <scale_font>Droid Sans|14|0</scale_font>
+    <legend_font>Droid Sans|14|0</legend_font>
     <axes>
         <axis>
             <visible>true</visible>
@@ -34,8 +34,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>0.0</min>
-            <max>0.00459</max>
+            <min>1.018E-7</min>
+            <max>1.03E-7</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -53,8 +53,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>0.0</min>
-            <max>0.0026200000000000004</max>
+            <min>2.218E-8</min>
+            <max>2.236E-8</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -72,8 +72,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>0.0</min>
-            <max>1.51E-6</max>
+            <min>3.26499E-8</min>
+            <max>3.271E-8</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -91,8 +91,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>0.0</min>
-            <max>1000.0</max>
+            <min>1.963E-8</min>
+            <max>1.96501E-8</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>

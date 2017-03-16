@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <databrowser>
-    <title>LEBT2</title>
+    <title></title>
     <save_changes>true</save_changes>
     <show_legend>true</show_legend>
     <show_toolbar>false</show_toolbar>
@@ -17,9 +17,9 @@
         <blue>255</blue>
     </background>
     <title_font>Droid Sans|15|0</title_font>
-    <label_font>Droid Sans|10|0</label_font>
-    <scale_font>Droid Sans|9|0</scale_font>
-    <legend_font>Droid Sans|9|0</legend_font>
+    <label_font>Droid Sans|14|0</label_font>
+    <scale_font>Droid Sans|14|0</scale_font>
+    <legend_font>Droid Sans|14|0</legend_font>
     <axes>
         <axis>
             <visible>true</visible>
@@ -34,8 +34,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>4.817E-7</min>
-            <max>5.443E-7</max>
+            <min>3.2339E-8</min>
+            <max>3.248E-8</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>

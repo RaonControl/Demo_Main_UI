@@ -336,7 +336,7 @@ $(pv_value)</tooltip>
         <height>23</height>
         <horizontal_alignment>1</horizontal_alignment>
         <name>Text Update_103</name>
-        <precision>3</precision>
+        <precision>2</precision>
         <precision_from_pv>false</precision_from_pv>
         <pv_name>ECRIS-DAQ:FC01:CurrentRB</pv_name>
         <pv_value />
@@ -511,7 +511,7 @@ $(pv_value)</tooltip>
         <height>23</height>
         <horizontal_alignment>1</horizontal_alignment>
         <name>Text Update_1</name>
-        <precision>3</precision>
+        <precision>2</precision>
         <precision_from_pv>false</precision_from_pv>
         <pv_name>ECRIS-DAQ:FC01:CurrentRB</pv_name>
         <pv_value />
@@ -686,7 +686,7 @@ $(pv_value)</tooltip>
         <height>23</height>
         <horizontal_alignment>1</horizontal_alignment>
         <name>Text Update_2</name>
-        <precision>3</precision>
+        <precision>2</precision>
         <precision_from_pv>false</precision_from_pv>
         <pv_name>LEBT2-DAQ:FC03:CurrentRB</pv_name>
         <pv_value />
@@ -753,269 +753,6 @@ $(pv_value)</tooltip>
         <x>334</x>
         <y>1</y>
       </widget>
-    </widget>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <background_color>
-      <color red="240" green="240" blue="240" />
-    </background_color>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <fc>false</fc>
-    <font>
-      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-    </font>
-    <foreground_color>
-      <color red="192" green="192" blue="192" />
-    </foreground_color>
-    <height>510</height>
-    <lock_children>false</lock_children>
-    <macros>
-      <include_parent_macros>true</include_parent_macros>
-    </macros>
-    <name>DB</name>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <show_scrollbar>false</show_scrollbar>
-    <tooltip></tooltip>
-    <transparent>true</transparent>
-    <visible>true</visible>
-    <widget_type>Grouping Container</widget_type>
-    <width>786</width>
-    <wuid>-7dcc6ae6:15a646ac980:-324c</wuid>
-    <x>977</x>
-    <y>6</y>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <auto_size>false</auto_size>
-      <background_color>
-        <color red="28" green="128" blue="185" />
-      </background_color>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Droid Sans" height="14" style="1" />
-      </font>
-      <foreground_color>
-        <color red="255" green="255" blue="255" />
-      </foreground_color>
-      <height>22</height>
-      <horizontal_alignment>0</horizontal_alignment>
-      <name>Vacuum Data Browser</name>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <text>  Vacuum Data Browser</text>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <transparent>false</transparent>
-      <vertical_alignment>1</vertical_alignment>
-      <visible>true</visible>
-      <widget_type>Label</widget_type>
-      <width>786</width>
-      <wrap_words>false</wrap_words>
-      <wuid>-7dcc6ae6:15a646ac980:-1ffe</wuid>
-      <x>0</x>
-      <y>0</y>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <alarm_pulsing>false</alarm_pulsing>
-      <alpha>255</alpha>
-      <anti_alias>true</anti_alias>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <bg_gradient_color>
-        <color red="255" green="255" blue="255" />
-      </bg_gradient_color>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="191" green="191" blue="191" />
-      </border_color>
-      <border_style>1</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <fg_gradient_color>
-        <color red="255" green="255" blue="255" />
-      </fg_gradient_color>
-      <fill_level>0.0</fill_level>
-      <font>
-        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-      </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <foreground_color>
-        <color red="255" green="0" blue="0" />
-      </foreground_color>
-      <gradient>false</gradient>
-      <height>510</height>
-      <horizontal_fill>true</horizontal_fill>
-      <line_color>
-        <color red="128" green="0" blue="255" />
-      </line_color>
-      <line_style>0</line_style>
-      <line_width>0</line_width>
-      <name>Vac_DB_background</name>
-      <pv_name></pv_name>
-      <pv_value />
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <transparent>true</transparent>
-      <visible>true</visible>
-      <widget_type>Rectangle</widget_type>
-      <width>786</width>
-      <wuid>-7dcc6ae6:15a646ac980:-324b</wuid>
-      <x>0</x>
-      <y>0</y>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <border_color>
-        <color red="191" green="191" blue="191" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
-      </font>
-      <foreground_color>
-        <color red="192" green="192" blue="192" />
-      </foreground_color>
-      <group_name></group_name>
-      <height>448</height>
-      <macros>
-        <include_parent_macros>true</include_parent_macros>
-      </macros>
-      <name>db</name>
-      <opi_file>Subsystem/Vacuum/[LC]Vacuum_Main_DB.opi</opi_file>
-      <resize_behaviour>0</resize_behaviour>
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts>
-        <path pathString="EmbeddedJs" checkConnect="true" sfe="false" seoe="false">
-          <scriptName>EmbeddedScript</scriptName>
-          <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
-importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
-importPackage(Packages.org.eclipse.jface.dialogs);
-importPackage(Packages.org.csstudio.platform.data);
-importPackage(Packages.java.lang);
-
-var pvStr0 = PVUtil.getString(pvs[0]);
-if(pvStr0=="All")
-display.getWidget("db").setPropertyValue("opi_file", "Subsystem/Vacuum/[LC]Vacuum_Main_DB.opi");
-else if(pvStr0=="50kV")
-display.getWidget("db").setPropertyValue("opi_file", "Subsystem/Vacuum/[LC]Vacuum_50Kv_DB.opi");
-else if(pvStr0=="70kV")
-display.getWidget("db").setPropertyValue("opi_file", "Subsystem/Vacuum/[LC]Vacuum_70Kv_DB.opi");
-else if(pvStr0=="Ground")
-display.getWidget("db").setPropertyValue("opi_file", "Subsystem/Vacuum/[LC]Vacuum_Ground_DB.opi");
-else if(pvStr0=="LEBT")
-display.getWidget("db").setPropertyValue("opi_file", "Subsystem/Vacuum/[LC]Vacuum_LEBT2_DB.opi");
-else if(pvStr0=="RFQ")
-display.getWidget("db").setPropertyValue("opi_file", "Subsystem/Vacuum/[LC]Vacuum_RFQ_DB.opi");
-else if(pvStr0=="MEBT")
-display.getWidget("db").setPropertyValue("opi_file", "Subsystem/Vacuum/[LC]Vacuum_MEBT_DB.opi");
-else if(pvStr0=="QWR")
-display.getWidget("db").setPropertyValue("opi_file", "Subsystem/Vacuum/[LC]Vacuum_QWR_DB.opi");
-else
-display.getWidget("db").setPropertyValue("opi_file", "Subsystem/Vacuum/[LC]Vacuum_Main_DB.opi");
-]]></scriptText>
-          <pv trig="true">loc://vacuum_db</pv>
-        </path>
-      </scripts>
-      <tooltip></tooltip>
-      <visible>true</visible>
-      <widget_type>Linking Container</widget_type>
-      <width>776</width>
-      <wuid>-7dcc6ae6:15a646ac980:-324a</wuid>
-      <x>5</x>
-      <y>56</y>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.combo" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <alarm_pulsing>false</alarm_pulsing>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <border_alarm_sensitive>true</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Droid Sans" height="8" style="0" />
-      </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>25</height>
-      <items>
-        <s>All</s>
-        <s>50kV</s>
-        <s>70kV</s>
-        <s>Ground</s>
-        <s>LEBT</s>
-        <s>RFQ</s>
-        <s>MEBT</s>
-        <s>QWR</s>
-      </items>
-      <items_from_pv>false</items_from_pv>
-      <name>Choice Button</name>
-      <pv_name>loc://vacuum_db</pv_name>
-      <pv_value />
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <visible>true</visible>
-      <widget_type>Combo</widget_type>
-      <width>183</width>
-      <wuid>-7dcc6ae6:15a646ac980:-3249</wuid>
-      <x>599</x>
-      <y>26</y>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
@@ -11745,7 +11482,7 @@ $(pv_value)</tooltip>
     <stretch_to_fit>true</stretch_to_fit>
     <tooltip></tooltip>
     <transparency>true</transparency>
-    <visible>true</visible>
+    <visible>false</visible>
     <widget_type>Image</widget_type>
     <width>40</width>
     <wuid>f2647ac:15aa7f5a432:5ef7</wuid>
@@ -12059,5 +11796,370 @@ $(pv_value)</tooltip>
     <wuid>33171ccd:1588abaf757:572</wuid>
     <x>1087</x>
     <y>795</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <auto_size>false</auto_size>
+    <background_color>
+      <color red="28" green="128" blue="185" />
+    </background_color>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <font>
+      <fontdata fontName="Droid Sans" height="14" style="1" />
+    </font>
+    <foreground_color>
+      <color red="255" green="255" blue="255" />
+    </foreground_color>
+    <height>22</height>
+    <horizontal_alignment>0</horizontal_alignment>
+    <name>Data Browser</name>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <text>  Vacuum Data Browser</text>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <transparent>false</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <visible>true</visible>
+    <widget_type>Label</widget_type>
+    <width>786</width>
+    <wrap_words>false</wrap_words>
+    <wuid>-7dcc6ae6:15a646ac980:-1ffe</wuid>
+    <x>977</x>
+    <y>6</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="191" green="191" blue="191" />
+    </border_color>
+    <border_style>1</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>416</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color red="128" green="0" blue="255" />
+    </line_color>
+    <line_style>0</line_style>
+    <line_width>0</line_width>
+    <name>DB_background</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <transparent>true</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>786</width>
+    <wuid>-7dcc6ae6:15a646ac980:-324b</wuid>
+    <x>977</x>
+    <y>6</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <border_color>
+      <color red="191" green="191" blue="191" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+    </font>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <group_name></group_name>
+    <height>374</height>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+    </macros>
+    <name>db</name>
+    <opi_file>Subsystem/Vacuum/[LC]Vacuum_Main_DB.opi</opi_file>
+    <resize_behaviour>0</resize_behaviour>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts>
+      <path pathString="EmbeddedJs" checkConnect="true" sfe="false" seoe="false">
+        <scriptName>EmbeddedScript</scriptName>
+        <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
+importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
+importPackage(Packages.org.eclipse.jface.dialogs);
+importPackage(Packages.org.csstudio.platform.data);
+importPackage(Packages.java.lang);
+
+var pvStr0 = PVUtil.getString(pvs[0]);
+if(pvStr0=="All")
+display.getWidget("db").setPropertyValue("opi_file", "Subsystem/Vacuum/[LC]Vacuum_Main_DB.opi");
+else if(pvStr0=="50kV")
+display.getWidget("db").setPropertyValue("opi_file", "Subsystem/Vacuum/[LC]Vacuum_50Kv_DB.opi");
+else if(pvStr0=="70kV")
+display.getWidget("db").setPropertyValue("opi_file", "Subsystem/Vacuum/[LC]Vacuum_70Kv_DB.opi");
+else if(pvStr0=="Ground")
+display.getWidget("db").setPropertyValue("opi_file", "Subsystem/Vacuum/[LC]Vacuum_Ground_DB.opi");
+else if(pvStr0=="LEBT")
+display.getWidget("db").setPropertyValue("opi_file", "Subsystem/Vacuum/[LC]Vacuum_LEBT2_DB.opi");
+else if(pvStr0=="RFQ")
+display.getWidget("db").setPropertyValue("opi_file", "Subsystem/Vacuum/[LC]Vacuum_RFQ_DB.opi");
+else if(pvStr0=="MEBT")
+display.getWidget("db").setPropertyValue("opi_file", "Subsystem/Vacuum/[LC]Vacuum_MEBT_DB.opi");
+else if(pvStr0=="QWR")
+display.getWidget("db").setPropertyValue("opi_file", "Subsystem/Vacuum/[LC]Vacuum_QWR_DB.opi");
+else
+display.getWidget("db").setPropertyValue("opi_file", "Subsystem/Vacuum/[LC]Vacuum_Main_DB.opi");
+]]></scriptText>
+        <pv trig="true">loc://vacuum_db</pv>
+      </path>
+    </scripts>
+    <tooltip></tooltip>
+    <visible>true</visible>
+    <widget_type>Linking Container</widget_type>
+    <width>760</width>
+    <wuid>-7dcc6ae6:15a646ac980:-324a</wuid>
+    <x>990</x>
+    <y>36</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <font>
+      <fontdata fontName="Droid Sans" height="10" style="0" />
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <height>250</height>
+    <horizontal>false</horizontal>
+    <items>
+      <s>All</s>
+      <s>50kV</s>
+      <s>70kV</s>
+      <s>Ground</s>
+      <s>LEBT</s>
+      <s>RFQ</s>
+      <s>MEBT</s>
+      <s>QWR</s>
+    </items>
+    <items_from_pv>false</items_from_pv>
+    <name>Choice Button</name>
+    <pv_name>loc://vacuum_db</pv_name>
+    <pv_value />
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <selected_color>
+      <color red="230" green="230" blue="230" />
+    </selected_color>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <visible>true</visible>
+    <widget_type>Choice Button</widget_type>
+    <width>96</width>
+    <wuid>-7dcc6ae6:15a646ac980:-3249</wuid>
+    <x>1654</x>
+    <y>36</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <auto_size>false</auto_size>
+    <background_color>
+      <color red="28" green="128" blue="185" />
+    </background_color>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <font>
+      <fontdata fontName="Droid Sans" height="14" style="1" />
+    </font>
+    <foreground_color>
+      <color red="255" green="255" blue="255" />
+    </foreground_color>
+    <height>22</height>
+    <horizontal_alignment>0</horizontal_alignment>
+    <name>Data Browser_2</name>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <text>  RCCS Data Browser</text>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <transparent>false</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <visible>true</visible>
+    <widget_type>Label</widget_type>
+    <width>786</width>
+    <wrap_words>false</wrap_words>
+    <wuid>49f1ed94:15ad0849902:4a26</wuid>
+    <x>977</x>
+    <y>426</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <bg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </bg_gradient_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="191" green="191" blue="191" />
+    </border_color>
+    <border_style>1</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <fg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </fg_gradient_color>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <gradient>false</gradient>
+    <height>319</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_color>
+      <color red="128" green="0" blue="255" />
+    </line_color>
+    <line_style>0</line_style>
+    <line_width>0</line_width>
+    <name>DB_background_1</name>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <transparent>true</transparent>
+    <visible>true</visible>
+    <widget_type>Rectangle</widget_type>
+    <width>786</width>
+    <wuid>49f1ed94:15ad0849902:4a27</wuid>
+    <x>977</x>
+    <y>426</y>
+  </widget>
+  <widget typeId="org.csstudio.trends.databrowser.opiwidget" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <filename>Subsystem/RFQ/DataBrowser/DB_RCCS.plt</filename>
+    <font>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+    </font>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <height>286</height>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+    </macros>
+    <name>Data Browser</name>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <selection_value_pv></selection_value_pv>
+    <show_value_labels>false</show_value_labels>
+    <tooltip></tooltip>
+    <visible>true</visible>
+    <widget_type>Data Browser</widget_type>
+    <width>777</width>
+    <wuid>49f1ed94:15ad0849902:2711</wuid>
+    <x>982</x>
+    <y>453</y>
   </widget>
 </display>
