@@ -26,6 +26,25 @@
             <name>Value 1</name>
             <use_axis_name>false</use_axis_name>
             <use_trace_names>true</use_trace_names>
+            <right>true</right>
+            <color>
+                <red>0</red>
+                <green>0</green>
+                <blue>0</blue>
+            </color>
+            <label_font>|10|0</label_font>
+            <scale_font>|10|0</scale_font>
+            <min>1.389E-7</min>
+            <max>1.73E-7</max>
+            <grid>false</grid>
+            <autoscale>true</autoscale>
+            <log_scale>false</log_scale>
+        </axis>
+        <axis>
+            <visible>true</visible>
+            <name>Value 2</name>
+            <use_axis_name>false</use_axis_name>
+            <use_trace_names>true</use_trace_names>
             <right>false</right>
             <color>
                 <red>0</red>
@@ -34,8 +53,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>7.200000000000001E-8</min>
-            <max>2.1800000000000002E-7</max>
+            <min>0.374</min>
+            <max>1.123</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -52,6 +71,30 @@
             <color>
                 <red>255</red>
                 <green>0</green>
+                <blue>0</blue>
+            </color>
+            <trace_type>SINGLE_LINE</trace_type>
+            <linewidth>2</linewidth>
+            <point_type>NONE</point_type>
+            <point_size>2</point_size>
+            <waveform_index>0</waveform_index>
+            <period>0.0</period>
+            <ring_size>5000</ring_size>
+            <request>OPTIMIZED</request>
+            <archive>
+                <name>Control Archiver Appliance</name>
+                <url>pbraw://192.168.2.251:17668/retrieval</url>
+                <key>1</key>
+            </archive>
+        </pv>
+        <pv>
+            <display_name>MEBT1-Vac:VGP1:Vacuum</display_name>
+            <visible>true</visible>
+            <name>MEBT1-Vac:VGP1:Vacuum</name>
+            <axis>1</axis>
+            <color>
+                <red>0</red>
+                <green>255</green>
                 <blue>0</blue>
             </color>
             <trace_type>SINGLE_LINE</trace_type>

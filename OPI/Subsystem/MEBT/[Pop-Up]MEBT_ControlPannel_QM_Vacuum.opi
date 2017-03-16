@@ -1321,7 +1321,7 @@ $(pv_value)</tooltip>
     <widget_type>LED</widget_type>
     <width>55</width>
     <wuid>-3292f59c:1588fe26f54:-73cb</wuid>
-    <x>1466</x>
+    <x>1500</x>
     <y>281</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -1379,7 +1379,7 @@ $(pv_value)</tooltip>
     <widget_type>LED</widget_type>
     <width>55</width>
     <wuid>-3292f59c:1588fe26f54:-73ba</wuid>
-    <x>1466</x>
+    <x>1500</x>
     <y>644</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -1498,8 +1498,8 @@ $(pv_value)</tooltip>
     <widget_type>Action Button</widget_type>
     <width>125</width>
     <wuid>-3292f59c:1588fe26f54:-72e3</wuid>
-    <x>1265</x>
-    <y>117</y>
+    <x>1203</x>
+    <y>118</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
     <actions hook="false" hook_all="false">
@@ -1552,8 +1552,8 @@ $(pv_value)</tooltip>
     <widget_type>Action Button</widget_type>
     <width>125</width>
     <wuid>-3292f59c:1588fe26f54:-72e2</wuid>
-    <x>1414</x>
-    <y>117</y>
+    <x>1339</x>
+    <y>119</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
     <actions hook="false" hook_all="false">
@@ -1827,7 +1827,7 @@ $(pv_value)</tooltip>
     <widget_type>LED</widget_type>
     <width>55</width>
     <wuid>1c84fe81:158a876f2bd:-5275</wuid>
-    <x>1466</x>
+    <x>1500</x>
     <y>357</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -1868,7 +1868,7 @@ $(pv_value)</tooltip>
       <color red="0" green="255" blue="0" />
     </on_color>
     <on_label>ON</on_label>
-    <pv_name>MEBT1-Vac:Dpmp1:Status</pv_name>
+    <pv_name>MEBT1-Vac:Dpmp1:On</pv_name>
     <pv_value />
     <rules />
     <scale_options>
@@ -1885,69 +1885,8 @@ $(pv_value)</tooltip>
     <widget_type>LED</widget_type>
     <width>55</width>
     <wuid>1c84fe81:158a876f2bd:-5271</wuid>
-    <x>1466</x>
-    <y>501</y>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.BoolSwitch" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <alarm_pulsing>false</alarm_pulsing>
-    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
-    <background_color>
-      <color red="240" green="240" blue="240" />
-    </background_color>
-    <bit>-1</bit>
-    <boolean_label_position>5</boolean_label_position>
-    <border_alarm_sensitive>true</border_alarm_sensitive>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <confirm_message></confirm_message>
-    <data_type>0</data_type>
-    <effect_3d>true</effect_3d>
-    <enabled>true</enabled>
-    <font>
-      <fontdata fontName="맑은 고딕" height="9" style="1" />
-    </font>
-    <forecolor_alarm_sensitive>true</forecolor_alarm_sensitive>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <height>74</height>
-    <name>Boolean Switch</name>
-    <off_color>
-      <color name="Major" red="255" green="0" blue="0" />
-    </off_color>
-    <off_label>OFF</off_label>
-    <on_color>
-      <color red="0" green="255" blue="0" />
-    </on_color>
-    <on_label>ON</on_label>
-    <password></password>
-    <push_action_index>0</push_action_index>
-    <pv_name>MEBT1-Vac:Dpmp1:On</pv_name>
-    <pv_value />
-    <released_action_index>0</released_action_index>
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <show_boolean_label>false</show_boolean_label>
-    <show_confirm_dialog>0</show_confirm_dialog>
-    <toggle_button>true</toggle_button>
-    <tooltip>$(pv_name)&#xD;
-$(pv_value)&#xD;
-MEBT1-Vac:DPmp1:XXX</tooltip>
-    <visible>true</visible>
-    <widget_type>Boolean Switch</widget_type>
-    <width>133</width>
-    <wuid>1c84fe81:158a876f2bd:-5261</wuid>
-    <x>1269</x>
-    <y>466</y>
+    <x>1500</x>
+    <y>487</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -2012,7 +1951,7 @@ else
     <wrap_words>true</wrap_words>
     <wuid>1c84fe81:158a876f2bd:-525b</wuid>
     <x>1265</x>
-    <y>539</y>
+    <y>540</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -3316,114 +3255,6 @@ $(pv_value)</tooltip>
       <x>0</x>
       <y>0</y>
     </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-      <actions hook="false" hook_all="false">
-        <action type="WRITE_PV">
-          <pv_name>$(pv_name)</pv_name>
-          <value>1</value>
-          <timeout>10</timeout>
-          <confirm_message></confirm_message>
-          <description></description>
-        </action>
-      </actions>
-      <alarm_pulsing>false</alarm_pulsing>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Droid Sans" height="16" style="1" />
-      </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>25</height>
-      <image></image>
-      <name>Action Button_20</name>
-      <push_action_index>0</push_action_index>
-      <pv_name>MEBT1:PS1:OutputOff</pv_name>
-      <pv_value />
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <style>0</style>
-      <text>Off</text>
-      <toggle_button>false</toggle_button>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <visible>true</visible>
-      <widget_type>Action Button</widget_type>
-      <width>70</width>
-      <wuid>1c84fe81:158a876f2bd:-5387</wuid>
-      <x>130</x>
-      <y>25</y>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-      <actions hook="false" hook_all="false">
-        <action type="WRITE_PV">
-          <pv_name>$(pv_name)</pv_name>
-          <value>1</value>
-          <timeout>10</timeout>
-          <confirm_message></confirm_message>
-          <description></description>
-        </action>
-      </actions>
-      <alarm_pulsing>false</alarm_pulsing>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Droid Sans" height="16" style="1" />
-      </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>25</height>
-      <image></image>
-      <name>Action Button_21</name>
-      <push_action_index>0</push_action_index>
-      <pv_name>MEBT1:PS1:OutputOn</pv_name>
-      <pv_value />
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <style>0</style>
-      <text>On</text>
-      <toggle_button>false</toggle_button>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <visible>true</visible>
-      <widget_type>Action Button</widget_type>
-      <width>70</width>
-      <wuid>1c84fe81:158a876f2bd:-5386</wuid>
-      <x>50</x>
-      <y>25</y>
-    </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
       <actions hook="false" hook_all="false" />
       <alarm_pulsing>false</alarm_pulsing>
@@ -3479,15 +3310,25 @@ $(pv_value)</tooltip>
       <widget_type>LED</widget_type>
       <width>40</width>
       <wuid>1c84fe81:158a876f2bd:-5385</wuid>
-      <x>4</x>
+      <x>10</x>
       <y>5</y>
     </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="WRITE_PV">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description></description>
+        </action>
+      </actions>
+      <alarm_pulsing>false</alarm_pulsing>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <background_color>
-        <color red="255" green="255" blue="255" />
+        <color red="240" green="240" blue="240" />
       </background_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
       <border_color>
         <color red="0" green="128" blue="255" />
       </border_color>
@@ -3495,14 +3336,18 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="14" style="0" />
+        <fontdata fontName="Droid Sans" height="16" style="1" />
       </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>23</height>
-      <horizontal_alignment>1</horizontal_alignment>
-      <name>Text Update_5</name>
+      <height>50</height>
+      <image></image>
+      <name>Action Button_21</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>MEBT1:PS1:OutputOn</pv_name>
+      <pv_value />
       <rules />
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -3510,17 +3355,70 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>Output</text>
+      <style>0</style>
+      <text>On</text>
+      <toggle_button>false</toggle_button>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-      <transparent>true</transparent>
-      <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
-      <widget_type>Label</widget_type>
-      <width>59</width>
-      <wrap_words>false</wrap_words>
-      <wuid>49f1ed94:15ad0849902:-2cc6</wuid>
-      <x>94</x>
+      <widget_type>Action Button</widget_type>
+      <width>70</width>
+      <wuid>1c84fe81:158a876f2bd:-5386</wuid>
+      <x>58</x>
+      <y>0</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="WRITE_PV">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description></description>
+        </action>
+      </actions>
+      <alarm_pulsing>false</alarm_pulsing>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <font>
+        <fontdata fontName="Droid Sans" height="16" style="1" />
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>50</height>
+      <image></image>
+      <name>Action Button_20</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>MEBT1:PS1:OutputOff</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>0</style>
+      <text>Off</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>70</width>
+      <wuid>1c84fe81:158a876f2bd:-5387</wuid>
+      <x>130</x>
       <y>0</y>
     </widget>
   </widget>
@@ -4826,114 +4724,6 @@ $(pv_value)</tooltip>
       <x>0</x>
       <y>0</y>
     </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-      <actions hook="false" hook_all="false">
-        <action type="WRITE_PV">
-          <pv_name>$(pv_name)</pv_name>
-          <value>1</value>
-          <timeout>10</timeout>
-          <confirm_message></confirm_message>
-          <description></description>
-        </action>
-      </actions>
-      <alarm_pulsing>false</alarm_pulsing>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Droid Sans" height="16" style="1" />
-      </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>25</height>
-      <image></image>
-      <name>Action Button_20</name>
-      <push_action_index>0</push_action_index>
-      <pv_name>MEBT1:PS2:OutputOff</pv_name>
-      <pv_value />
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <style>0</style>
-      <text>Off</text>
-      <toggle_button>false</toggle_button>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <visible>true</visible>
-      <widget_type>Action Button</widget_type>
-      <width>70</width>
-      <wuid>49f1ed94:15ad0849902:-2c70</wuid>
-      <x>130</x>
-      <y>25</y>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-      <actions hook="false" hook_all="false">
-        <action type="WRITE_PV">
-          <pv_name>$(pv_name)</pv_name>
-          <value>1</value>
-          <timeout>10</timeout>
-          <confirm_message></confirm_message>
-          <description></description>
-        </action>
-      </actions>
-      <alarm_pulsing>false</alarm_pulsing>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <border_style>0</border_style>
-      <border_width>1</border_width>
-      <enabled>true</enabled>
-      <font>
-        <fontdata fontName="Droid Sans" height="16" style="1" />
-      </font>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <height>25</height>
-      <image></image>
-      <name>Action Button_21</name>
-      <push_action_index>0</push_action_index>
-      <pv_name>MEBT1:PS2:OutputOn</pv_name>
-      <pv_value />
-      <rules />
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <scripts />
-      <style>0</style>
-      <text>On</text>
-      <toggle_button>false</toggle_button>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <visible>true</visible>
-      <widget_type>Action Button</widget_type>
-      <width>70</width>
-      <wuid>49f1ed94:15ad0849902:-2c6f</wuid>
-      <x>50</x>
-      <y>25</y>
-    </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
       <actions hook="false" hook_all="false" />
       <alarm_pulsing>false</alarm_pulsing>
@@ -4989,15 +4779,25 @@ $(pv_value)</tooltip>
       <widget_type>LED</widget_type>
       <width>40</width>
       <wuid>49f1ed94:15ad0849902:-2c6e</wuid>
-      <x>4</x>
+      <x>10</x>
       <y>5</y>
     </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <actions hook="false" hook_all="false" />
-      <auto_size>true</auto_size>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="WRITE_PV">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description></description>
+        </action>
+      </actions>
+      <alarm_pulsing>false</alarm_pulsing>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <background_color>
-        <color red="255" green="255" blue="255" />
+        <color red="240" green="240" blue="240" />
       </background_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
       <border_color>
         <color red="0" green="128" blue="255" />
       </border_color>
@@ -5005,14 +4805,18 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="14" style="0" />
+        <fontdata fontName="Droid Sans" height="16" style="1" />
       </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <height>23</height>
-      <horizontal_alignment>1</horizontal_alignment>
-      <name>Text Update_5</name>
+      <height>50</height>
+      <image></image>
+      <name>Action Button_21</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>MEBT1:PS2:OutputOn</pv_name>
+      <pv_value />
       <rules />
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -5020,17 +4824,70 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>Output</text>
+      <style>0</style>
+      <text>On</text>
+      <toggle_button>false</toggle_button>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-      <transparent>true</transparent>
-      <vertical_alignment>1</vertical_alignment>
       <visible>true</visible>
-      <widget_type>Label</widget_type>
-      <width>59</width>
-      <wrap_words>false</wrap_words>
-      <wuid>49f1ed94:15ad0849902:-2c6d</wuid>
-      <x>94</x>
+      <widget_type>Action Button</widget_type>
+      <width>70</width>
+      <wuid>49f1ed94:15ad0849902:-2c6f</wuid>
+      <x>58</x>
+      <y>0</y>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <actions hook="false" hook_all="false">
+        <action type="WRITE_PV">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description></description>
+        </action>
+      </actions>
+      <alarm_pulsing>false</alarm_pulsing>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <border_style>0</border_style>
+      <border_width>1</border_width>
+      <enabled>true</enabled>
+      <font>
+        <fontdata fontName="Droid Sans" height="16" style="1" />
+      </font>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <height>50</height>
+      <image></image>
+      <name>Action Button_20</name>
+      <push_action_index>0</push_action_index>
+      <pv_name>MEBT1:PS2:OutputOff</pv_name>
+      <pv_value />
+      <rules />
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <scripts />
+      <style>0</style>
+      <text>Off</text>
+      <toggle_button>false</toggle_button>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <visible>true</visible>
+      <widget_type>Action Button</widget_type>
+      <width>70</width>
+      <wuid>49f1ed94:15ad0849902:-2c70</wuid>
+      <x>130</x>
       <y>0</y>
     </widget>
   </widget>
@@ -7127,7 +6984,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="12" style="0" />
+        <fontdata fontName="Droid Sans" height="16" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -7142,7 +6999,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>Steering Magnet1</text>
+      <text>P/S 1</text>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <transparent>true</transparent>
@@ -7152,7 +7009,7 @@ $(pv_value)</tooltip>
       <width>130</width>
       <wrap_words>false</wrap_words>
       <wuid>49f1ed94:15ad0849902:-28e9</wuid>
-      <x>24</x>
+      <x>35</x>
       <y>44</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0.0">
@@ -7632,7 +7489,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <enabled>true</enabled>
       <font>
-        <fontdata fontName="Droid Sans" height="12" style="0" />
+        <fontdata fontName="Droid Sans" height="16" style="0" />
       </font>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -7647,7 +7504,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <scripts />
-      <text>Steering Magnet2</text>
+      <text>P/S 2</text>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <transparent>true</transparent>
@@ -7657,7 +7514,7 @@ $(pv_value)</tooltip>
       <width>130</width>
       <wrap_words>false</wrap_words>
       <wuid>49f1ed94:15ad0849902:-28ad</wuid>
-      <x>24</x>
+      <x>35</x>
       <y>199</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
@@ -7721,5 +7578,123 @@ $(pv_value)</tooltip>
       <x>156</x>
       <y>202</y>
     </widget>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <bit>-1</bit>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <bulb_border>3</bulb_border>
+    <bulb_border_color>
+      <color red="150" green="150" blue="150" />
+    </bulb_border_color>
+    <data_type>0</data_type>
+    <effect_3d>true</effect_3d>
+    <enabled>true</enabled>
+    <font>
+      <fontdata fontName="Droid Sans" height="16" style="0" />
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <height>55</height>
+    <name>LED_15</name>
+    <off_color>
+      <color red="0" green="100" blue="0" />
+    </off_color>
+    <off_label>OFF</off_label>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <on_label>ON</on_label>
+    <pv_name>MEBT1-Vac:AutoCtrl:Start</pv_name>
+    <pv_value />
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <show_boolean_label>false</show_boolean_label>
+    <square_led>false</square_led>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <visible>true</visible>
+    <widget_type>LED</widget_type>
+    <width>55</width>
+    <wuid>2b9631b2:15ad5107eee:-3038</wuid>
+    <x>1500</x>
+    <y>122</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <align_to_nearest_second>false</align_to_nearest_second>
+    <auto_size>false</auto_size>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <bit>-1</bit>
+    <boolean_label_position>0</boolean_label_position>
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <data_type>0</data_type>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <height>53</height>
+    <name>Image Boolean Button</name>
+    <no_animation>false</no_animation>
+    <off_image>../../../symbols/Control/button_SVG/disabled.svg</off_image>
+    <off_label>OFF</off_label>
+    <on_image>../../../symbols/Control/button_SVG/enabled.svg</on_image>
+    <on_label>ON</on_label>
+    <password></password>
+    <push_action_index>0</push_action_index>
+    <pv_name>MEBT1-Vac:Dpmp1:On</pv_name>
+    <pv_value />
+    <released_action_index>0</released_action_index>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <show_boolean_label>false</show_boolean_label>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <stretch_to_fit>true</stretch_to_fit>
+    <toggle_button>true</toggle_button>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <transparency>false</transparency>
+    <visible>true</visible>
+    <widget_type>Image Boolean Button</widget_type>
+    <width>133</width>
+    <wuid>2b9631b2:15ad5107eee:-2edf</wuid>
+    <x>1269</x>
+    <y>488</y>
   </widget>
 </display>

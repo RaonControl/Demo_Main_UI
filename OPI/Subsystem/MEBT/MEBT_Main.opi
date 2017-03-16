@@ -140,7 +140,7 @@ $(pv_value)</tooltip>
       <show_scrollbar>true</show_scrollbar>
       <tooltip></tooltip>
       <transparent>true</transparent>
-      <visible>false</visible>
+      <visible>true</visible>
       <widget_type>Grouping Container</widget_type>
       <width>1767</width>
       <wuid>33171ccd:1588abaf757:-7aa9</wuid>
@@ -364,7 +364,7 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <border_width>1</border_width>
         <enabled>true</enabled>
-        <filename>DataBrowser/[DB]Vacuum_Main.plt</filename>
+        <filename>DataBrowser/[DB]MEBT_Vacuum_Main.plt</filename>
         <font>
           <opifont.name fontName="맑은 고딕" height="9" style="0">Default</opifont.name>
         </font>
@@ -2824,7 +2824,7 @@ $(pv_value)</tooltip>
       <show_scrollbar>true</show_scrollbar>
       <tooltip></tooltip>
       <transparent>true</transparent>
-      <visible>true</visible>
+      <visible>false</visible>
       <widget_type>Grouping Container</widget_type>
       <width>1767</width>
       <wuid>33171ccd:1588abaf757:-740e</wuid>
@@ -3189,7 +3189,7 @@ $(pv_value)</tooltip>
               <macros>
                 <include_parent_macros>true</include_parent_macros>
               </macros>
-              <mode>8</mode>
+              <mode>7</mode>
               <description></description>
             </action>
           </actions>
