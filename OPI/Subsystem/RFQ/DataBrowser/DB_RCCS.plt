@@ -2,14 +2,14 @@
 <databrowser>
     <title></title>
     <save_changes>true</save_changes>
-    <show_legend>true</show_legend>
-    <show_toolbar>false</show_toolbar>
+    <show_legend>false</show_legend>
+    <show_toolbar>true</show_toolbar>
     <grid>true</grid>
-    <scroll>true</scroll>
+    <scroll>false</scroll>
     <update_period>3.0</update_period>
     <scroll_step>5</scroll_step>
-    <start>-10.23 min</start>
-    <end>now</end>
+    <start>2017/03/16 00:00:00.000</start>
+    <end>2017/03/17 00:00:00.000</end>
     <archive_rescale>NONE</archive_rescale>
     <background>
         <red>255</red>

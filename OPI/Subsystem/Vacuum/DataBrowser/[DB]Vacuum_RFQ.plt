@@ -5,11 +5,11 @@
     <show_legend>true</show_legend>
     <show_toolbar>false</show_toolbar>
     <grid>true</grid>
-    <scroll>true</scroll>
+    <scroll>false</scroll>
     <update_period>1.0</update_period>
     <scroll_step>1</scroll_step>
-    <start>-12.00 h</start>
-    <end>now</end>
+    <start>2017/03/16 00:00:00.000</start>
+    <end>2017/03/17 00:00:00.000</end>
     <archive_rescale>NONE</archive_rescale>
     <background>
         <red>255</red>
@@ -34,8 +34,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>3.853E-8</min>
-            <max>3.896E-8</max>
+            <min>0.0</min>
+            <max>9.04E-5</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -53,8 +53,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>1.9979E-8</min>
-            <max>2.0151E-8</max>
+            <min>0.0</min>
+            <max>1.18E-4</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -72,8 +72,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>9.100000000000001E-8</min>
-            <max>1.034E-7</max>
+            <min>0.0</min>
+            <max>14.3</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
