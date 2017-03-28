@@ -2,8 +2,8 @@
 <databrowser>
     <title></title>
     <save_changes>true</save_changes>
-    <show_legend>false</show_legend>
-    <show_toolbar>true</show_toolbar>
+    <show_legend>true</show_legend>
+    <show_toolbar>false</show_toolbar>
     <grid>true</grid>
     <scroll>false</scroll>
     <update_period>3.0</update_period>
@@ -34,8 +34,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>15.0</min>
-            <max>40.0</max>
+            <min>14.953531598513013</min>
+            <max>39.95353159851301</max>
             <grid>false</grid>
             <autoscale>false</autoscale>
             <log_scale>false</log_scale>
@@ -53,8 +53,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>15.0</min>
-            <max>40.0</max>
+            <min>14.953531598513013</min>
+            <max>39.95353159851301</max>
             <grid>false</grid>
             <autoscale>false</autoscale>
             <log_scale>false</log_scale>
@@ -81,11 +81,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://192.168.2.251:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>RFQ1:RCCS:TempH05</display_name>
@@ -105,11 +100,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
-            <archive>
-                <name>EPICS Archiver Appliance</name>
-                <url>pbraw://192.168.2.251:17668/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
     </pvlist>
 </databrowser>
